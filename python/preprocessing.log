@@ -1,0 +1,21 @@
+2025-05-17 12:18:22,005 - WARNING - Thư viện underthesea không được cài đặt.
+2025-05-17 12:18:22,006 - WARNING - Để cài đặt underthesea: pip install underthesea
+2025-05-17 12:18:22,006 - WARNING - Chương trình sẽ tiếp tục với phương pháp xử lý đơn giản.
+2025-05-17 12:18:22,006 - WARNING - Thư viện underthesea không được cài đặt. Vui lòng cài đặt bằng lệnh: pip install underthesea
+2025-05-17 12:18:22,006 - WARNING - Chương trình sẽ sử dụng phương pháp xử lý đơn giản thay thế.
+2025-05-17 12:18:22,010 - INFO - Tìm thấy 2443 file txt trong thư mục ../data/raw/VNU
+2025-05-17 12:18:22,010 - INFO - Bắt đầu xử lý song song
+2025-05-17 12:20:15,226 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-17 12:20:15,226 - INFO - Tổng số file: 2443
+2025-05-17 12:20:15,226 - INFO - Số file đã xử lý: 2443
+2025-05-17 12:20:15,227 - INFO - - File tiếng Anh: 378
+2025-05-17 12:20:15,227 - INFO - - File tiếng Việt: 2065
+2025-05-17 12:20:15,227 - INFO - - File ngôn ngữ khác: 0
+2025-05-17 12:20:15,229 - INFO - Tổng số ký tự ban đầu: 439325847
+2025-05-17 12:20:15,229 - INFO - Tổng số ký tự sau xử lý: 134590543
+2025-05-17 12:20:15,231 - INFO - Tỷ lệ giảm: 69.36%
+2025-05-17 12:20:15,231 - INFO - Tổng số từ ban đầu: 20557655
+2025-05-17 12:20:15,231 - INFO - Tổng số từ sau xử lý: 49651941
+2025-05-17 12:20:15,231 - INFO - Tổng số câu: 1876308
+2025-05-17 12:20:15,231 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào ../data/processed/VNU
