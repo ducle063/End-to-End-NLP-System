@@ -1,4 +1,5 @@
 import requests
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from bs4 import BeautifulSoup
 import re
 import csv
@@ -56,7 +57,8 @@ class HTMLScraper:
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
             }
-            response = requests.get(url, headers=headers, timeout=30)
+            requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+            response = requests.get(url, headers=headers, timeout=30, verify=False)
             response.raise_for_status()
             
             # Tìm encoding phù hợp
@@ -244,30 +246,16 @@ class HTMLScraper:
                 page_id = re.sub(r'[^\w\-_]', '_', item['url'])[-50:]  # Lấy phần cuối URL làm ID
                 text_file = os.path.join(text_dir, f"{idx}_{page_id}.txt")
                 with open(text_file, 'w', encoding='utf-8') as f:
-                    f.write(f"URL: {item['url']}\n")
                     f.write(f"Title: {item['title']}\n\n")
                     f.write(item['text_content'])
     
-    def save_to_json(self):
-        """Lưu dữ liệu đã thu thập thành file JSON"""
-        import json
-        
-        for domain, items in self.data.items():
-            safe_domain = re.sub(r'[^\w\-_]', '_', domain)
-            filename = os.path.join(self.output_dir, f"{safe_domain}.json")
-            
-            logger.info(f"Đang lưu dữ liệu cho domain {domain} vào {filename}")
-            
-            with open(filename, 'w', encoding='utf-8') as f:
-                json.dump(items, f, ensure_ascii=False, indent=2)
 
 
 def main():
     # Danh sách URL cần thu thập dữ liệu
     url_list = [
         "https://uet.vnu.edu.vn",
-    "https://ussh.vnu.edu.vn",
-    "https://ulis.vnu.edu.vn",
+    
         
     ]
     
@@ -285,7 +273,8 @@ def main():
     
     # Lưu kết quả
     scraper.save_to_csv()
-    scraper.save_to_json()
+    
+    
     
     logger.info("Quá trình thu thập dữ liệu đã hoàn tất!")
 

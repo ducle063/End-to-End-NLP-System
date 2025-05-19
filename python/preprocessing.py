@@ -9,12 +9,12 @@ from concurrent.futures import ProcessPoolExecutor
 import argparse
 import sys
 
-# Try to import underthesea
+# Try to import pyvi instead of underthesea
 try:
-    import underthesea
-    UNDERTHESEA_AVAILABLE = True
+    from pyvi import ViTokenizer, ViPosTagger, ViUtils
+    PYVI_AVAILABLE = True
 except ImportError:
-    UNDERTHESEA_AVAILABLE = False
+    PYVI_AVAILABLE = False
 
 # Cấu hình logging
 logging.basicConfig(
@@ -94,9 +94,9 @@ def detect_language(text, min_words=10):
         else:
             return "english"
 
-# Tách câu tiếng Việt cơ bản nếu underthesea không khả dụng
+# Tách câu tiếng Việt cơ bản khi pyvi không khả dụng
 def basic_sent_tokenize(text):
-    """Phương pháp tách câu cơ bản khi không có underthesea"""
+    """Phương pháp tách câu cơ bản khi không có pyvi"""
     # Chuẩn hóa dấu câu
     text = re.sub(r'\.{2,}', '.', text)  # Loại bỏ dấu chấm liên tiếp
     text = re.sub(r'([.!?;:])([^\s])', r'\1 \2', text)  # Thêm khoảng trắng sau dấu câu
@@ -124,12 +124,12 @@ class TextPreprocessor:
         self.min_words = min_words
         self.max_files = max_files
         
-        # Kiểm tra underthesea
-        if not UNDERTHESEA_AVAILABLE:
-            logger.warning("Thư viện underthesea không được cài đặt. Vui lòng cài đặt bằng lệnh: pip install underthesea")
+        # Kiểm tra pyvi
+        if not PYVI_AVAILABLE:
+            logger.warning("Thư viện pyvi không được cài đặt. Vui lòng cài đặt bằng lệnh: pip install pyvi")
             logger.warning("Chương trình sẽ sử dụng phương pháp xử lý đơn giản thay thế.")
         else:
-            logger.info("Đã phát hiện thư viện underthesea. Sẽ sử dụng cho xử lý tiếng Việt.")
+            logger.info("Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.")
         
         # Tạo thư mục đầu ra nếu chưa tồn tại
         if not os.path.exists(output_dir):
@@ -205,12 +205,16 @@ class TextPreprocessor:
         
         # Tách câu dựa vào ngôn ngữ
         if language == "vietnamese":
-            if UNDERTHESEA_AVAILABLE:
+            if PYVI_AVAILABLE:
                 try:
-                    # Sử dụng underthesea để tách câu tiếng Việt
-                    sentences = underthesea.sent_tokenize(text)
+                    # Trong pyvi, phải dùng phương pháp khác vì không có hàm sent_tokenize trực tiếp
+                    # Sử dụng regex cơ bản kết hợp với những đặc điểm của tiếng Việt
+                    # Trước hết, chuẩn hóa văn bản với các dấu câu
+                    text = re.sub(r'([.!?])\s*', r'\1\n', text)
+                    # Tách bằng ký tự xuống dòng
+                    sentences = [s.strip() for s in text.split('\n') if s.strip()]
                 except Exception as e:
-                    logger.warning(f"Lỗi khi sử dụng underthesea để tách câu: {e}")
+                    logger.warning(f"Lỗi khi sử dụng phương pháp tách câu với pyvi: {e}")
                     sentences = basic_sent_tokenize(text)
             else:
                 sentences = basic_sent_tokenize(text)
@@ -234,19 +238,24 @@ class TextPreprocessor:
         """
         Tách từ trong văn bản, phục vụ cho việc phân tích sau này
         """
-        if language == "vietnamese" and UNDERTHESEA_AVAILABLE:
+        if language == "vietnamese" and PYVI_AVAILABLE:
             try:
-                # Sử dụng underthesea để tách từ tiếng Việt
-                tokens = underthesea.word_tokenize(text.lower())
-                # Loại bỏ từ dừng
-                tokens = [token for token in tokens if token not in vi_stopwords]
+                # Sử dụng pyvi để tách từ tiếng Việt
+                text_lower = text.lower()
+                tokenized_text = ViTokenizer.tokenize(text_lower)
+                # Trong pyvi, kết quả trả về là chuỗi với từ đã tách được nối bằng dấu gạch dưới
+                # Ví dụ: "Tôi_là sinh_viên" -> sẽ đổi thành list ["Tôi_là", "sinh_viên"]
+                tokens = tokenized_text.split()
+                # Loại bỏ từ dừng - cần kiểm tra cả từ có dấu gạch dưới và không có
+                tokens = [token for token in tokens if token not in vi_stopwords and 
+                         not any(token.startswith(sw + "_") or token.endswith("_" + sw) for sw in vi_stopwords)]
                 # Loại bỏ dấu câu đơn lẻ
                 tokens = [token for token in tokens if token not in string.punctuation]
                 return tokens
             except Exception as e:
-                logger.warning(f"Lỗi khi sử dụng underthesea để tách từ: {e}")
+                logger.warning(f"Lỗi khi sử dụng pyvi để tách từ: {e}")
         
-        # Phương pháp đơn giản cho cả tiếng Anh và tiếng Việt (nếu underthesea không khả dụng)
+        # Phương pháp đơn giản cho cả tiếng Anh và tiếng Việt (nếu pyvi không khả dụng)
         # Tiền xử lý
         text = text.lower()
         
@@ -455,10 +464,10 @@ def main():
     
     args = parser.parse_args()
     
-    # Thông báo về underthesea
-    if not UNDERTHESEA_AVAILABLE:
-        logger.warning("Thư viện underthesea không được cài đặt.")
-        logger.warning("Để cài đặt underthesea: pip install underthesea")
+    # Thông báo về pyvi
+    if not PYVI_AVAILABLE:
+        logger.warning("Thư viện pyvi không được cài đặt.")
+        logger.warning("Để cài đặt pyvi: pip install pyvi")
         logger.warning("Chương trình sẽ tiếp tục với phương pháp xử lý đơn giản.")
     
     # Khởi tạo và chạy bộ tiền xử lý
