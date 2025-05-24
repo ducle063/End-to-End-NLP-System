@@ -67,3 +67,35 @@
 2025-05-19 13:32:52,609 - INFO - Tổng số từ sau xử lý: 5030669
 2025-05-19 13:32:52,609 - INFO - Tổng số câu: 181186
 2025-05-19 13:32:52,610 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào ../data/processed/VNU/uet
+2025-05-24 12:23:14,444 - INFO - Tìm thấy 0 file txt trong thư mục scraped_data
+2025-05-24 12:23:14,447 - INFO - Bắt đầu xử lý tuần tự
+2025-05-24 12:23:14,447 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-24 12:23:14,447 - INFO - Tổng số file: 0
+2025-05-24 12:23:14,447 - INFO - Số file đã xử lý: 0
+2025-05-24 12:23:14,447 - INFO - - File tiếng Việt: 0
+2025-05-24 12:23:14,447 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào processed_data
+2025-05-24 12:24:45,675 - INFO - Tìm thấy 0 file txt trong thư mục ../data/docs
+2025-05-24 12:24:45,675 - INFO - Bắt đầu xử lý tuần tự
+2025-05-24 12:24:45,675 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-24 12:24:45,675 - INFO - Tổng số file: 0
+2025-05-24 12:24:45,675 - INFO - Số file đã xử lý: 0
+2025-05-24 12:24:45,675 - INFO - - File tiếng Việt: 0
+2025-05-24 12:24:45,676 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào ../data/docs/corpus
+2025-05-24 12:25:22,824 - INFO - Tìm thấy 0 file txt trong thư mục ../data/docs/UET
+2025-05-24 12:25:22,824 - INFO - Bắt đầu xử lý tuần tự
+2025-05-24 12:25:22,824 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-24 12:25:22,824 - INFO - Tổng số file: 0
+2025-05-24 12:25:22,824 - INFO - Số file đã xử lý: 0
+2025-05-24 12:25:22,824 - INFO - - File tiếng Việt: 0
+2025-05-24 12:25:22,824 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào ../data/docs/corpus/UET
+2025-05-24 12:28:02,889 - INFO - Tìm thấy 481 file txt trong thư mục ../../data/docs/UET
+2025-05-24 12:28:02,889 - INFO - Bắt đầu xử lý song song
+2025-05-24 12:28:03,150 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-24 12:28:03,150 - INFO - Tổng số file: 481
+2025-05-24 12:28:03,150 - INFO - Số file đã xử lý: 0
+2025-05-24 12:28:03,150 - INFO - - File tiếng Việt: 0
+2025-05-24 12:28:03,151 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào ../../data/docs/corpus/UET

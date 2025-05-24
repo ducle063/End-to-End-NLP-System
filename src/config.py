@@ -5,18 +5,19 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    # Device detection with fallback
-    USE_CUDA = os.getenv("USE_CUDA", "true").lower() == "true"
-    DEVICE = "cuda" if USE_CUDA and torch.cuda.is_available() else "cpu"
-    
-    # Model Settings (with smaller defaults)
-    EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-    GENERATOR_MODEL = "vinai/phobert-base"
-    
-    # Vector Database
-    VECTOR_DB_PATH = os.getenv("VECTOR_DB_PATH", "vector_db")
-    COLLECTION_NAME = os.getenv("COLLECTION_NAME", "vietnamese_docs")
-    
-    # Performance
-    MAX_CONTEXT_LENGTH = 2000
-    MODEL_LOADED = False  # Track if models are loaded
+    API_KEY = os.environ.get("GEMINI_API_KEY")
+    EMBEDDING_MODEL_NAME = "all-minilm-l6-v2"
+    if not API_KEY:
+        raise ValueError("Vui lòng đặt biến môi trường GEMINI_API_KEY.")
+    LLM_MODEL_NAME = "gemini-1.5-flash-latest"
+    TOP_K = 3
+    DATA_DIR = "../data/QnA"
+    TRAIN_QUESTIONS_FILE = os.path.join(DATA_DIR, "train", "train_questions.txt")
+    TRAIN_ANSWERS_FILE = os.path.join(DATA_DIR, "train", "train_answers.txt")
+    TEST_QUESTIONS_FILE = os.path.join(DATA_DIR, "demo", "test_questions.txt")
+    TEST_ANSWERS_FILE = os.path.join(DATA_DIR, "demo", "test_references.txt")
+
+#Usage example:
+if __name__ == "__main__":
+    config = Config()
+    print(f"API Key: {config.API_KEY}")
