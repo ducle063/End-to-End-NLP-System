@@ -1,0 +1,5 @@
+Title: No Title
+
+0 PRODID: – Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology CALSCALE: GREGORIAN METHOD: PUBLISH X-WR-CALNAME: Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology X-ORIGINAL-URL: X-WR-CALDESC: Vì sao nên chọn học ngành Khoa học dữ liệu tại Trường Đại học Công nghệ?
+BEGIN: VEVENT DTSTART: DTEND: SUMMARY: Vì sao nên chọn học ngành Khoa học dữ liệu tại Trường Đại học Công nghệ?
+DESCRIPTION: LOCATION: END: VEVENT END: VCALENDAR

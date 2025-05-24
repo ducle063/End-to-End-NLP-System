@@ -1,0 +1,3 @@
+Title: No Title
+
+0 PRODID: – Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology CALSCALE: GREGORIAN METHOD: PUBLISH X-WR-CALNAME: Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology X-ORIGINAL-URL: X-WR-CALDESC: Chọn ngành nghề trong kỷ nguyên số BEGIN: VEVENT DTSTART: DTEND: SUMMARY: Chọn ngành nghề trong kỷ nguyên số DESCRIPTION: LOCATION: END: VEVENT END: VCALENDAR

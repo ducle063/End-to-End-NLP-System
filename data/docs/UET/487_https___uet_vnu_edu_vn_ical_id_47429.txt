@@ -1,0 +1,3 @@
+Title: No Title
+
+0 PRODID: – Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology CALSCALE: GREGORIAN METHOD: PUBLISH X-WR-CALNAME: Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology X-ORIGINAL-URL: X-WR-CALDESC: VTV Ánh sáng tri thức: Tri thức trẻ UET đưa nông nghiệp vươn xa BEGIN: VEVENT DTSTART: DTEND: SUMMARY: VTV Ánh sáng tri thức: Tri thức trẻ UET đưa nông nghiệp vươn xa DESCRIPTION: LOCATION: END: VEVENT END: VCALENDAR
