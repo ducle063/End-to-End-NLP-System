@@ -193,6 +193,7 @@ def main():
         )
         
         pipeline = RAGPipeline(config)
+        pipeline.request_delay = config.request_delay  # Set rate limiting
         run_batch_processing(pipeline, args.input, output_file)
     
     elif args.mode == "compare":

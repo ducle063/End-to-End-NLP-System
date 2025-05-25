@@ -6,10 +6,10 @@ import chromadb
 import hashlib
 
 class ReferenceDocumentProcessor:
-    def __init__(self, embedding_model_name='VoVanPhuc/sup-SimCSE-VietNamese-phobert-base'):
+    def __init__(self, embedding_model_name='BAAI/bge-m3'):
         self.embedding_model = SentenceTransformer(embedding_model_name)
 
-        self.client = chromadb.PersistentClient(path="db")
+        self.client = chromadb.PersistentClient(path="vdb")
         self.collection = self.client.get_or_create_collection(name="documents",)
     
     def parse_document(self, file_path: str) -> Dict:
@@ -122,4 +122,4 @@ class ReferenceDocumentProcessor:
 # Usage
 if __name__ == "__main__":
     processor = ReferenceDocumentProcessor()
-    processor.process_folder("../../../data/docs/UET")
+    processor.process_folder("/workspaces/End-to-End-NLP-System/data/docs/cleaned-docs")

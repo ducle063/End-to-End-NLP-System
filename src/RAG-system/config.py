@@ -4,7 +4,7 @@ from typing import Optional
 
 @dataclass
 class EmbeddingConfig:
-    model_name: str = "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base"
+    model_name: str = "BAAI/bge-m3"
     normalize_embeddings: bool = True
     device: str = "auto"  # "auto", "cuda", "cpu"
 
@@ -16,7 +16,7 @@ class RerankerConfig:
 @dataclass
 class RetrieverConfig:
     search_k: int = 100
-    top_k_after_rerank: int = 5
+    top_k_after_rerank: int = 3
 
 @dataclass
 class GeminiConfig:
@@ -33,7 +33,7 @@ class GeminiConfig:
 
 @dataclass
 class DatabaseConfig:
-    persist_directory: str = "db"
+    persist_directory: str = "vdb"
     collection_name: str = "documents"
 
 @dataclass

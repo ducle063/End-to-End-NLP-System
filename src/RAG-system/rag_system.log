@@ -1,0 +1,27 @@
+2025-05-25 10:05:05,451 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 10:05:05,453 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 10:05:24,257 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 10:05:24,781 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 10:05:25,332 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 10:06:03,754 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 10:06:04,001 - embedding_manager - INFO - Created retriever with k=100
+2025-05-25 10:06:04,002 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 10:06:04,006 - rag_pipeline - INFO - Processing 20 queries from /workspaces/End-to-End-NLP-System/data/QnA/demo/test_questions.txt
+2025-05-25 10:06:04,013 - rag_pipeline - INFO - Processing query 1/20
+2025-05-25 10:06:04,013 - rag_pipeline - INFO - Processing query: UET được thành lập vào năm nào?...
+2025-05-25 10:06:05,119 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 10:06:16,153 - rag_pipeline - INFO - Retrieved 38 documents for query
+2025-05-25 10:06:16,539 - rag_pipeline - INFO - Retrieved 38 documents for query
+2025-05-25 10:06:16,852 - rag_pipeline - INFO - Retrieved 38 documents for query
+2025-05-25 10:06:17,202 - rag_pipeline - INFO - Retrieved 38 documents for query
+2025-05-25 10:06:17,214 - rag_pipeline - INFO - Multi-query retrieval: 152 total, 38 unique documents
+2025-05-25 10:09:02,839 - reranker - INFO - Reranked 38 documents, returning top 10
+2025-05-25 10:09:03,825 - rag_pipeline - INFO - Query processed successfully in 179.81s
+2025-05-25 10:09:08,831 - rag_pipeline - INFO - Processing query 2/20
+2025-05-25 10:09:08,831 - rag_pipeline - INFO - Processing query: Hiệu trưởng hiện tại của UET là ai?...
+2025-05-25 10:09:09,571 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 10:09:10,609 - rag_pipeline - INFO - Retrieved 38 documents for query
+2025-05-25 10:09:10,917 - rag_pipeline - INFO - Retrieved 38 documents for query
+2025-05-25 10:09:11,249 - rag_pipeline - INFO - Retrieved 38 documents for query
+2025-05-25 10:09:11,555 - rag_pipeline - INFO - Retrieved 38 documents for query
+2025-05-25 10:09:11,560 - rag_pipeline - INFO - Multi-query retrieval: 152 total, 38 unique documents
