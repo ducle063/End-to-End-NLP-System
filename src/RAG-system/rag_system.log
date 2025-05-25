@@ -25,3 +25,482 @@
 2025-05-25 10:09:11,249 - rag_pipeline - INFO - Retrieved 38 documents for query
 2025-05-25 10:09:11,555 - rag_pipeline - INFO - Retrieved 38 documents for query
 2025-05-25 10:09:11,560 - rag_pipeline - INFO - Multi-query retrieval: 152 total, 38 unique documents
+2025-05-25 14:55:33,207 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 14:55:33,215 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 14:55:53,892 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 14:55:54,541 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 14:55:55,189 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 14:56:55,484 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 14:56:55,528 - rag_pipeline - ERROR - Failed to initialize RAG Pipeline: Vector database not initialized
+2025-05-25 14:58:02,168 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 14:58:02,170 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 14:58:17,681 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 14:58:18,316 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 14:58:19,038 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 14:58:20,809 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 14:58:21,200 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 14:58:21,200 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 14:58:21,202 - rag_pipeline - INFO - Processing 50 queries from /workspaces/End-to-End-NLP-System/data/QnA/test/test_questions.txt
+2025-05-25 14:58:21,202 - rag_pipeline - ERROR - Batch processing failed: [Errno 21] Is a directory: '/workspaces/End-to-End-NLP-System/system_outputs'
+2025-05-25 15:02:17,092 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:02:17,095 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:02:33,372 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:02:34,222 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:02:35,018 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:02:37,954 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:02:38,385 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:02:38,386 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:02:38,386 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:02:39,280 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:02:43,801 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:02:44,154 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:02:44,530 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:02:44,839 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:02:44,967 - rag_pipeline - INFO - Multi-query retrieval: 400 total, 213 unique documents
+2025-05-25 15:03:57,893 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:03:57,897 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:04:15,740 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:04:16,695 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:04:17,522 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:04:21,568 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:04:22,005 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:04:22,006 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:04:22,006 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:04:22,817 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:04:27,210 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:04:27,581 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:04:27,933 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:04:28,231 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:04:28,316 - rag_pipeline - INFO - Multi-query retrieval: 400 total, 214 unique documents
+2025-05-25 15:06:23,950 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:06:23,954 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:06:40,676 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:06:41,903 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:06:42,893 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:06:45,662 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:06:46,170 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:06:46,170 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:06:46,171 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:06:47,099 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:06:51,254 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:06:51,610 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:06:51,979 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:06:52,423 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:06:52,531 - rag_pipeline - INFO - Multi-query retrieval: 400 total, 213 unique documents
+2025-05-25 15:11:10,810 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:11:10,813 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:11:27,485 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:11:28,269 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:11:29,144 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:11:32,201 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:11:32,607 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:11:32,607 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:11:32,607 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:11:33,381 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:11:37,548 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:11:37,947 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:11:38,274 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:11:38,597 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:11:38,680 - rag_pipeline - INFO - Multi-query retrieval: 400 total, 211 unique documents
+2025-05-25 15:14:33,728 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:14:33,731 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:14:53,013 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:14:53,726 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:14:54,417 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:14:57,551 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:14:57,928 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:14:57,929 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:14:57,929 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:14:58,739 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:15:02,828 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:15:03,185 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:15:03,514 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:15:03,799 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:15:03,877 - rag_pipeline - INFO - Multi-query retrieval: 400 total, 212 unique documents
+2025-05-25 15:16:24,926 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:16:24,929 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:16:41,670 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:16:42,875 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:16:43,590 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:16:43,929 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:16:43,929 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:16:43,930 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:16:47,443 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:16:48,265 - rag_pipeline - INFO - Query processed successfully in 4.34s
+2025-05-25 15:17:28,600 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:17:28,603 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:17:45,428 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:17:45,958 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:17:46,567 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:17:46,896 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:17:46,897 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:17:46,897 - rag_pipeline - INFO - Processing query: Hiệu trưởng UET?...
+2025-05-25 15:17:49,601 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:17:50,326 - rag_pipeline - INFO - Query processed successfully in 3.43s
+2025-05-25 15:23:40,661 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:23:40,663 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:23:56,274 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:23:56,808 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:23:57,428 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:23:57,868 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:23:57,869 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:23:57,869 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:23:59,722 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:24:02,104 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:24:02,477 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:24:02,853 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:24:03,199 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:24:03,283 - rag_pipeline - INFO - Multi-query retrieval: 400 total, 211 unique documents
+2025-05-25 15:24:03,283 - rag_pipeline - INFO - Reranking top 100 retrieved documents
+2025-05-25 15:24:03,993 - rag_pipeline - INFO - Query processed successfully in 6.12s
+2025-05-25 15:24:26,043 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:24:26,048 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:24:42,519 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:24:43,137 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:24:43,768 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:24:44,130 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:24:44,130 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:24:44,130 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:24:46,755 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:24:46,755 - rag_pipeline - INFO - Reranking top 100 retrieved documents
+2025-05-25 15:24:47,416 - rag_pipeline - INFO - Query processed successfully in 3.29s
+2025-05-25 15:25:17,930 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:25:17,932 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:25:34,879 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:25:35,547 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:25:36,202 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:25:39,565 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:25:39,998 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:25:39,999 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:25:39,999 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:25:41,816 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:25:44,744 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:25:45,166 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:25:45,539 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:25:45,883 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:25:45,980 - rag_pipeline - INFO - Multi-query retrieval: 400 total, 212 unique documents
+2025-05-25 15:25:45,981 - rag_pipeline - INFO - Reranking top 100 retrieved documents
+2025-05-25 15:32:54,713 - reranker - INFO - Reranked 100 documents, returning top 3
+2025-05-25 15:32:55,373 - rag_pipeline - INFO - Query processed successfully in 435.37s
+2025-05-25 15:34:32,271 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:34:32,273 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:34:48,950 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:34:49,751 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:34:50,558 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:34:53,070 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:34:53,462 - embedding_manager - INFO - Created retriever with k=100, filters=None
+2025-05-25 15:34:53,463 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:34:53,463 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:34:54,313 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:34:58,762 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:34:59,096 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:34:59,432 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:34:59,718 - rag_pipeline - INFO - Retrieved 100 documents for query
+2025-05-25 15:34:59,794 - rag_pipeline - INFO - Multi-query retrieval: 400 total, 200 unique documents
+2025-05-25 15:34:59,795 - rag_pipeline - INFO - Reranking top 100 retrieved documents
+2025-05-25 15:35:50,417 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:35:50,419 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:36:09,380 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:36:10,129 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:36:10,890 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:36:13,220 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:36:13,631 - embedding_manager - INFO - Created retriever with k=25, filters=None
+2025-05-25 15:36:13,631 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:36:13,631 - rag_pipeline - INFO - Processing query: Năm thành lập UET?...
+2025-05-25 15:36:14,448 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:36:19,256 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:36:19,599 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:36:19,977 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:36:20,276 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:36:20,288 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 57 unique documents
+2025-05-25 15:36:20,288 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:38:18,377 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 15:38:19,949 - rag_pipeline - INFO - Query processed successfully in 126.32s
+2025-05-25 15:39:20,503 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:39:20,507 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:39:37,360 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:39:38,121 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:39:38,837 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:39:41,212 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 15:39:41,625 - embedding_manager - INFO - Created retriever with k=25, filters=None
+2025-05-25 15:39:41,626 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:39:41,635 - rag_pipeline - INFO - Processing 50 queries from /workspaces/End-to-End-NLP-System/data/QnA/test/test_questions.txt
+2025-05-25 15:39:41,670 - rag_pipeline - INFO - Processing query 1/50
+2025-05-25 15:39:41,671 - rag_pipeline - INFO - Processing query: UET được thành lập vào năm nào?...
+2025-05-25 15:39:43,879 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:39:48,458 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:39:48,876 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:39:49,306 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:39:49,638 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:39:49,643 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 46 unique documents
+2025-05-25 15:39:49,644 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:41:46,280 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 15:41:46,864 - rag_pipeline - INFO - Query processed successfully in 125.19s
+2025-05-25 15:41:51,865 - rag_pipeline - INFO - Processing query 2/50
+2025-05-25 15:41:51,865 - rag_pipeline - INFO - Processing query: Hiệu trưởng hiện tại của UET là ai?...
+2025-05-25 15:41:52,633 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 15:41:59,768 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:42:00,587 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:42:01,004 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:42:01,425 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:42:01,438 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 32 unique documents
+2025-05-25 15:42:01,438 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:44:41,981 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 15:44:41,989 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 15:44:58,484 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 15:44:59,338 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 15:45:00,037 - embedding_manager - INFO - Initialized vector database at: vdb
+2025-05-25 15:45:00,424 - embedding_manager - INFO - Created retriever with k=25, filters=None
+2025-05-25 15:45:00,425 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 15:45:00,426 - rag_pipeline - INFO - Processing 50 queries from /workspaces/End-to-End-NLP-System/data/QnA/test/test_questions.txt
+2025-05-25 15:45:00,427 - rag_pipeline - INFO - Processing query 1/50
+2025-05-25 15:45:00,427 - rag_pipeline - INFO - Processing query: UET được thành lập vào năm nào?...
+2025-05-25 15:45:04,340 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:04,340 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:06,204 - rag_pipeline - INFO - Query processed successfully in 5.78s
+2025-05-25 15:45:11,204 - rag_pipeline - INFO - Processing query 2/50
+2025-05-25 15:45:11,205 - rag_pipeline - INFO - Processing query: Hiệu trưởng hiện tại của UET là ai?...
+2025-05-25 15:45:11,750 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:11,751 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:12,376 - rag_pipeline - INFO - Query processed successfully in 1.17s
+2025-05-25 15:45:17,376 - rag_pipeline - INFO - Processing query 3/50
+2025-05-25 15:45:17,377 - rag_pipeline - INFO - Processing query: Trường Đại học Công nghệ trực thuộc đơn vị nào?...
+2025-05-25 15:45:17,792 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:17,792 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:18,421 - rag_pipeline - INFO - Query processed successfully in 1.04s
+2025-05-25 15:45:23,422 - rag_pipeline - INFO - Processing query 4/50
+2025-05-25 15:45:23,422 - rag_pipeline - INFO - Processing query: Số lượng ngành đào tạo trình độ đại học của UET là bao nhiêu?...
+2025-05-25 15:45:23,797 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:23,798 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:24,325 - rag_pipeline - INFO - Query processed successfully in 0.90s
+2025-05-25 15:45:29,325 - rag_pipeline - INFO - Processing query 5/50
+2025-05-25 15:45:29,326 - rag_pipeline - INFO - Processing query: UET có chương trình đào tạo nào bằng tiếng Anh không?...
+2025-05-25 15:45:29,696 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:29,696 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:30,327 - rag_pipeline - INFO - Query processed successfully in 1.00s
+2025-05-25 15:45:35,328 - rag_pipeline - INFO - Processing query 6/50
+2025-05-25 15:45:35,328 - rag_pipeline - INFO - Processing query: Điểm chuẩn ngành Công nghệ thông tin năm 2023 của UET là bao nhiêu?...
+2025-05-25 15:45:35,697 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:35,697 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:36,372 - rag_pipeline - INFO - Query processed successfully in 1.04s
+2025-05-25 15:45:41,373 - rag_pipeline - INFO - Processing query 7/50
+2025-05-25 15:45:41,373 - rag_pipeline - INFO - Processing query: Ngành Trí tuệ nhân tạo tại UET thuộc khoa nào?...
+2025-05-25 15:45:41,726 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:41,726 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:42,390 - rag_pipeline - INFO - Query processed successfully in 1.02s
+2025-05-25 15:45:47,391 - rag_pipeline - INFO - Processing query 8/50
+2025-05-25 15:45:47,391 - rag_pipeline - INFO - Processing query: UET có bao nhiêu khoa chuyên môn?...
+2025-05-25 15:45:47,711 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:47,712 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:48,257 - rag_pipeline - INFO - Query processed successfully in 0.87s
+2025-05-25 15:45:53,257 - rag_pipeline - INFO - Processing query 9/50
+2025-05-25 15:45:53,258 - rag_pipeline - INFO - Processing query: Tên tiếng Anh chính thức của UET là gì?...
+2025-05-25 15:45:53,601 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:53,601 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:45:54,200 - rag_pipeline - INFO - Query processed successfully in 0.94s
+2025-05-25 15:45:59,200 - rag_pipeline - INFO - Processing query 10/50
+2025-05-25 15:45:59,201 - rag_pipeline - INFO - Processing query: Địa chỉ trụ sở chính của UET là ở đâu?...
+2025-05-25 15:45:59,532 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:45:59,532 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:00,169 - rag_pipeline - INFO - Query processed successfully in 0.97s
+2025-05-25 15:46:05,169 - rag_pipeline - INFO - Processing query 11/50
+2025-05-25 15:46:05,170 - rag_pipeline - INFO - Processing query: UET thuộc Đại học Quốc gia Hà Nội từ năm nào?...
+2025-05-25 15:46:05,549 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:05,549 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:06,163 - rag_pipeline - INFO - Query processed successfully in 0.99s
+2025-05-25 15:46:11,164 - rag_pipeline - INFO - Processing query 12/50
+2025-05-25 15:46:11,165 - rag_pipeline - INFO - Processing query: Logo chính thức của UET có màu sắc nào?...
+2025-05-25 15:46:11,561 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:11,561 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:12,184 - rag_pipeline - INFO - Query processed successfully in 1.02s
+2025-05-25 15:46:17,185 - rag_pipeline - INFO - Processing query 13/50
+2025-05-25 15:46:17,185 - rag_pipeline - INFO - Processing query: Trang web chính thức của UET là gì?...
+2025-05-25 15:46:17,520 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:17,520 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:18,162 - rag_pipeline - INFO - Query processed successfully in 0.98s
+2025-05-25 15:46:23,162 - rag_pipeline - INFO - Processing query 14/50
+2025-05-25 15:46:23,162 - rag_pipeline - INFO - Processing query: UET có bao nhiêu chương trình đào tạo thạc sĩ?...
+2025-05-25 15:46:23,539 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:23,539 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:24,220 - rag_pipeline - INFO - Query processed successfully in 1.06s
+2025-05-25 15:46:29,221 - rag_pipeline - INFO - Processing query 15/50
+2025-05-25 15:46:29,221 - rag_pipeline - INFO - Processing query: Thời gian đào tạo đại học chính quy tại UET là bao lâu?...
+2025-05-25 15:46:29,628 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:29,628 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:30,150 - rag_pipeline - INFO - Query processed successfully in 0.93s
+2025-05-25 15:46:35,151 - rag_pipeline - INFO - Processing query 16/50
+2025-05-25 15:46:35,151 - rag_pipeline - INFO - Processing query: Trường nào thuộc khối Khoa học Tự nhiên của VNU?...
+2025-05-25 15:46:35,482 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:35,482 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:36,312 - rag_pipeline - INFO - Query processed successfully in 1.16s
+2025-05-25 15:46:41,312 - rag_pipeline - INFO - Processing query 17/50
+2025-05-25 15:46:41,313 - rag_pipeline - INFO - Processing query: USSH chuyên đào tạo các ngành thuộc lĩnh vực nào?...
+2025-05-25 15:46:41,632 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:41,632 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:42,265 - rag_pipeline - INFO - Query processed successfully in 0.95s
+2025-05-25 15:46:47,265 - rag_pipeline - INFO - Processing query 18/50
+2025-05-25 15:46:47,265 - rag_pipeline - INFO - Processing query: ULIS có chương trình liên kết đào tạo với nước nào?...
+2025-05-25 15:46:47,613 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:47,613 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:48,483 - rag_pipeline - INFO - Query processed successfully in 1.22s
+2025-05-25 15:46:53,484 - rag_pipeline - INFO - Processing query 19/50
+2025-05-25 15:46:53,485 - rag_pipeline - INFO - Processing query: Trường Đại học Ngoại ngữ thuộc ĐHQGHN là viết tắt của trường nào?...
+2025-05-25 15:46:53,884 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:53,885 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:46:54,555 - rag_pipeline - INFO - Query processed successfully in 1.07s
+2025-05-25 15:46:59,555 - rag_pipeline - INFO - Processing query 20/50
+2025-05-25 15:46:59,556 - rag_pipeline - INFO - Processing query: Đại học Quốc gia Hà Nội được thành lập năm nào?...
+2025-05-25 15:46:59,870 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:46:59,870 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:00,422 - rag_pipeline - INFO - Query processed successfully in 0.87s
+2025-05-25 15:47:05,422 - rag_pipeline - INFO - Processing query 21/50
+2025-05-25 15:47:05,422 - rag_pipeline - INFO - Processing query: Sứ mệnh của VNU là gì?...
+2025-05-25 15:47:05,776 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:05,776 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:06,782 - rag_pipeline - INFO - Query processed successfully in 1.36s
+2025-05-25 15:47:11,783 - rag_pipeline - INFO - Processing query 22/50
+2025-05-25 15:47:11,783 - rag_pipeline - INFO - Processing query: VNU có bao nhiêu đơn vị thành viên?...
+2025-05-25 15:47:12,099 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:12,099 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:12,734 - rag_pipeline - INFO - Query processed successfully in 0.95s
+2025-05-25 15:47:17,734 - rag_pipeline - INFO - Processing query 23/50
+2025-05-25 15:47:17,735 - rag_pipeline - INFO - Processing query: Cơ cấu tổ chức của ĐHQGHN gồm những gì?...
+2025-05-25 15:47:18,083 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:18,083 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:18,899 - rag_pipeline - INFO - Query processed successfully in 1.16s
+2025-05-25 15:47:23,899 - rag_pipeline - INFO - Processing query 24/50
+2025-05-25 15:47:23,900 - rag_pipeline - INFO - Processing query: Chương trình đào tạo tài năng tại UET kéo dài bao lâu?...
+2025-05-25 15:47:24,259 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:24,260 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:24,914 - rag_pipeline - INFO - Query processed successfully in 1.01s
+2025-05-25 15:47:29,915 - rag_pipeline - INFO - Processing query 25/50
+2025-05-25 15:47:29,915 - rag_pipeline - INFO - Processing query: Trường ĐH KHXH&NV được thành lập năm nào?...
+2025-05-25 15:47:30,238 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:30,239 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:30,822 - rag_pipeline - INFO - Query processed successfully in 0.91s
+2025-05-25 15:47:35,822 - rag_pipeline - INFO - Processing query 26/50
+2025-05-25 15:47:35,822 - rag_pipeline - INFO - Processing query: USSH có bao nhiêu khoa trực thuộc?...
+2025-05-25 15:47:36,145 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:36,145 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:36,812 - rag_pipeline - INFO - Query processed successfully in 0.99s
+2025-05-25 15:47:41,812 - rag_pipeline - INFO - Processing query 27/50
+2025-05-25 15:47:41,813 - rag_pipeline - INFO - Processing query: Trường KHXH&NV có chương trình đào tạo Tiến sĩ không?...
+2025-05-25 15:47:42,189 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:42,190 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:42,698 - rag_pipeline - INFO - Query processed successfully in 0.89s
+2025-05-25 15:47:47,699 - rag_pipeline - INFO - Processing query 28/50
+2025-05-25 15:47:47,699 - rag_pipeline - INFO - Processing query: USSH đào tạo ngành Văn học ở những cấp bậc nào?...
+2025-05-25 15:47:48,045 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:48,045 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:48,658 - rag_pipeline - INFO - Query processed successfully in 0.96s
+2025-05-25 15:47:53,658 - rag_pipeline - INFO - Processing query 29/50
+2025-05-25 15:47:53,659 - rag_pipeline - INFO - Processing query: Điều kiện tốt nghiệp tại USSH là gì?...
+2025-05-25 15:47:53,974 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:47:53,974 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:47:54,689 - rag_pipeline - INFO - Query processed successfully in 1.03s
+2025-05-25 15:47:59,689 - rag_pipeline - INFO - Processing query 30/50
+2025-05-25 15:47:59,689 - rag_pipeline - INFO - Processing query: Sinh viên USSH cần bao nhiêu tín chỉ để tốt nghiệp?...
+2025-05-25 15:48:00,060 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:00,060 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:00,731 - rag_pipeline - INFO - Query processed successfully in 1.04s
+2025-05-25 15:48:05,731 - rag_pipeline - INFO - Processing query 31/50
+2025-05-25 15:48:05,732 - rag_pipeline - INFO - Processing query: Thời gian học ngành Tâm lý học tại USSH là bao lâu?...
+2025-05-25 15:48:06,095 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:06,095 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:06,725 - rag_pipeline - INFO - Query processed successfully in 0.99s
+2025-05-25 15:48:11,725 - rag_pipeline - INFO - Processing query 32/50
+2025-05-25 15:48:11,725 - rag_pipeline - INFO - Processing query: Điểm chuẩn ngành Báo chí năm 2023 tại USSH là bao nhiêu?...
+2025-05-25 15:48:12,053 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:12,053 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:12,745 - rag_pipeline - INFO - Query processed successfully in 1.02s
+2025-05-25 15:48:17,745 - rag_pipeline - INFO - Processing query 33/50
+2025-05-25 15:48:17,746 - rag_pipeline - INFO - Processing query: Trường Đại học KHXH&NV trực thuộc tổ chức nào?...
+2025-05-25 15:48:18,065 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:18,065 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:18,702 - rag_pipeline - INFO - Query processed successfully in 0.96s
+2025-05-25 15:48:23,703 - rag_pipeline - INFO - Processing query 34/50
+2025-05-25 15:48:23,703 - rag_pipeline - INFO - Processing query: USSH có bao nhiêu ngành bậc đại học?...
+2025-05-25 15:48:24,005 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:24,006 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:24,691 - rag_pipeline - INFO - Query processed successfully in 0.99s
+2025-05-25 15:48:29,692 - rag_pipeline - INFO - Processing query 35/50
+2025-05-25 15:48:29,692 - rag_pipeline - INFO - Processing query: ULIS có tổ chức kỳ thi năng lực tiếng Anh không?...
+2025-05-25 15:48:30,039 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:30,039 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:30,678 - rag_pipeline - INFO - Query processed successfully in 0.99s
+2025-05-25 15:48:35,678 - rag_pipeline - INFO - Processing query 36/50
+2025-05-25 15:48:35,679 - rag_pipeline - INFO - Processing query: Cơ sở vật chất của ULIS nằm ở đâu?...
+2025-05-25 15:48:36,016 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:36,016 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:36,612 - rag_pipeline - INFO - Query processed successfully in 0.93s
+2025-05-25 15:48:41,613 - rag_pipeline - INFO - Processing query 37/50
+2025-05-25 15:48:41,613 - rag_pipeline - INFO - Processing query: Trung tâm CNTT của ULIS cung cấp những dịch vụ gì?...
+2025-05-25 15:48:41,954 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:41,954 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:42,843 - rag_pipeline - INFO - Query processed successfully in 1.23s
+2025-05-25 15:48:47,844 - rag_pipeline - INFO - Processing query 38/50
+2025-05-25 15:48:47,844 - rag_pipeline - INFO - Processing query: Đại học Quốc gia Hà Nội được thành lập từ cơ sở nào trước đó?...
+2025-05-25 15:48:48,173 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:48,173 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:48,894 - rag_pipeline - INFO - Query processed successfully in 1.05s
+2025-05-25 15:48:53,895 - rag_pipeline - INFO - Processing query 39/50
+2025-05-25 15:48:53,895 - rag_pipeline - INFO - Processing query: VNU hiện có bao nhiêu đơn vị thành viên?...
+2025-05-25 15:48:54,223 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:48:54,224 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:48:54,885 - rag_pipeline - INFO - Query processed successfully in 0.99s
+2025-05-25 15:48:59,885 - rag_pipeline - INFO - Processing query 40/50
+2025-05-25 15:48:59,885 - rag_pipeline - INFO - Processing query: Trụ sở chính của VNU đặt ở đâu?...
+2025-05-25 15:49:00,249 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:00,249 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:00,958 - rag_pipeline - INFO - Query processed successfully in 1.07s
+2025-05-25 15:49:05,959 - rag_pipeline - INFO - Processing query 41/50
+2025-05-25 15:49:05,959 - rag_pipeline - INFO - Processing query: VNU có những ngành đào tạo nào bằng tiếng Anh?...
+2025-05-25 15:49:06,274 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:06,274 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:06,944 - rag_pipeline - INFO - Query processed successfully in 0.98s
+2025-05-25 15:49:11,944 - rag_pipeline - INFO - Processing query 42/50
+2025-05-25 15:49:11,944 - rag_pipeline - INFO - Processing query: Trang Wikipedia của UET có nói gì về lịch sử trường?...
+2025-05-25 15:49:12,282 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:12,282 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:13,136 - rag_pipeline - INFO - Query processed successfully in 1.19s
+2025-05-25 15:49:18,136 - rag_pipeline - INFO - Processing query 43/50
+2025-05-25 15:49:18,136 - rag_pipeline - INFO - Processing query: UET có chương trình trao đổi sinh viên quốc tế không?...
+2025-05-25 15:49:18,484 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:18,484 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:19,263 - rag_pipeline - INFO - Query processed successfully in 1.13s
+2025-05-25 15:49:24,264 - rag_pipeline - INFO - Processing query 44/50
+2025-05-25 15:49:24,264 - rag_pipeline - INFO - Processing query: Sinh viên năm cuối UET phải làm gì để tốt nghiệp?...
+2025-05-25 15:49:24,604 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:24,604 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:25,244 - rag_pipeline - INFO - Query processed successfully in 0.98s
+2025-05-25 15:49:30,245 - rag_pipeline - INFO - Processing query 45/50
+2025-05-25 15:49:30,245 - rag_pipeline - INFO - Processing query: ULIS có chương trình thực tập ở nước ngoài không?...
+2025-05-25 15:49:30,545 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:30,545 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:32,018 - rag_pipeline - INFO - Query processed successfully in 1.77s
+2025-05-25 15:49:37,018 - rag_pipeline - INFO - Processing query 46/50
+2025-05-25 15:49:37,019 - rag_pipeline - INFO - Processing query: Các ngành đào tạo thế mạnh tại ULIS là gì?...
+2025-05-25 15:49:37,419 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:37,419 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:38,078 - rag_pipeline - INFO - Query processed successfully in 1.06s
+2025-05-25 15:49:43,078 - rag_pipeline - INFO - Processing query 47/50
+2025-05-25 15:49:43,078 - rag_pipeline - INFO - Processing query: Điều kiện để tham gia học lớp tài năng tại UET là gì?...
+2025-05-25 15:49:43,451 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:43,451 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:44,110 - rag_pipeline - INFO - Query processed successfully in 1.03s
+2025-05-25 15:49:49,110 - rag_pipeline - INFO - Processing query 48/50
+2025-05-25 15:49:49,110 - rag_pipeline - INFO - Processing query: Hệ thống đăng ký học trực tuyến tại UET có tên là gì?...
+2025-05-25 15:49:49,478 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:49,478 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:50,089 - rag_pipeline - INFO - Query processed successfully in 0.98s
+2025-05-25 15:49:55,089 - rag_pipeline - INFO - Processing query 49/50
+2025-05-25 15:49:55,090 - rag_pipeline - INFO - Processing query: Điều kiện miễn học một số học phần tại UET là gì?...
+2025-05-25 15:49:55,416 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:49:55,416 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:49:56,076 - rag_pipeline - INFO - Query processed successfully in 0.99s
+2025-05-25 15:50:01,076 - rag_pipeline - INFO - Processing query 50/50
+2025-05-25 15:50:01,076 - rag_pipeline - INFO - Processing query: Sinh viên UET có được chọn giảng viên hướng dẫn không?...
+2025-05-25 15:50:01,410 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 15:50:01,410 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 15:50:02,118 - rag_pipeline - INFO - Query processed successfully in 1.04s
+2025-05-25 15:50:02,118 - rag_pipeline - INFO - Completed processing 50 queries. Results saved to /workspaces/End-to-End-NLP-System/system_output

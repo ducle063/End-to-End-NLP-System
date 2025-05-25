@@ -1,0 +1,165 @@
+2025-05-25 10:38:24,907 - INFO - Bắt đầu crawl 7 trường đại học
+2025-05-25 10:38:24,908 - INFO - Bắt đầu crawl uet theo menu navigation
+2025-05-25 10:38:24,908 - INFO - Đang phân tích menu navigation của uet: https://uet.vnu.edu.vn
+2025-05-25 10:39:05,461 - INFO - Tìm thấy 44 liên kết menu cho uet
+2025-05-25 10:39:05,461 - INFO - Crawling uet: Ứng dụng Công nghệ thông tin - https://uet.vnu.edu.vn/cac-ung-dung-cong-nghe-thong-tin-trong-quan-ly/
+2025-05-25 10:39:10,955 - INFO - Crawling uet: Khoa học – Công nghệ - https://uet.vnu.edu.vn/hoat-dong-khoa-hoc-cong-nghe/
+2025-05-25 10:39:16,725 - INFO - Crawling uet: Công bố khoa học - https://uet.vnu.edu.vn/category/khoa-hoc-cong-nghe/cong-trinh-khoa-hoc/
+2025-05-25 10:39:22,172 - INFO - Crawling uet: Giới thiệu - https://uet.vnu.edu.vn/truong-dai-hoc-cong-nghe-15-nam-xay-dung-va-truong-thanh/
+2025-05-25 10:39:27,397 - INFO - Crawling uet: Đào tạo - https://uet.vnu.edu.vn/he-thong-dao-tao/
+2025-05-25 10:39:33,001 - INFO - Crawling uet: Đào tạo đại học - https://uet.vnu.edu.vn/dao-tao-dai-hoc/
+2025-05-25 10:39:38,212 - INFO - Crawling uet: Đào tạo sau đại học - https://uet.vnu.edu.vn/dao-tao-sau-dai-hoc/
+2025-05-25 10:39:43,680 - INFO - Crawling uet: Đào tạo ngắn hạn - https://uet.vnu.edu.vn/category/tuyen-sinh/dao-tao-ngan-han-2/
+2025-05-25 10:39:49,815 - INFO - Crawling uet: Sinh viên - https://uet.vnu.edu.vn/hoat-dong-cong-tac-sinh-vien/
+2025-05-25 10:39:55,239 - INFO - Crawling uet: Gương mặt sinh viên - https://uet.vnu.edu.vn/category/sinh-vien/guong-mat-sinh-vien/
+2025-05-25 10:40:00,228 - INFO - Crawling uet: Cựu sinh viên - https://uet.vnu.edu.vn/category/sinh-vien/cuu-sinh-vien/
+2025-05-25 10:40:05,572 - INFO - Crawling uet: Giao lưu, trao đổi sinh viên - https://uet.vnu.edu.vn/category/sinh-vien/giao-luu-trao-doi-sinh-vien/
+2025-05-25 10:40:10,570 - INFO - Crawling uet: Sinh viên NCKH - https://uet.vnu.edu.vn/category/khoa-hoc-cong-nghe/sinh-vien-nckh/
+2025-05-25 10:40:16,308 - INFO - Crawling uet: Tuyển sinh - https://uet.vnu.edu.vn/category/tuyen-sinh/
+2025-05-25 10:40:23,304 - INFO - Crawling uet: Tuyển dụng - https://uet.vnu.edu.vn/category/tuyen-dung/
+2025-05-25 10:40:28,784 - INFO - Crawling uet: Công khai các điều kiện tuyển sinh - https://uet.vnu.edu.vn/category/tuyen-sinh/cong-khai-cac-dieu-kien-tuyen-sinh/
+2025-05-25 10:40:33,553 - INFO - Crawling uet: Địa chỉ - https://uet.vnu.edu.vn/co-so-dao-tao/
+2025-05-25 10:40:37,798 - INFO - Crawling uet: Thông báo - https://uet.vnu.edu.vn/category/tin-tuc/tin-sinh-vien/
+2025-05-25 10:40:42,967 - INFO - Crawling uet: English - https://uet.vnu.edu.vn/en/
+2025-05-25 10:40:48,578 - INFO - Crawling uet: Khoa – Viện - https://uet.vnu.edu.vn/4593-2/
+2025-05-25 10:40:53,718 - INFO - Crawling uet: Olympic - https://uet.vnu.edu.vn/category/olympic/
+2025-05-25 10:40:58,253 - INFO - Crawling uet: Lịch sử phát triển - https://uet.vnu.edu.vn/lich-su/
+2025-05-25 10:41:04,483 - INFO - Crawling uet: Chiến lược phát triển - https://uet.vnu.edu.vn/chien-luoc-phat-trien/
+2025-05-25 10:41:10,721 - INFO - Crawling uet: Cơ cấu tổ chức - https://uet.vnu.edu.vn/co-cau-to-chuc/
+2025-05-25 10:41:15,309 - INFO - Crawling uet: Nhà giáo Nhân dân, Nhà giáo Ưu tú - https://uet.vnu.edu.vn/nha-giao-nhan-dan-nha-giao-uu-tu/
+2025-05-25 10:41:20,156 - INFO - Crawling uet: Đội ngũ cán bộ - https://uet.vnu.edu.vn/doi-ngu-can-bo/
+2025-05-25 10:41:26,194 - INFO - Crawling uet: Ấn phẩm - https://uet.vnu.edu.vn/category/gioi-thieu/an-pham/
+2025-05-25 10:41:33,106 - INFO - Crawling uet: Bài hát truyền thống - https://uet.vnu.edu.vn/truong-dai-hoc-cong-nghe-men-yeu/
+2025-05-25 10:41:38,288 - INFO - Crawling uet: Học phí, học bổng - https://uet.vnu.edu.vn/category/sinh-vien/hoc-phi-hoc-bong/
+2025-05-25 10:41:44,425 - INFO - Crawling uet: Chế độ chính sách - https://uet.vnu.edu.vn/category/sinh-vien/che-do-chinh-sach/
+2025-05-25 10:41:50,452 - INFO - Crawling uet: Thủ tục hành chính - https://uet.vnu.edu.vn/category/sinh-vien/thu-tuc-hanh-chinh/
+2025-05-25 10:41:56,062 - INFO - Crawling uet: Quy chế, qui định - https://uet.vnu.edu.vn/category/sinh-vien/quy-che-qui-di%cc%a3nh/
+2025-05-25 10:42:00,789 - INFO - Crawling uet: Thống kê, khảo sát việc làm - https://uet.vnu.edu.vn/category/sinh-vien/thong-ke-khao-sat-viec-lam/
+2025-05-25 10:42:05,799 - INFO - Crawling uet: Bản tin KHCN & HTPT - https://uet.vnu.edu.vn/category/khoa-hoc-cong-nghe/ban-tin-khcn-htpt/
+2025-05-25 10:42:11,836 - INFO - Crawling uet: Đề tài, nhiệm vụ KHCN - https://uet.vnu.edu.vn/category/khoa-hoc-cong-nghe/de-tai-nhiem-vu-khcn/
+2025-05-25 10:42:16,847 - INFO - Crawling uet: Hợp tác phát triển - https://uet.vnu.edu.vn/category/hop-tac/
+2025-05-25 10:42:22,952 - INFO - Crawling uet: Sản phẩm KHCN - https://uet.vnu.edu.vn/category/khoa-hoc-cong-nghe/san-pham-khoa-hoc-cong-nghe/
+2025-05-25 10:42:27,496 - INFO - Crawling uet: Sản phẩm chuyển giao - https://uet.vnu.edu.vn/category/khoa-hoc-cong-nghe/san-pham-chuyen-giao/
+2025-05-25 10:42:34,232 - INFO - Crawling uet: Sở hữu trí tuệ - https://uet.vnu.edu.vn/category/khoa-hoc-cong-nghe/so-huu-tri-tue/
+2025-05-25 10:42:46,911 - INFO - Crawling uet: Danh mục các phòng thí nghiệm - https://uet.vnu.edu.vn/thong-phong-thi-nghiem-cua-truong-dai-hoc-cong-nghe-theo-qd-768qd-khcnhtpt-ngay-10102016-cua-hieu-truong-truong-dai-hoc-cong-nghe/
+2025-05-25 10:42:54,175 - INFO - Crawling uet: Các quy định - https://uet.vnu.edu.vn/category/khoa-hoc-cong-nghe/cac-quy-dinh/
+2025-05-25 10:43:00,893 - INFO - Crawling uet: Sau Đại học - https://uet.vnu.edu.vn/category/tuyen-sinh/sau-dai-hoc/
+2025-05-25 10:43:07,754 - INFO - Crawling uet: Viện Trí tuệ nhân tạo - https://uet.vnu.edu.vn/vien-tri-tue-nhan-tao/
+2025-05-25 10:43:13,924 - INFO - Crawling uet: Olympic THPT VNU 2024-2025 - https://uet.vnu.edu.vn/category/olympic-thpt-vnu-2024-2025/
+2025-05-25 10:43:20,849 - INFO - Hoàn thành crawl uet - Thu thập 44 trang
+2025-05-25 10:43:20,850 - INFO - Bắt đầu crawl vnu theo menu navigation
+2025-05-25 10:43:20,850 - INFO - Đang phân tích menu navigation của vnu: https://vnu.edu.vn
+2025-05-25 10:43:32,554 - INFO - Tìm thấy 9 liên kết menu cho vnu
+2025-05-25 10:43:32,555 - INFO - Crawling vnu: GIỚI THIỆU - https://vnu.edu.vn/home/?C1916
+2025-05-25 10:44:05,155 - INFO - Crawling vnu: ĐÀO TẠO - https://vnu.edu.vn/home/?C1963
+2025-05-25 10:44:07,628 - INFO - Crawling vnu: KHOA HỌC CÔNG NGHỆ - http://vnu.edu.vn/home/?C1890
+2025-05-25 10:44:10,639 - INFO - Crawling vnu: SINH VIÊN - http://vnu.edu.vn/home/?C2059
+2025-05-25 10:44:43,370 - INFO - Crawling vnu: TUYỂN DỤNG - http://vnu.edu.vn/home/?C2109
+2025-05-25 10:45:15,860 - INFO - Crawling vnu: CƠ SỞ HÒA LẠC - https://vnu.edu.vn/home/?C2661
+2025-05-25 10:45:48,376 - INFO - Crawling vnu: TRANG CHỦ - https://vnu.edu.vn/home/
+2025-05-25 10:45:51,001 - INFO - Crawling vnu: HỢP TÁC & PHÁT TRIỂN - https://vnu.edu.vn/home/?C1924
+2025-05-25 10:45:53,715 - INFO - Crawling vnu: CÁN BỘ - http://vnu.edu.vn/home/?C2207
+2025-05-25 10:45:56,637 - INFO - Hoàn thành crawl vnu - Thu thập 9 trang
+2025-05-25 10:45:56,637 - INFO - Bắt đầu crawl uslis theo menu navigation
+2025-05-25 10:45:56,638 - INFO - Đang phân tích menu navigation của uslis: https://uslis.vnu.edu.vn
+2025-05-25 10:45:57,752 - ERROR - Lỗi khi trích xuất menu từ https://uslis.vnu.edu.vn: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.113)
+Stacktrace:
+#0 0x586e27c2571a <unknown>
+#1 0x586e276c80a0 <unknown>
+#2 0x586e276bf177 <unknown>
+#3 0x586e276b0199 <unknown>
+#4 0x586e276b1e8d <unknown>
+#5 0x586e276b052e <unknown>
+#6 0x586e276afece <unknown>
+#7 0x586e276afba2 <unknown>
+#8 0x586e276ad9ef <unknown>
+#9 0x586e276ae1aa <unknown>
+#10 0x586e276cb5d9 <unknown>
+#11 0x586e27765eb5 <unknown>
+#12 0x586e2773f3a2 <unknown>
+#13 0x586e277652a0 <unknown>
+#14 0x586e2773f173 <unknown>
+#15 0x586e2770bd4b <unknown>
+#16 0x586e2770c9b1 <unknown>
+#17 0x586e27bea8cb <unknown>
+#18 0x586e27bee7ca <unknown>
+#19 0x586e27bd2622 <unknown>
+#20 0x586e27bef354 <unknown>
+#21 0x586e27bb745f <unknown>
+#22 0x586e27c134f8 <unknown>
+#23 0x586e27c136d6 <unknown>
+#24 0x586e27c24586 <unknown>
+#25 0x72e89920d609 start_thread
+
+2025-05-25 10:45:57,753 - WARNING - Không tìm thấy menu navigation cho uslis
+2025-05-25 10:45:57,753 - INFO - Bắt đầu crawl ussh theo menu navigation
+2025-05-25 10:45:57,753 - INFO - Đang phân tích menu navigation của ussh: https://ussh.vnu.edu.vn
+2025-05-25 10:46:15,231 - INFO - Tìm thấy 43 liên kết menu cho ussh
+2025-05-25 10:46:15,232 - INFO - Crawling ussh: GIỚI THIỆU - https://ussh.vnu.edu.vn/vi/gioi-thieu/tong-quan/tong-quan-19671.html
+2025-05-25 10:46:16,588 - INFO - Crawling ussh: TIN TỨC - https://ussh.vnu.edu.vn/vi/news/
+2025-05-25 10:46:17,942 - INFO - Crawling ussh: Tin hoạt động - https://ussh.vnu.edu.vn/vi/news/tin-hoat-dong/
+2025-05-25 10:46:19,354 - INFO - Crawling ussh: Nhân vật - Sự kiện - https://ussh.vnu.edu.vn/vi/news/nhan-vat-su-kien/
+2025-05-25 10:46:20,692 - INFO - Crawling ussh: Thông báo - https://ussh.vnu.edu.vn/vi/news/thong-bao/
+2025-05-25 10:46:21,975 - INFO - Crawling ussh: Lịch công tác - https://ussh.vnu.edu.vn/vi/news/lich-cong-tac/
+2025-05-25 10:46:23,300 - INFO - Crawling ussh: Theo dòng sự kiện - https://ussh.vnu.edu.vn/vi/news/topic/
+2025-05-25 10:46:24,610 - INFO - Crawling ussh: ĐÀO TẠO - https://ussh.vnu.edu.vn/vi/dao-tao/
+2025-05-25 10:46:25,936 - INFO - Crawling ussh: Đào tạo Đại học - https://ussh.vnu.edu.vn/vi/dao-tao/dao-tao-dai-hoc/dao-tao-dai-hoc-20685.html
+2025-05-25 10:46:27,310 - INFO - Crawling ussh: Đào tạo Thạc sĩ - https://ussh.vnu.edu.vn/vi/dao-tao/thac-si/
+2025-05-25 10:46:28,635 - INFO - Crawling ussh: Đào tạo Tiến sĩ - https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-tien-si/
+2025-05-25 10:46:29,956 - INFO - Crawling ussh: Đào tạo THPT chuyên - https://ussh.vnu.edu.vn/vi/dao-tao/dao-tao-thpt-chuyen/
+2025-05-25 10:46:31,258 - INFO - Crawling ussh: Đào tạo ngành 2 - https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-nganh-2/
+2025-05-25 10:46:32,570 - INFO - Crawling ussh: Đào tạo ngắn hạn - https://ussh.vnu.edu.vn/vi/dao-tao/dao-tao-vua-lam-vua-hoc-va-ngan-han/
+2025-05-25 10:46:33,908 - INFO - Crawling ussh: Đào tạo vừa làm vừa học - https://ussh.vnu.edu.vn/vi/dao-tao/dao-tao-vua-hoc-vua-lam
+2025-05-25 10:46:35,275 - INFO - Crawling ussh: NGHIÊN CỨU - https://ussh.vnu.edu.vn/vi/nckh/
+2025-05-25 10:46:36,551 - INFO - Crawling ussh: Tin tức khoa học - https://ussh.vnu.edu.vn/vi/nckh/tin-tuc-khoa-hoc/
+2025-05-25 10:46:37,939 - INFO - Crawling ussh: Giải thưởng khoa học - https://ussh.vnu.edu.vn/vi/nckh/giai-thuong-nghien-cuu-khoa-hoc/
+2025-05-25 10:46:39,264 - INFO - Crawling ussh: Sản phẩm khoa học trong nước và quốc tế - https://ussh.vnu.edu.vn/vi/nckh/cong-bo-quoc-te/
+2025-05-25 10:46:40,566 - INFO - Crawling ussh: Các nhóm nghiên cứu mạnh - https://ussh.vnu.edu.vn/vi/nckh/nhom-nghien-cuu-manh/
+2025-05-25 10:46:41,885 - INFO - Crawling ussh: Lý lịch khoa học - https://ussh.vnu.edu.vn/vi/llkh/
+2025-05-25 10:46:43,227 - INFO - Crawling ussh: SINH VIÊN - https://ussh.vnu.edu.vn/vi/sinh-vien/
+2025-05-25 10:46:44,531 - INFO - Crawling ussh: Học bổng, trao đổi sinh viên - https://ussh.vnu.edu.vn/vi/sinh-vien/hoc-bong-trao-doi-sinh-vien/
+2025-05-25 10:46:45,839 - INFO - Crawling ussh: Nhà ở sinh viên - https://ussh.vnu.edu.vn/vi/sinh-vien/nha-o-sinh-vien/
+2025-05-25 10:46:47,133 - INFO - Crawling ussh: Cựu sinh viên - https://ussh.vnu.edu.vn/vi/sinh-vien/cuu-sinh-vien/
+2025-05-25 10:46:48,456 - INFO - Crawling ussh: Tuyển dụng - https://ussh.vnu.edu.vn/vi/news/tuyen-dung/
+2025-05-25 10:46:49,765 - INFO - Crawling ussh: HỢP TÁC - PHÁT TRIỂN - https://ussh.vnu.edu.vn/vi/hop-tac-phat-trien/
+2025-05-25 10:46:51,063 - INFO - Crawling ussh: ĐẢM BẢO CHẤT LƯỢNG - https://ussh.vnu.edu.vn/vi/dam-bao-chat-luong/
+2025-05-25 10:46:52,315 - INFO - Crawling ussh: Lịch sử phát triển - https://ussh.vnu.edu.vn/vi/gioi-thieu/tong-quan/lich-su-phat-trien-19675.html
+2025-05-25 10:46:53,713 - INFO - Crawling ussh: Sứ mệnh - Tầm nhìn - https://ussh.vnu.edu.vn/vi/gioi-thieu/su-menh-va-muc-tieu-phat-trien/su-menh-va-muc-tieu-phat-trien-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-19694.html
+2025-05-25 10:46:55,027 - INFO - Crawling ussh: Triết lí giáo dục - https://ussh.vnu.edu.vn/vi/gioi-thieu/tong-quan/triet-li-giao-duc-cua-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-19687.html
+2025-05-25 10:46:56,399 - INFO - Crawling ussh: Cơ cấu tổ chức - https://ussh.vnu.edu.vn/vi/gioi-thieu/so-do-to-chuc/so-do-to-chuc-19672.html
+2025-05-25 10:46:57,719 - INFO - Crawling ussh: Ba công khai - https://ussh.vnu.edu.vn/vi/gioi-thieu/ba-cong-khai/
+2025-05-25 10:46:59,095 - INFO - Crawling ussh: Bài hát truyền thống - https://ussh.vnu.edu.vn/vi/gioi-thieu/bai-hat-truyen-thong/bai-hat-truyen-thong-ve-vang-mot-chang-duong-19673.html
+2025-05-25 10:47:00,419 - INFO - Crawling ussh: Thi chứng chỉ Tiếng Việt - https://ussh.vnu.edu.vn/vi/dao-tao/thi-chung-chi-tieng-viet/
+2025-05-25 10:47:01,733 - INFO - Crawling ussh: Tra cứu điểm đánh giá năng lực Tiếng Việt - https://ussh.vnu.edu.vn/vi/scores/
+2025-05-25 10:47:02,995 - INFO - Crawling ussh: Đề tài, dự án - https://ussh.vnu.edu.vn/vi/nckh/chuong-trinh-de-tai-du-an/
+2025-05-25 10:47:04,340 - INFO - Crawling ussh: Hướng nghiệp, việc làm, thực tập - https://ussh.vnu.edu.vn/vi/sinh-vien/huong-nghiep-viec-lam-thuc-tap/
+2025-05-25 10:47:05,669 - INFO - Crawling ussh: Job fair - https://ussh.vnu.edu.vn/vi/sinh-vien/job-fair/
+2025-05-25 10:47:06,977 - INFO - Crawling ussh: Dự án quốc tế - https://ussh.vnu.edu.vn/vi/hop-tac-phat-trien/du-an-quoc-te/du-an-quoc-te-18070.html
+2025-05-25 10:47:08,288 - INFO - Crawling ussh: Giáo sư thỉnh giảng - https://ussh.vnu.edu.vn/vi/hop-tac-phat-trien/giao-su-thinh-giang/
+2025-05-25 10:47:09,611 - INFO - Crawling ussh: Đối tác - https://ussh.vnu.edu.vn/vi/hop-tac-phat-trien/doi-tac/doi-tac-18071.html
+2025-05-25 10:47:10,912 - INFO - Crawling ussh: Hợp tác doanh nghiệp - https://ussh.vnu.edu.vn/vi/hop-tac-phat-trien/hop-tac-doanh-nghiep/
+2025-05-25 10:47:12,205 - INFO - Hoàn thành crawl ussh - Thu thập 43 trang
+2025-05-25 10:47:12,205 - INFO - Bắt đầu crawl hnue theo menu navigation
+2025-05-25 10:47:12,205 - INFO - Đang phân tích menu navigation của hnue: https://hnue.edu.vn
+2025-05-25 10:47:19,406 - INFO - Tìm thấy 7 liên kết menu cho hnue
+2025-05-25 10:47:19,407 - INFO - Crawling hnue: Giới thiệu về Trường - https://hnue.edu.vn/gioi-thieu
+2025-05-25 10:47:20,621 - INFO - Crawling hnue: Viện nghiên cứu - NXB - https://hnue.edu.vn/gioi-thieu/cac-vien-nghien-cuu
+2025-05-25 10:47:21,892 - INFO - Crawling hnue: https://hnue.edu.vn/ - https://hnue.edu.vn/
+2025-05-25 10:47:23,309 - INFO - Crawling hnue: Tại sao nên chọn HNUE? - https://hnue.edu.vn/gioi-thieu/su-menh-tam-nhin-gia-tri
+2025-05-25 10:47:24,511 - INFO - Crawling hnue: Các Khoa và Trung tâm - https://hnue.edu.vn/gioi-thieu/cac-khoa
+2025-05-25 10:47:25,778 - INFO - Crawling hnue: Phòng ban - Trung tâm - https://hnue.edu.vn/gioi-thieu/cac-phong-ban
+2025-05-25 10:47:27,003 - INFO - Crawling hnue: Trường PT - Mầm non - https://hnue.edu.vn/gioi-thieu/cac-truong-pho-thong-mam-non
+2025-05-25 10:47:28,229 - INFO - Hoàn thành crawl hnue - Thu thập 7 trang
+2025-05-25 10:47:28,229 - INFO - Bắt đầu crawl ueb theo menu navigation
+2025-05-25 10:47:28,230 - INFO - Đang phân tích menu navigation của ueb: https://ueb.edu.vn
+2025-05-25 10:48:32,271 - INFO - Tìm thấy 0 liên kết menu cho ueb
+2025-05-25 10:48:32,272 - WARNING - Không tìm thấy menu navigation cho ueb
+2025-05-25 10:48:32,272 - INFO - Bắt đầu crawl is theo menu navigation
+2025-05-25 10:48:32,272 - INFO - Đang phân tích menu navigation của is: https://is.vnu.edu.vn
+2025-05-25 10:48:54,368 - INFO - Tìm thấy 1 liên kết menu cho is
+2025-05-25 10:48:54,368 - INFO - Crawling is: Giao lưu sinh viên, học viên - https://is.vnu.edu.vn/category/giao-luu-sinh-vien-hoc-vien/
+2025-05-25 10:48:56,890 - INFO - Hoàn thành crawl is - Thu thập 1 trang
+2025-05-25 10:48:56,891 - INFO - Đang lưu kết quả...
+2025-05-25 10:48:56,913 - INFO - Đã lưu 104 trang từ 5 trường
+2025-05-25 10:48:56,913 - INFO - Hoàn thành crawl tự động!

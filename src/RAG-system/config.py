@@ -15,7 +15,7 @@ class RerankerConfig:
 
 @dataclass
 class RetrieverConfig:
-    search_k: int = 100
+    search_k: int = 25
     top_k_after_rerank: int = 3
 
 @dataclass
@@ -33,7 +33,7 @@ class GeminiConfig:
 
 @dataclass
 class DatabaseConfig:
-    persist_directory: str = "vdb"
+    persist_directory: str = "/workspaces/End-to-End-NLP-System/src/RAG-system/vdb"
     collection_name: str = "documents"
 
 @dataclass

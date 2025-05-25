@@ -99,3 +99,1092 @@
 2025-05-24 12:28:03,150 - INFO - Số file đã xử lý: 0
 2025-05-24 12:28:03,150 - INFO - - File tiếng Việt: 0
 2025-05-24 12:28:03,151 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào ../../data/docs/corpus/UET
+2025-05-25 11:15:31,382 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:15:31,385 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:15:31,386 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:15:31,403 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt
+2025-05-25 11:15:31,404 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt
+2025-05-25 11:15:31,404 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt
+2025-05-25 11:15:31,405 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt
+2025-05-25 11:15:31,405 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0002_https___hnue_edu_vn_.txt
+2025-05-25 11:15:31,405 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt
+2025-05-25 11:15:31,406 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt
+2025-05-25 11:15:31,406 - WARNING - Không có đủ nội dung hợp lệ trong file is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt
+2025-05-25 11:15:31,407 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt
+2025-05-25 11:15:31,407 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0041_Đối_tác.txt
+2025-05-25 11:15:31,407 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0033_Bài_hát_truyền_thống.txt
+2025-05-25 11:15:31,408 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt
+2025-05-25 11:15:31,408 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt
+2025-05-25 11:15:31,408 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt
+2025-05-25 11:15:31,409 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0039_Dự_án_quốc_tế.txt
+2025-05-25 11:15:31,409 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:15:31,409 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0038_Job_fair.txt
+2025-05-25 11:15:31,409 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt
+2025-05-25 11:15:31,410 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt
+2025-05-25 11:15:31,410 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt
+2025-05-25 11:15:31,411 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0036_Đề_tài__dự_án.txt
+2025-05-25 11:15:31,412 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt
+2025-05-25 11:15:31,412 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0030_Triết_lí_giáo_dục.txt
+2025-05-25 11:15:31,413 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0028_Lịch_sử_phát_triển.txt
+2025-05-25 11:15:31,414 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:15:31,414 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0032_Ba_công_khai.txt
+2025-05-25 11:15:31,414 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0012_Đào_tạo_ngành_2.txt
+2025-05-25 11:15:31,415 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt
+2025-05-25 11:15:31,415 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt
+2025-05-25 11:15:31,416 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0007_ĐÀO_TẠO.txt
+2025-05-25 11:15:31,415 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt
+2025-05-25 11:15:31,416 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0008_Đào_tạo_Đại_học.txt
+2025-05-25 11:15:31,417 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt
+2025-05-25 11:15:31,417 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0002_Tin_hoạt_động.txt
+2025-05-25 11:15:31,418 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0005_Lịch_công_tác.txt
+2025-05-25 11:15:31,420 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0004_Thông_báo.txt
+2025-05-25 11:15:31,417 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt
+2025-05-25 11:15:31,422 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt
+2025-05-25 11:15:31,422 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0001_TIN_TỨC.txt
+2025-05-25 11:15:31,422 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0024_Cựu_sinh_viên.txt
+2025-05-25 11:15:31,422 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt
+2025-05-25 11:15:31,425 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt
+2025-05-25 11:15:31,425 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0021_SINH_VIÊN.txt
+2025-05-25 11:15:31,425 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tuyen_sinh_0025_Tuyển_dụng.txt
+2025-05-25 11:15:31,426 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt
+2025-05-25 11:15:31,426 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt
+2025-05-25 11:15:31,427 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt
+2025-05-25 11:15:31,426 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt
+2025-05-25 11:15:31,429 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt
+2025-05-25 11:15:31,430 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt
+2025-05-25 11:15:31,431 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:15:31,433 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0008_CÁN_BỘ.txt
+2025-05-25 11:15:31,433 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0006_TRANG_CHỦ.txt
+2025-05-25 11:15:31,434 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt
+2025-05-25 11:15:31,436 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt
+2025-05-25 11:15:31,436 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_sinh_vien_0003_SINH_VIÊN.txt
+2025-05-25 11:15:31,437 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_dao_tao_0001_ĐÀO_TẠO.txt
+2025-05-25 11:15:31,438 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt
+2025-05-25 11:15:31,438 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt
+2025-05-25 11:15:31,441 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:15:31,445 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:15:31,442 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0022_Chiến_lược_phát_triển.txt
+2025-05-25 11:15:31,449 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0029_Chế_độ_chính_sách.txt
+2025-05-25 11:15:31,449 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt
+2025-05-25 11:15:31,449 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt
+2025-05-25 11:15:31,450 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt
+2025-05-25 11:15:31,451 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0027_Bài_hát_truyền_thống.txt
+2025-05-25 11:15:31,452 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0036_Sản_phẩm_KHCN.txt
+2025-05-25 11:15:31,454 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0021_Lịch_sử_phát_triển.txt
+2025-05-25 11:15:31,455 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt
+2025-05-25 11:15:31,455 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0019_Khoa___Viện.txt
+2025-05-25 11:15:31,458 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt
+2025-05-25 11:15:31,458 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0030_Thủ_tục_hành_chính.txt
+2025-05-25 11:15:31,460 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0031_Quy_chế__qui_định.txt
+2025-05-25 11:15:31,459 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0035_Hợp_tác_phát_triển.txt
+2025-05-25 11:15:31,462 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0041_Sau_Đại_học.txt
+2025-05-25 11:15:31,465 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt
+2025-05-25 11:15:31,465 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt
+2025-05-25 11:15:31,465 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt
+2025-05-25 11:15:31,466 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt
+2025-05-25 11:15:31,467 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0040_Các_quy_định.txt
+2025-05-25 11:15:31,467 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0020_Olympic.txt
+2025-05-25 11:15:31,469 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt
+2025-05-25 11:15:31,471 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0004_Đào_tạo.txt
+2025-05-25 11:15:31,471 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0005_Đào_tạo_đại_học.txt
+2025-05-25 11:15:31,472 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt
+2025-05-25 11:15:31,474 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tin_tuc_0017_Thông_báo.txt
+2025-05-25 11:15:31,474 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:15:31,477 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0010_Cựu_sinh_viên.txt
+2025-05-25 11:15:31,477 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0028_Học_phí__học_bổng.txt
+2025-05-25 11:15:31,477 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt
+2025-05-25 11:15:31,478 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt
+2025-05-25 11:15:31,479 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0008_Sinh_viên.txt
+2025-05-25 11:15:31,482 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0013_Tuyển_sinh.txt
+2025-05-25 11:15:31,482 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0012_Sinh_viên_NCKH.txt
+2025-05-25 11:15:31,483 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt
+2025-05-25 11:15:31,483 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0014_Tuyển_dụng.txt
+2025-05-25 11:15:31,486 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt
+2025-05-25 11:15:31,485 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0002_Công_bố_khoa_học.txt
+2025-05-25 11:15:31,486 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt
+2025-05-25 11:15:31,489 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0003_Giới_thiệu.txt
+2025-05-25 11:15:31,489 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0026_Ấn_phẩm.txt
+2025-05-25 11:15:31,487 - WARNING - Không có đủ nội dung hợp lệ trong file uet_lien_he_0016_Địa_chỉ.txt
+2025-05-25 11:15:31,504 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:15:31,504 - INFO - Tổng số file: 104
+2025-05-25 11:15:31,504 - INFO - Số file đã xử lý: 1
+2025-05-25 11:15:31,504 - INFO - - File tiếng Anh: 0
+2025-05-25 11:15:31,504 - INFO - - File tiếng Việt: 1
+2025-05-25 11:15:31,504 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:15:31,505 - INFO - Tổng số ký tự ban đầu: 3665
+2025-05-25 11:15:31,505 - INFO - Tổng số ký tự sau xử lý: 3640
+2025-05-25 11:15:31,505 - INFO - Tỷ lệ giảm: 0.68%
+2025-05-25 11:15:31,506 - INFO - Tổng số từ ban đầu: 790
+2025-05-25 11:15:31,506 - INFO - Tổng số từ sau xử lý: 777
+2025-05-25 11:15:31,506 - INFO - Tổng số câu: 25
+2025-05-25 11:15:31,507 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:20:02,344 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:20:02,346 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:20:02,346 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:20:02,360 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,363 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,363 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,362 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0002_https___hnue_edu_vn_.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,364 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/khoa_hoc/hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,365 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/gioi_thieu/hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,365 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,366 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,366 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/is/sinh_vien/is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,367 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0041_Đối_tác.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,368 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,368 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,368 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,367 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0033_Bài_hát_truyền_thống.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,370 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,370 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0038_Job_fair.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,371 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0039_Dự_án_quốc_tế.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,371 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,371 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,372 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,372 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0036_Đề_tài__dự_án.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,373 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,374 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0028_Lịch_sử_phát_triển.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,374 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0032_Ba_công_khai.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,374 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0030_Triết_lí_giáo_dục.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,375 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,375 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0012_Đào_tạo_ngành_2.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,376 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,377 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,377 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0007_ĐÀO_TẠO.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,377 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,378 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0008_Đào_tạo_Đại_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,378 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,378 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0002_Tin_hoạt_động.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,379 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,379 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0005_Lịch_công_tác.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,380 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0004_Thông_báo.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,381 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0001_TIN_TỨC.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,381 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/sinh_vien/ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,382 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/sinh_vien/ussh_sinh_vien_0024_Cựu_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,382 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/sinh_vien/ussh_sinh_vien_0021_SINH_VIÊN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,381 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,383 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/sinh_vien/ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,383 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tuyen_sinh/ussh_tuyen_sinh_0025_Tuyển_dụng.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,384 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,384 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,385 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,386 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,388 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,388 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,388 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/gioi_thieu/ussh_gioi_thieu_0000_GIỚI_THIỆU.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,389 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/uncategorized/vnu_uncategorized_0006_TRANG_CHỦ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,389 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/uncategorized/vnu_uncategorized_0008_CÁN_BỘ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,389 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/uncategorized/vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,389 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/uncategorized/vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,392 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/dao_tao/vnu_dao_tao_0001_ĐÀO_TẠO.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,392 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/sinh_vien/vnu_sinh_vien_0003_SINH_VIÊN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,392 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/tuyen_sinh/vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,394 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/khoa_hoc/vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,394 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/gioi_thieu/vnu_gioi_thieu_0000_GIỚI_THIỆU.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,394 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0022_Chiến_lược_phát_triển.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,395 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,395 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0029_Chế_độ_chính_sách.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,395 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,396 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,397 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,397 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0027_Bài_hát_truyền_thống.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,397 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0036_Sản_phẩm_KHCN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,398 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0021_Lịch_sử_phát_triển.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,398 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,399 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0019_Khoa___Viện.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,399 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,399 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0030_Thủ_tục_hành_chính.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,400 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0035_Hợp_tác_phát_triển.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,400 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0041_Sau_Đại_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,400 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0031_Quy_chế__qui_định.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,401 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,402 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,402 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,403 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,403 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0040_Các_quy_định.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,403 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0020_Olympic.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,404 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,404 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/dao_tao/uet_dao_tao_0004_Đào_tạo.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,405 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/dao_tao/uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,405 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/dao_tao/uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,406 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/tin_tuc/uet_tin_tuc_0017_Thông_báo.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,406 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/dao_tao/uet_dao_tao_0005_Đào_tạo_đại_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,407 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_uncategorized_0028_Học_phí__học_bổng.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,407 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0010_Cựu_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,408 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,408 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,409 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0008_Sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,411 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0012_Sinh_viên_NCKH.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,411 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/tuyen_sinh/uet_tuyen_sinh_0013_Tuyển_sinh.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,411 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/tuyen_sinh/uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,412 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/khoa_hoc/uet_khoa_hoc_0002_Công_bố_khoa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,413 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/tuyen_sinh/uet_tuyen_sinh_0014_Tuyển_dụng.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,413 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/khoa_hoc/uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,413 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/khoa_hoc/uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,414 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/gioi_thieu/uet_gioi_thieu_0003_Giới_thiệu.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,414 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/gioi_thieu/uet_gioi_thieu_0026_Ấn_phẩm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,415 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/lien_he/uet_lien_he_0016_Địa_chỉ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,416 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/gioi_thieu/uet_gioi_thieu_wiki.txt: name 'cleaned_content' is not defined
+2025-05-25 11:20:02,427 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:20:02,427 - INFO - Tổng số file: 104
+2025-05-25 11:20:02,428 - INFO - Số file đã xử lý: 0
+2025-05-25 11:20:02,428 - INFO - - File tiếng Anh: 0
+2025-05-25 11:20:02,428 - INFO - - File tiếng Việt: 0
+2025-05-25 11:20:02,428 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:20:02,428 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:22:28,822 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:24:25,389 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:24:25,390 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:24:25,390 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:24:25,404 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,406 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,405 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0002_https___hnue_edu_vn_.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,406 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,406 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/uncategorized/hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,407 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/khoa_hoc/hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,407 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/hnue/gioi_thieu/hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,407 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/is/sinh_vien/is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,408 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0041_Đối_tác.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,408 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0033_Bài_hát_truyền_thống.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,408 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,409 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,409 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,410 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,410 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0039_Dự_án_quốc_tế.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,411 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0038_Job_fair.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,411 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,411 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,412 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,413 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0036_Đề_tài__dự_án.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,413 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,413 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0030_Triết_lí_giáo_dục.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,412 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,414 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0032_Ba_công_khai.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,415 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,414 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/uncategorized/ussh_uncategorized_0028_Lịch_sử_phát_triển.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,415 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0012_Đào_tạo_ngành_2.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,416 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,417 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,416 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,418 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0007_ĐÀO_TẠO.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,418 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0008_Đào_tạo_Đại_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,418 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/dao_tao/ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,419 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0002_Tin_hoạt_động.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,419 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,419 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0005_Lịch_công_tác.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,420 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0004_Thông_báo.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,420 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,420 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tin_tuc/ussh_tin_tuc_0001_TIN_TỨC.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,420 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/sinh_vien/ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,421 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/sinh_vien/ussh_sinh_vien_0024_Cựu_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,421 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/sinh_vien/ussh_sinh_vien_0021_SINH_VIÊN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,421 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/sinh_vien/ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,422 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/tuyen_sinh/ussh_tuyen_sinh_0025_Tuyển_dụng.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,422 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,423 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,424 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,423 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,425 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,425 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/khoa_hoc/ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,425 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/ussh/gioi_thieu/ussh_gioi_thieu_0000_GIỚI_THIỆU.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,426 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/uncategorized/vnu_uncategorized_0008_CÁN_BỘ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,426 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/uncategorized/vnu_uncategorized_0006_TRANG_CHỦ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,426 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/uncategorized/vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,427 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/uncategorized/vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,427 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/dao_tao/vnu_dao_tao_0001_ĐÀO_TẠO.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,429 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/sinh_vien/vnu_sinh_vien_0003_SINH_VIÊN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,429 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/tuyen_sinh/vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,429 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/khoa_hoc/vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,433 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/vnu/gioi_thieu/vnu_gioi_thieu_0000_GIỚI_THIỆU.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,433 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0022_Chiến_lược_phát_triển.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,435 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,436 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0029_Chế_độ_chính_sách.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,436 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,436 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,437 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,437 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0027_Bài_hát_truyền_thống.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,438 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0036_Sản_phẩm_KHCN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,439 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,439 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0019_Khoa___Viện.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,439 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0021_Lịch_sử_phát_triển.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,440 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,440 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0030_Thủ_tục_hành_chính.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,440 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0035_Hợp_tác_phát_triển.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,441 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0041_Sau_Đại_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,442 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,442 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0031_Quy_chế__qui_định.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,444 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,444 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,445 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,445 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0040_Các_quy_định.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,445 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0020_Olympic.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,447 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/dao_tao/uet_dao_tao_0004_Đào_tạo.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,447 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/dao_tao/uet_dao_tao_0005_Đào_tạo_đại_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,447 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/uncategorized/uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,449 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/dao_tao/uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,449 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/dao_tao/uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,450 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/tin_tuc/uet_tin_tuc_0017_Thông_báo.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,451 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0010_Cựu_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,451 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,451 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_uncategorized_0028_Học_phí__học_bổng.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,454 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,454 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0008_Sinh_viên.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,454 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/sinh_vien/uet_sinh_vien_0012_Sinh_viên_NCKH.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,455 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/tuyen_sinh/uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,455 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/tuyen_sinh/uet_tuyen_sinh_0014_Tuyển_dụng.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,456 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/tuyen_sinh/uet_tuyen_sinh_0013_Tuyển_sinh.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,456 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/khoa_hoc/uet_khoa_hoc_0002_Công_bố_khoa_học.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,457 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/khoa_hoc/uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,457 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/khoa_hoc/uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,459 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/gioi_thieu/uet_gioi_thieu_0003_Giới_thiệu.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,460 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/gioi_thieu/uet_gioi_thieu_0026_Ấn_phẩm.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,460 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/lien_he/uet_lien_he_0016_Địa_chỉ.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,461 - ERROR - Lỗi khi xử lý file /workspaces/End-to-End-NLP-System/data/raw/uet/gioi_thieu/uet_gioi_thieu_wiki.txt: name 'cleaned_content' is not defined
+2025-05-25 11:24:25,478 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:24:25,478 - INFO - Tổng số file: 104
+2025-05-25 11:24:25,478 - INFO - Số file đã xử lý: 0
+2025-05-25 11:24:25,478 - INFO - - File tiếng Anh: 0
+2025-05-25 11:24:25,478 - INFO - - File tiếng Việt: 0
+2025-05-25 11:24:25,478 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:24:25,478 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:25:38,273 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:25:38,274 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:25:38,274 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:25:38,291 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0002_https___hnue_edu_vn_.txt
+2025-05-25 11:25:38,292 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt
+2025-05-25 11:25:38,293 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt
+2025-05-25 11:25:38,293 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt
+2025-05-25 11:25:38,294 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt
+2025-05-25 11:25:38,294 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt
+2025-05-25 11:25:38,294 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt
+2025-05-25 11:25:38,295 - WARNING - Không có đủ nội dung hợp lệ trong file is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt
+2025-05-25 11:25:38,296 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt
+2025-05-25 11:25:38,296 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0041_Đối_tác.txt
+2025-05-25 11:25:38,296 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0033_Bài_hát_truyền_thống.txt
+2025-05-25 11:25:38,297 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt
+2025-05-25 11:25:38,297 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt
+2025-05-25 11:25:38,298 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt
+2025-05-25 11:25:38,298 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0039_Dự_án_quốc_tế.txt
+2025-05-25 11:25:38,299 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:25:38,300 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt
+2025-05-25 11:25:38,300 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt
+2025-05-25 11:25:38,300 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0038_Job_fair.txt
+2025-05-25 11:25:38,301 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt
+2025-05-25 11:25:38,302 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0036_Đề_tài__dự_án.txt
+2025-05-25 11:25:38,302 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt
+2025-05-25 11:25:38,303 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0030_Triết_lí_giáo_dục.txt
+2025-05-25 11:25:38,303 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0032_Ba_công_khai.txt
+2025-05-25 11:25:38,303 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0028_Lịch_sử_phát_triển.txt
+2025-05-25 11:25:38,303 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:25:38,304 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0012_Đào_tạo_ngành_2.txt
+2025-05-25 11:25:38,304 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt
+2025-05-25 11:25:38,304 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt
+2025-05-25 11:25:38,305 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt
+2025-05-25 11:25:38,306 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0007_ĐÀO_TẠO.txt
+2025-05-25 11:25:38,306 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0008_Đào_tạo_Đại_học.txt
+2025-05-25 11:25:38,307 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt
+2025-05-25 11:25:38,308 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0002_Tin_hoạt_động.txt
+2025-05-25 11:25:38,308 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0005_Lịch_công_tác.txt
+2025-05-25 11:25:38,308 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt
+2025-05-25 11:25:38,309 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt
+2025-05-25 11:25:38,309 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0004_Thông_báo.txt
+2025-05-25 11:25:38,310 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0001_TIN_TỨC.txt
+2025-05-25 11:25:38,311 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0024_Cựu_sinh_viên.txt
+2025-05-25 11:25:38,311 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt
+2025-05-25 11:25:38,311 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0021_SINH_VIÊN.txt
+2025-05-25 11:25:38,312 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt
+2025-05-25 11:25:38,313 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tuyen_sinh_0025_Tuyển_dụng.txt
+2025-05-25 11:25:38,313 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt
+2025-05-25 11:25:38,314 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt
+2025-05-25 11:25:38,314 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt
+2025-05-25 11:25:38,315 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt
+2025-05-25 11:25:38,315 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt
+2025-05-25 11:25:38,315 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt
+2025-05-25 11:25:38,316 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:25:38,317 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0006_TRANG_CHỦ.txt
+2025-05-25 11:25:38,318 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt
+2025-05-25 11:25:38,317 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0008_CÁN_BỘ.txt
+2025-05-25 11:25:38,319 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_dao_tao_0001_ĐÀO_TẠO.txt
+2025-05-25 11:25:38,319 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_sinh_vien_0003_SINH_VIÊN.txt
+2025-05-25 11:25:38,319 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt
+2025-05-25 11:25:38,320 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt
+2025-05-25 11:25:38,320 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt
+2025-05-25 11:25:38,321 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0022_Chiến_lược_phát_triển.txt
+2025-05-25 11:25:38,322 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:25:38,322 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:25:38,323 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0029_Chế_độ_chính_sách.txt
+2025-05-25 11:25:38,323 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt
+2025-05-25 11:25:38,323 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt
+2025-05-25 11:25:38,324 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt
+2025-05-25 11:25:38,325 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0027_Bài_hát_truyền_thống.txt
+2025-05-25 11:25:38,325 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0036_Sản_phẩm_KHCN.txt
+2025-05-25 11:25:38,326 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0021_Lịch_sử_phát_triển.txt
+2025-05-25 11:25:38,326 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt
+2025-05-25 11:25:38,327 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0019_Khoa___Viện.txt
+2025-05-25 11:25:38,327 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt
+2025-05-25 11:25:38,328 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0030_Thủ_tục_hành_chính.txt
+2025-05-25 11:25:38,328 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0031_Quy_chế__qui_định.txt
+2025-05-25 11:25:38,328 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0035_Hợp_tác_phát_triển.txt
+2025-05-25 11:25:38,329 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0041_Sau_Đại_học.txt
+2025-05-25 11:25:38,329 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt
+2025-05-25 11:25:38,330 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt
+2025-05-25 11:25:38,330 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt
+2025-05-25 11:25:38,330 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0040_Các_quy_định.txt
+2025-05-25 11:25:38,331 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0020_Olympic.txt
+2025-05-25 11:25:38,331 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt
+2025-05-25 11:25:38,331 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0004_Đào_tạo.txt
+2025-05-25 11:25:38,331 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt
+2025-05-25 11:25:38,332 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt
+2025-05-25 11:25:38,332 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:25:38,332 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tin_tuc_0017_Thông_báo.txt
+2025-05-25 11:25:38,333 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0028_Học_phí__học_bổng.txt
+2025-05-25 11:25:38,333 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0010_Cựu_sinh_viên.txt
+2025-05-25 11:25:38,333 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt
+2025-05-25 11:25:38,334 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt
+2025-05-25 11:25:38,334 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0005_Đào_tạo_đại_học.txt
+2025-05-25 11:25:38,335 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0008_Sinh_viên.txt
+2025-05-25 11:25:38,336 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0013_Tuyển_sinh.txt
+2025-05-25 11:25:38,336 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt
+2025-05-25 11:25:38,337 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0012_Sinh_viên_NCKH.txt
+2025-05-25 11:25:38,337 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0014_Tuyển_dụng.txt
+2025-05-25 11:25:38,337 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0002_Công_bố_khoa_học.txt
+2025-05-25 11:25:38,338 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt
+2025-05-25 11:25:38,337 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt
+2025-05-25 11:25:38,338 - WARNING - Không có đủ nội dung hợp lệ trong file uet_lien_he_0016_Địa_chỉ.txt
+2025-05-25 11:25:38,338 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0003_Giới_thiệu.txt
+2025-05-25 11:25:38,339 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0026_Ấn_phẩm.txt
+2025-05-25 11:25:38,352 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:25:38,352 - INFO - Tổng số file: 104
+2025-05-25 11:25:38,353 - INFO - Số file đã xử lý: 1
+2025-05-25 11:25:38,353 - INFO - - File tiếng Anh: 0
+2025-05-25 11:25:38,353 - INFO - - File tiếng Việt: 1
+2025-05-25 11:25:38,353 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:25:38,353 - INFO - Tổng số ký tự ban đầu: 3665
+2025-05-25 11:25:38,353 - INFO - Tổng số ký tự sau xử lý: 3652
+2025-05-25 11:25:38,353 - INFO - Tỷ lệ giảm: 0.35%
+2025-05-25 11:25:38,353 - INFO - Tổng số từ ban đầu: 790
+2025-05-25 11:25:38,353 - INFO - Tổng số từ sau xử lý: 789
+2025-05-25 11:25:38,354 - INFO - Tổng số câu: 25
+2025-05-25 11:25:38,354 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:27:15,962 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:27:15,964 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:27:15,964 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:27:15,981 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0002_https___hnue_edu_vn_.txt
+2025-05-25 11:27:15,982 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt
+2025-05-25 11:27:15,981 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt
+2025-05-25 11:27:15,983 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt
+2025-05-25 11:27:15,983 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt
+2025-05-25 11:27:15,984 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt
+2025-05-25 11:27:15,984 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt
+2025-05-25 11:27:15,984 - WARNING - Không có đủ nội dung hợp lệ trong file is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt
+2025-05-25 11:27:15,984 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt
+2025-05-25 11:27:15,985 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0041_Đối_tác.txt
+2025-05-25 11:27:15,986 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt
+2025-05-25 11:27:15,986 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0033_Bài_hát_truyền_thống.txt
+2025-05-25 11:27:15,986 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt
+2025-05-25 11:27:15,987 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0039_Dự_án_quốc_tế.txt
+2025-05-25 11:27:15,987 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt
+2025-05-25 11:27:15,987 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:27:15,988 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt
+2025-05-25 11:27:15,988 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt
+2025-05-25 11:27:15,988 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0038_Job_fair.txt
+2025-05-25 11:27:15,989 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0036_Đề_tài__dự_án.txt
+2025-05-25 11:27:15,989 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt
+2025-05-25 11:27:15,989 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt
+2025-05-25 11:27:15,990 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0030_Triết_lí_giáo_dục.txt
+2025-05-25 11:27:15,990 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0028_Lịch_sử_phát_triển.txt
+2025-05-25 11:27:15,991 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0032_Ba_công_khai.txt
+2025-05-25 11:27:15,992 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0012_Đào_tạo_ngành_2.txt
+2025-05-25 11:27:15,992 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt
+2025-05-25 11:27:15,993 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt
+2025-05-25 11:27:15,993 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt
+2025-05-25 11:27:15,993 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:27:15,994 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0007_ĐÀO_TẠO.txt
+2025-05-25 11:27:15,994 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0008_Đào_tạo_Đại_học.txt
+2025-05-25 11:27:15,994 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt
+2025-05-25 11:27:15,995 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0002_Tin_hoạt_động.txt
+2025-05-25 11:27:15,995 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt
+2025-05-25 11:27:15,995 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0005_Lịch_công_tác.txt
+2025-05-25 11:27:15,996 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0004_Thông_báo.txt
+2025-05-25 11:27:15,997 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt
+2025-05-25 11:27:15,997 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0001_TIN_TỨC.txt
+2025-05-25 11:27:15,998 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0024_Cựu_sinh_viên.txt
+2025-05-25 11:27:15,998 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt
+2025-05-25 11:27:15,999 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0021_SINH_VIÊN.txt
+2025-05-25 11:27:15,999 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt
+2025-05-25 11:27:15,999 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tuyen_sinh_0025_Tuyển_dụng.txt
+2025-05-25 11:27:15,999 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt
+2025-05-25 11:27:16,000 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt
+2025-05-25 11:27:16,000 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt
+2025-05-25 11:27:16,001 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt
+2025-05-25 11:27:16,001 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt
+2025-05-25 11:27:16,002 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt
+2025-05-25 11:27:16,002 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:27:16,003 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0008_CÁN_BỘ.txt
+2025-05-25 11:27:16,003 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt
+2025-05-25 11:27:16,004 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0006_TRANG_CHỦ.txt
+2025-05-25 11:27:16,004 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_dao_tao_0001_ĐÀO_TẠO.txt
+2025-05-25 11:27:16,005 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_sinh_vien_0003_SINH_VIÊN.txt
+2025-05-25 11:27:16,004 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt
+2025-05-25 11:27:16,006 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt
+2025-05-25 11:27:16,007 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:27:16,007 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0022_Chiến_lược_phát_triển.txt
+2025-05-25 11:27:16,007 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt
+2025-05-25 11:27:16,008 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:27:16,009 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0029_Chế_độ_chính_sách.txt
+2025-05-25 11:27:16,009 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt
+2025-05-25 11:27:16,010 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt
+2025-05-25 11:27:16,010 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt
+2025-05-25 11:27:16,010 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0027_Bài_hát_truyền_thống.txt
+2025-05-25 11:27:16,011 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0036_Sản_phẩm_KHCN.txt
+2025-05-25 11:27:16,011 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0021_Lịch_sử_phát_triển.txt
+2025-05-25 11:27:16,012 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt
+2025-05-25 11:27:16,013 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0019_Khoa___Viện.txt
+2025-05-25 11:27:16,013 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt
+2025-05-25 11:27:16,013 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0030_Thủ_tục_hành_chính.txt
+2025-05-25 11:27:16,014 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0031_Quy_chế__qui_định.txt
+2025-05-25 11:27:16,014 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0035_Hợp_tác_phát_triển.txt
+2025-05-25 11:27:16,014 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0041_Sau_Đại_học.txt
+2025-05-25 11:27:16,014 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt
+2025-05-25 11:27:16,015 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt
+2025-05-25 11:27:16,015 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt
+2025-05-25 11:27:16,016 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt
+2025-05-25 11:27:16,016 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0020_Olympic.txt
+2025-05-25 11:27:16,017 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0040_Các_quy_định.txt
+2025-05-25 11:27:16,018 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0004_Đào_tạo.txt
+2025-05-25 11:27:16,018 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0005_Đào_tạo_đại_học.txt
+2025-05-25 11:27:16,017 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt
+2025-05-25 11:27:16,019 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt
+2025-05-25 11:27:16,019 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:27:16,019 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tin_tuc_0017_Thông_báo.txt
+2025-05-25 11:27:16,020 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0028_Học_phí__học_bổng.txt
+2025-05-25 11:27:16,020 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0010_Cựu_sinh_viên.txt
+2025-05-25 11:27:16,020 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt
+2025-05-25 11:27:16,021 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt
+2025-05-25 11:27:16,021 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0008_Sinh_viên.txt
+2025-05-25 11:27:16,021 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0013_Tuyển_sinh.txt
+2025-05-25 11:27:16,022 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0012_Sinh_viên_NCKH.txt
+2025-05-25 11:27:16,023 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0014_Tuyển_dụng.txt
+2025-05-25 11:27:16,023 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0002_Công_bố_khoa_học.txt
+2025-05-25 11:27:16,022 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt
+2025-05-25 11:27:16,024 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt
+2025-05-25 11:27:16,025 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt
+2025-05-25 11:27:16,025 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0003_Giới_thiệu.txt
+2025-05-25 11:27:16,025 - WARNING - Không có đủ nội dung hợp lệ trong file uet_lien_he_0016_Địa_chỉ.txt
+2025-05-25 11:27:16,026 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0026_Ấn_phẩm.txt
+2025-05-25 11:27:16,036 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:27:16,037 - INFO - Tổng số file: 104
+2025-05-25 11:27:16,037 - INFO - Số file đã xử lý: 1
+2025-05-25 11:27:16,037 - INFO - - File tiếng Anh: 0
+2025-05-25 11:27:16,037 - INFO - - File tiếng Việt: 1
+2025-05-25 11:27:16,037 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:27:16,037 - INFO - Tổng số ký tự ban đầu: 3665
+2025-05-25 11:27:16,037 - INFO - Tổng số ký tự sau xử lý: 3652
+2025-05-25 11:27:16,037 - INFO - Tỷ lệ giảm: 0.35%
+2025-05-25 11:27:16,037 - INFO - Tổng số từ ban đầu: 790
+2025-05-25 11:27:16,037 - INFO - Tổng số từ sau xử lý: 789
+2025-05-25 11:27:16,038 - INFO - Tổng số câu: 25
+2025-05-25 11:27:16,038 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:28:52,092 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:28:52,093 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:28:52,093 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:28:52,109 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt
+2025-05-25 11:28:52,110 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt
+2025-05-25 11:28:52,111 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt
+2025-05-25 11:28:52,111 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0002_https___hnue_edu_vn_.txt
+2025-05-25 11:28:52,111 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt
+2025-05-25 11:28:52,112 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt
+2025-05-25 11:28:52,112 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt
+2025-05-25 11:28:52,112 - WARNING - Không có đủ nội dung hợp lệ trong file is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt
+2025-05-25 11:28:52,113 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt
+2025-05-25 11:28:52,113 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0041_Đối_tác.txt
+2025-05-25 11:28:52,114 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0033_Bài_hát_truyền_thống.txt
+2025-05-25 11:28:52,114 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt
+2025-05-25 11:28:52,115 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt
+2025-05-25 11:28:52,115 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt
+2025-05-25 11:28:52,115 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:28:52,115 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0039_Dự_án_quốc_tế.txt
+2025-05-25 11:28:52,116 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0038_Job_fair.txt
+2025-05-25 11:28:52,116 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt
+2025-05-25 11:28:52,117 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt
+2025-05-25 11:28:52,117 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt
+2025-05-25 11:28:52,117 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0036_Đề_tài__dự_án.txt
+2025-05-25 11:28:52,117 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt
+2025-05-25 11:28:52,117 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0030_Triết_lí_giáo_dục.txt
+2025-05-25 11:28:52,119 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0028_Lịch_sử_phát_triển.txt
+2025-05-25 11:28:52,119 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0032_Ba_công_khai.txt
+2025-05-25 11:28:52,119 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:28:52,121 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0012_Đào_tạo_ngành_2.txt
+2025-05-25 11:28:52,121 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt
+2025-05-25 11:28:52,121 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt
+2025-05-25 11:28:52,121 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt
+2025-05-25 11:28:52,121 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0007_ĐÀO_TẠO.txt
+2025-05-25 11:28:52,122 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0008_Đào_tạo_Đại_học.txt
+2025-05-25 11:28:52,122 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0002_Tin_hoạt_động.txt
+2025-05-25 11:28:52,123 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt
+2025-05-25 11:28:52,122 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt
+2025-05-25 11:28:52,124 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0005_Lịch_công_tác.txt
+2025-05-25 11:28:52,124 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt
+2025-05-25 11:28:52,125 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0001_TIN_TỨC.txt
+2025-05-25 11:28:52,124 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0004_Thông_báo.txt
+2025-05-25 11:28:52,125 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt
+2025-05-25 11:28:52,126 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0024_Cựu_sinh_viên.txt
+2025-05-25 11:28:52,126 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0021_SINH_VIÊN.txt
+2025-05-25 11:28:52,127 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt
+2025-05-25 11:28:52,127 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tuyen_sinh_0025_Tuyển_dụng.txt
+2025-05-25 11:28:52,128 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt
+2025-05-25 11:28:52,128 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt
+2025-05-25 11:28:52,129 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt
+2025-05-25 11:28:52,129 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt
+2025-05-25 11:28:52,129 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt
+2025-05-25 11:28:52,130 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt
+2025-05-25 11:28:52,131 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:28:52,131 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0006_TRANG_CHỦ.txt
+2025-05-25 11:28:52,131 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0008_CÁN_BỘ.txt
+2025-05-25 11:28:52,132 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt
+2025-05-25 11:28:52,132 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt
+2025-05-25 11:28:52,133 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_dao_tao_0001_ĐÀO_TẠO.txt
+2025-05-25 11:28:52,133 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt
+2025-05-25 11:28:52,133 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_sinh_vien_0003_SINH_VIÊN.txt
+2025-05-25 11:28:52,134 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt
+2025-05-25 11:28:52,135 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:28:52,135 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0022_Chiến_lược_phát_triển.txt
+2025-05-25 11:28:52,136 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:28:52,137 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0029_Chế_độ_chính_sách.txt
+2025-05-25 11:28:52,137 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt
+2025-05-25 11:28:52,138 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt
+2025-05-25 11:28:52,138 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt
+2025-05-25 11:28:52,138 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0027_Bài_hát_truyền_thống.txt
+2025-05-25 11:28:52,139 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0036_Sản_phẩm_KHCN.txt
+2025-05-25 11:28:52,140 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0021_Lịch_sử_phát_triển.txt
+2025-05-25 11:28:52,140 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt
+2025-05-25 11:28:52,140 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0019_Khoa___Viện.txt
+2025-05-25 11:28:52,141 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt
+2025-05-25 11:28:52,142 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0030_Thủ_tục_hành_chính.txt
+2025-05-25 11:28:52,142 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0035_Hợp_tác_phát_triển.txt
+2025-05-25 11:28:52,143 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0031_Quy_chế__qui_định.txt
+2025-05-25 11:28:52,143 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0041_Sau_Đại_học.txt
+2025-05-25 11:28:52,143 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt
+2025-05-25 11:28:52,145 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt
+2025-05-25 11:28:52,146 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt
+2025-05-25 11:28:52,146 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt
+2025-05-25 11:28:52,146 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0040_Các_quy_định.txt
+2025-05-25 11:28:52,147 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0020_Olympic.txt
+2025-05-25 11:28:52,147 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt
+2025-05-25 11:28:52,147 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0004_Đào_tạo.txt
+2025-05-25 11:28:52,148 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0005_Đào_tạo_đại_học.txt
+2025-05-25 11:28:52,148 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt
+2025-05-25 11:28:52,149 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tin_tuc_0017_Thông_báo.txt
+2025-05-25 11:28:52,150 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0028_Học_phí__học_bổng.txt
+2025-05-25 11:28:52,150 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:28:52,150 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt
+2025-05-25 11:28:52,151 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0010_Cựu_sinh_viên.txt
+2025-05-25 11:28:52,151 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt
+2025-05-25 11:28:52,152 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0008_Sinh_viên.txt
+2025-05-25 11:28:52,152 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0013_Tuyển_sinh.txt
+2025-05-25 11:28:52,152 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0012_Sinh_viên_NCKH.txt
+2025-05-25 11:28:52,153 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt
+2025-05-25 11:28:52,153 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0014_Tuyển_dụng.txt
+2025-05-25 11:28:52,154 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0002_Công_bố_khoa_học.txt
+2025-05-25 11:28:52,154 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt
+2025-05-25 11:28:52,155 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt
+2025-05-25 11:28:52,156 - WARNING - Không có đủ nội dung hợp lệ trong file uet_lien_he_0016_Địa_chỉ.txt
+2025-05-25 11:28:52,156 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0003_Giới_thiệu.txt
+2025-05-25 11:28:52,157 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0026_Ấn_phẩm.txt
+2025-05-25 11:28:52,169 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:28:52,169 - INFO - Tổng số file: 104
+2025-05-25 11:28:52,169 - INFO - Số file đã xử lý: 1
+2025-05-25 11:28:52,170 - INFO - - File tiếng Anh: 0
+2025-05-25 11:28:52,170 - INFO - - File tiếng Việt: 1
+2025-05-25 11:28:52,170 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:28:52,170 - INFO - Tổng số ký tự ban đầu: 3665
+2025-05-25 11:28:52,170 - INFO - Tổng số ký tự sau xử lý: 3652
+2025-05-25 11:28:52,170 - INFO - Tỷ lệ giảm: 0.35%
+2025-05-25 11:28:52,170 - INFO - Tổng số từ ban đầu: 790
+2025-05-25 11:28:52,170 - INFO - Tổng số từ sau xử lý: 789
+2025-05-25 11:28:52,170 - INFO - Tổng số câu: 25
+2025-05-25 11:28:52,171 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:30:03,381 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:30:03,382 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:30:03,383 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:30:03,400 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0002_https___hnue_edu_vn_.txt
+2025-05-25 11:30:03,401 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt
+2025-05-25 11:30:03,401 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt
+2025-05-25 11:30:03,401 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt
+2025-05-25 11:30:03,402 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt
+2025-05-25 11:30:03,403 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt
+2025-05-25 11:30:03,403 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt
+2025-05-25 11:30:03,403 - WARNING - Không có đủ nội dung hợp lệ trong file is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt
+2025-05-25 11:30:03,404 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0041_Đối_tác.txt
+2025-05-25 11:30:03,404 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt
+2025-05-25 11:30:03,404 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0033_Bài_hát_truyền_thống.txt
+2025-05-25 11:30:03,405 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt
+2025-05-25 11:30:03,405 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt
+2025-05-25 11:30:03,405 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt
+2025-05-25 11:30:03,406 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:30:03,406 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0039_Dự_án_quốc_tế.txt
+2025-05-25 11:30:03,407 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt
+2025-05-25 11:30:03,407 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt
+2025-05-25 11:30:03,406 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0038_Job_fair.txt
+2025-05-25 11:30:03,408 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt
+2025-05-25 11:30:03,408 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0036_Đề_tài__dự_án.txt
+2025-05-25 11:30:03,408 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt
+2025-05-25 11:30:03,409 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0030_Triết_lí_giáo_dục.txt
+2025-05-25 11:30:03,410 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0032_Ba_công_khai.txt
+2025-05-25 11:30:03,409 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0028_Lịch_sử_phát_triển.txt
+2025-05-25 11:30:03,411 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0012_Đào_tạo_ngành_2.txt
+2025-05-25 11:30:03,411 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:30:03,412 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt
+2025-05-25 11:30:03,412 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt
+2025-05-25 11:30:03,413 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt
+2025-05-25 11:30:03,413 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0007_ĐÀO_TẠO.txt
+2025-05-25 11:30:03,413 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0008_Đào_tạo_Đại_học.txt
+2025-05-25 11:30:03,414 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt
+2025-05-25 11:30:03,414 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt
+2025-05-25 11:30:03,415 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0002_Tin_hoạt_động.txt
+2025-05-25 11:30:03,415 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0005_Lịch_công_tác.txt
+2025-05-25 11:30:03,416 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0004_Thông_báo.txt
+2025-05-25 11:30:03,416 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt
+2025-05-25 11:30:03,417 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0001_TIN_TỨC.txt
+2025-05-25 11:30:03,418 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0024_Cựu_sinh_viên.txt
+2025-05-25 11:30:03,417 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt
+2025-05-25 11:30:03,418 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0021_SINH_VIÊN.txt
+2025-05-25 11:30:03,418 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt
+2025-05-25 11:30:03,419 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt
+2025-05-25 11:30:03,419 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tuyen_sinh_0025_Tuyển_dụng.txt
+2025-05-25 11:30:03,420 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt
+2025-05-25 11:30:03,420 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt
+2025-05-25 11:30:03,421 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt
+2025-05-25 11:30:03,421 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt
+2025-05-25 11:30:03,422 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:30:03,422 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt
+2025-05-25 11:30:03,422 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0006_TRANG_CHỦ.txt
+2025-05-25 11:30:03,423 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt
+2025-05-25 11:30:03,423 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0008_CÁN_BỘ.txt
+2025-05-25 11:30:03,423 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt
+2025-05-25 11:30:03,423 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_dao_tao_0001_ĐÀO_TẠO.txt
+2025-05-25 11:30:03,424 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_sinh_vien_0003_SINH_VIÊN.txt
+2025-05-25 11:30:03,425 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt
+2025-05-25 11:30:03,425 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt
+2025-05-25 11:30:03,426 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:30:03,427 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0022_Chiến_lược_phát_triển.txt
+2025-05-25 11:30:03,427 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:30:03,427 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0029_Chế_độ_chính_sách.txt
+2025-05-25 11:30:03,428 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt
+2025-05-25 11:30:03,428 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt
+2025-05-25 11:30:03,428 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt
+2025-05-25 11:30:03,430 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0027_Bài_hát_truyền_thống.txt
+2025-05-25 11:30:03,431 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0021_Lịch_sử_phát_triển.txt
+2025-05-25 11:30:03,431 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0036_Sản_phẩm_KHCN.txt
+2025-05-25 11:30:03,431 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt
+2025-05-25 11:30:03,432 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0019_Khoa___Viện.txt
+2025-05-25 11:30:03,432 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt
+2025-05-25 11:30:03,432 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0030_Thủ_tục_hành_chính.txt
+2025-05-25 11:30:03,433 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0035_Hợp_tác_phát_triển.txt
+2025-05-25 11:30:03,433 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0031_Quy_chế__qui_định.txt
+2025-05-25 11:30:03,433 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0041_Sau_Đại_học.txt
+2025-05-25 11:30:03,434 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt
+2025-05-25 11:30:03,434 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt
+2025-05-25 11:30:03,434 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt
+2025-05-25 11:30:03,435 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0040_Các_quy_định.txt
+2025-05-25 11:30:03,436 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0020_Olympic.txt
+2025-05-25 11:30:03,435 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt
+2025-05-25 11:30:03,437 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt
+2025-05-25 11:30:03,437 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0004_Đào_tạo.txt
+2025-05-25 11:30:03,438 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt
+2025-05-25 11:30:03,438 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:30:03,438 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0005_Đào_tạo_đại_học.txt
+2025-05-25 11:30:03,439 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0028_Học_phí__học_bổng.txt
+2025-05-25 11:30:03,439 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0010_Cựu_sinh_viên.txt
+2025-05-25 11:30:03,440 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt
+2025-05-25 11:30:03,440 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt
+2025-05-25 11:30:03,439 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tin_tuc_0017_Thông_báo.txt
+2025-05-25 11:30:03,441 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0008_Sinh_viên.txt
+2025-05-25 11:30:03,441 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0012_Sinh_viên_NCKH.txt
+2025-05-25 11:30:03,442 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0013_Tuyển_sinh.txt
+2025-05-25 11:30:03,443 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0014_Tuyển_dụng.txt
+2025-05-25 11:30:03,442 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt
+2025-05-25 11:30:03,444 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0002_Công_bố_khoa_học.txt
+2025-05-25 11:30:03,444 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt
+2025-05-25 11:30:03,444 - WARNING - Không có đủ nội dung hợp lệ trong file uet_lien_he_0016_Địa_chỉ.txt
+2025-05-25 11:30:03,445 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0003_Giới_thiệu.txt
+2025-05-25 11:30:03,445 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0026_Ấn_phẩm.txt
+2025-05-25 11:30:03,444 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt
+2025-05-25 11:30:03,456 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:30:03,456 - INFO - Tổng số file: 104
+2025-05-25 11:30:03,456 - INFO - Số file đã xử lý: 1
+2025-05-25 11:30:03,456 - INFO - - File tiếng Anh: 0
+2025-05-25 11:30:03,457 - INFO - - File tiếng Việt: 1
+2025-05-25 11:30:03,457 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:30:03,457 - INFO - Tổng số ký tự ban đầu: 3665
+2025-05-25 11:30:03,457 - INFO - Tổng số ký tự sau xử lý: 3652
+2025-05-25 11:30:03,457 - INFO - Tỷ lệ giảm: 0.35%
+2025-05-25 11:30:03,457 - INFO - Tổng số từ ban đầu: 790
+2025-05-25 11:30:03,457 - INFO - Tổng số từ sau xử lý: 789
+2025-05-25 11:30:03,457 - INFO - Tổng số câu: 25
+2025-05-25 11:30:03,458 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:32:41,951 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:32:41,952 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:32:41,952 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:32:41,969 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt
+2025-05-25 11:32:41,969 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt
+2025-05-25 11:32:41,969 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0002_https___hnue_edu_vn_.txt
+2025-05-25 11:32:41,970 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt
+2025-05-25 11:32:41,970 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt
+2025-05-25 11:32:41,972 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt
+2025-05-25 11:32:41,972 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt
+2025-05-25 11:32:41,972 - WARNING - Không có đủ nội dung hợp lệ trong file is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt
+2025-05-25 11:32:41,973 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt
+2025-05-25 11:32:41,973 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0041_Đối_tác.txt
+2025-05-25 11:32:41,973 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0033_Bài_hát_truyền_thống.txt
+2025-05-25 11:32:41,974 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt
+2025-05-25 11:32:41,974 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt
+2025-05-25 11:32:41,975 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt
+2025-05-25 11:32:41,975 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0039_Dự_án_quốc_tế.txt
+2025-05-25 11:32:41,976 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0038_Job_fair.txt
+2025-05-25 11:32:41,976 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:32:41,977 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt
+2025-05-25 11:32:41,977 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt
+2025-05-25 11:32:41,978 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt
+2025-05-25 11:32:41,978 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0036_Đề_tài__dự_án.txt
+2025-05-25 11:32:41,979 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt
+2025-05-25 11:32:41,979 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0030_Triết_lí_giáo_dục.txt
+2025-05-25 11:32:41,980 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0028_Lịch_sử_phát_triển.txt
+2025-05-25 11:32:41,980 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0032_Ba_công_khai.txt
+2025-05-25 11:32:41,980 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:32:41,981 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0012_Đào_tạo_ngành_2.txt
+2025-05-25 11:32:41,981 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt
+2025-05-25 11:32:41,982 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt
+2025-05-25 11:32:41,981 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt
+2025-05-25 11:32:41,983 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0007_ĐÀO_TẠO.txt
+2025-05-25 11:32:41,984 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt
+2025-05-25 11:32:41,984 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0008_Đào_tạo_Đại_học.txt
+2025-05-25 11:32:41,985 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0002_Tin_hoạt_động.txt
+2025-05-25 11:32:41,985 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt
+2025-05-25 11:32:41,986 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0004_Thông_báo.txt
+2025-05-25 11:32:41,986 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt
+2025-05-25 11:32:41,985 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0005_Lịch_công_tác.txt
+2025-05-25 11:32:41,987 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0001_TIN_TỨC.txt
+2025-05-25 11:32:41,988 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0024_Cựu_sinh_viên.txt
+2025-05-25 11:32:41,988 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0021_SINH_VIÊN.txt
+2025-05-25 11:32:41,988 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt
+2025-05-25 11:32:41,989 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tuyen_sinh_0025_Tuyển_dụng.txt
+2025-05-25 11:32:41,987 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt
+2025-05-25 11:32:41,989 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt
+2025-05-25 11:32:41,990 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt
+2025-05-25 11:32:41,990 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt
+2025-05-25 11:32:41,991 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt
+2025-05-25 11:32:41,991 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt
+2025-05-25 11:32:41,991 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt
+2025-05-25 11:32:41,992 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:32:41,993 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0008_CÁN_BỘ.txt
+2025-05-25 11:32:41,992 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0006_TRANG_CHỦ.txt
+2025-05-25 11:32:41,994 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt
+2025-05-25 11:32:41,995 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_dao_tao_0001_ĐÀO_TẠO.txt
+2025-05-25 11:32:41,994 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt
+2025-05-25 11:32:41,996 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_sinh_vien_0003_SINH_VIÊN.txt
+2025-05-25 11:32:41,996 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt
+2025-05-25 11:32:41,996 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt
+2025-05-25 11:32:41,997 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0022_Chiến_lược_phát_triển.txt
+2025-05-25 11:32:41,998 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:32:41,999 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:32:42,000 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt
+2025-05-25 11:32:42,000 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0029_Chế_độ_chính_sách.txt
+2025-05-25 11:32:42,000 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt
+2025-05-25 11:32:42,000 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt
+2025-05-25 11:32:42,001 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0027_Bài_hát_truyền_thống.txt
+2025-05-25 11:32:42,001 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0036_Sản_phẩm_KHCN.txt
+2025-05-25 11:32:42,002 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0021_Lịch_sử_phát_triển.txt
+2025-05-25 11:32:42,002 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt
+2025-05-25 11:32:42,003 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0019_Khoa___Viện.txt
+2025-05-25 11:32:42,003 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0030_Thủ_tục_hành_chính.txt
+2025-05-25 11:32:42,003 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt
+2025-05-25 11:32:42,005 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0035_Hợp_tác_phát_triển.txt
+2025-05-25 11:32:42,005 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0031_Quy_chế__qui_định.txt
+2025-05-25 11:32:42,005 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0041_Sau_Đại_học.txt
+2025-05-25 11:32:42,006 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt
+2025-05-25 11:32:42,005 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt
+2025-05-25 11:32:42,006 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt
+2025-05-25 11:32:42,006 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt
+2025-05-25 11:32:42,007 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0040_Các_quy_định.txt
+2025-05-25 11:32:42,007 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0020_Olympic.txt
+2025-05-25 11:32:42,008 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt
+2025-05-25 11:32:42,009 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0004_Đào_tạo.txt
+2025-05-25 11:32:42,009 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0005_Đào_tạo_đại_học.txt
+2025-05-25 11:32:42,010 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt
+2025-05-25 11:32:42,011 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:32:42,011 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tin_tuc_0017_Thông_báo.txt
+2025-05-25 11:32:42,011 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0028_Học_phí__học_bổng.txt
+2025-05-25 11:32:42,011 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0010_Cựu_sinh_viên.txt
+2025-05-25 11:32:42,012 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt
+2025-05-25 11:32:42,012 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt
+2025-05-25 11:32:42,012 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0008_Sinh_viên.txt
+2025-05-25 11:32:42,013 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0013_Tuyển_sinh.txt
+2025-05-25 11:32:42,013 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0012_Sinh_viên_NCKH.txt
+2025-05-25 11:32:42,013 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt
+2025-05-25 11:32:42,014 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0002_Công_bố_khoa_học.txt
+2025-05-25 11:32:42,014 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0014_Tuyển_dụng.txt
+2025-05-25 11:32:42,015 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt
+2025-05-25 11:32:42,016 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt
+2025-05-25 11:32:42,016 - WARNING - Không có đủ nội dung hợp lệ trong file uet_lien_he_0016_Địa_chỉ.txt
+2025-05-25 11:32:42,017 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0003_Giới_thiệu.txt
+2025-05-25 11:32:42,017 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0026_Ấn_phẩm.txt
+2025-05-25 11:32:42,035 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:32:42,036 - INFO - Tổng số file: 104
+2025-05-25 11:32:42,036 - INFO - Số file đã xử lý: 1
+2025-05-25 11:32:42,036 - INFO - - File tiếng Anh: 0
+2025-05-25 11:32:42,037 - INFO - - File tiếng Việt: 1
+2025-05-25 11:32:42,037 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:32:42,037 - INFO - Tổng số ký tự ban đầu: 3665
+2025-05-25 11:32:42,037 - INFO - Tổng số ký tự sau xử lý: 3652
+2025-05-25 11:32:42,037 - INFO - Tỷ lệ giảm: 0.35%
+2025-05-25 11:32:42,037 - INFO - Tổng số từ ban đầu: 790
+2025-05-25 11:32:42,037 - INFO - Tổng số từ sau xử lý: 789
+2025-05-25 11:32:42,037 - INFO - Tổng số câu: 25
+2025-05-25 11:32:42,038 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:36:19,969 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:36:19,971 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:36:19,971 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:36:19,987 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0004_Các_Khoa_và_Trung_tâm.txt
+2025-05-25 11:36:19,988 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0006_Trường_PT_-_Mầm_non.txt
+2025-05-25 11:36:19,989 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0003_Tại_sao_nên_chọn_HNUE_.txt
+2025-05-25 11:36:19,989 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0002_https___hnue_edu_vn_.txt
+2025-05-25 11:36:19,990 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_uncategorized_0005_Phòng_ban_-_Trung_tâm.txt
+2025-05-25 11:36:19,990 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_khoa_hoc_0001_Viện_nghiên_cứu_-_NXB.txt
+2025-05-25 11:36:19,990 - WARNING - Không có đủ nội dung hợp lệ trong file hnue_gioi_thieu_0000_Giới_thiệu_về_Trường.txt
+2025-05-25 11:36:19,991 - WARNING - Không có đủ nội dung hợp lệ trong file is_sinh_vien_0000_Giao_lưu_sinh_viên__học_viên.txt
+2025-05-25 11:36:19,991 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0041_Đối_tác.txt
+2025-05-25 11:36:19,991 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0029_Sư__mê_nh_-_Tầm_nhìn.txt
+2025-05-25 11:36:19,992 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0033_Bài_hát_truyền_thống.txt
+2025-05-25 11:36:19,992 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0035_Tra_cứu_điểm_đánh_giá_năng_lực.txt
+2025-05-25 11:36:19,992 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0040_Giáo_sư_thỉnh_giảng.txt
+2025-05-25 11:36:19,993 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0037_Hướng_nghiệp__việc_làm__thực_t.txt
+2025-05-25 11:36:19,993 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0039_Dự_án_quốc_tế.txt
+2025-05-25 11:36:19,994 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0031_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:36:19,994 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0038_Job_fair.txt
+2025-05-25 11:36:19,994 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0026_HỢP_TÁC_-_PHÁT_TRIỂN.txt
+2025-05-25 11:36:19,995 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0034_Thi_chứng_chỉ_Tiếng_Việt.txt
+2025-05-25 11:36:19,995 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0036_Đề_tài__dự_án.txt
+2025-05-25 11:36:19,995 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0027_ĐẢM_BẢO_CHẤT_LƯỢNG.txt
+2025-05-25 11:36:19,996 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0042_Hợp_tác_doanh_nghiệp.txt
+2025-05-25 11:36:19,996 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0030_Triết_lí_giáo_dục.txt
+2025-05-25 11:36:19,997 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0028_Lịch_sử_phát_triển.txt
+2025-05-25 11:36:19,998 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_uncategorized_0032_Ba_công_khai.txt
+2025-05-25 11:36:19,998 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0013_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:36:19,999 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0012_Đào_tạo_ngành_2.txt
+2025-05-25 11:36:19,999 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0009_Đào_tạo_Thạc_sĩ.txt
+2025-05-25 11:36:20,000 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0010_Đào_tạo_Tiến_sĩ.txt
+2025-05-25 11:36:20,001 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0011_Đào_tạo_THPT_chuyên.txt
+2025-05-25 11:36:20,001 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0007_ĐÀO_TẠO.txt
+2025-05-25 11:36:20,001 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0008_Đào_tạo_Đại_học.txt
+2025-05-25 11:36:20,002 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_dao_tao_0014_Đào_tạo_vừa_làm_vừa_học.txt
+2025-05-25 11:36:20,002 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0002_Tin_hoạt_động.txt
+2025-05-25 11:36:20,003 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0006_Theo_dòng_sự_kiện.txt
+2025-05-25 11:36:20,003 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0005_Lịch_công_tác.txt
+2025-05-25 11:36:20,003 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0004_Thông_báo.txt
+2025-05-25 11:36:20,004 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0001_TIN_TỨC.txt
+2025-05-25 11:36:20,004 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0022_Học_bổng__trao_đổi_sinh_viên.txt
+2025-05-25 11:36:20,005 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tin_tuc_0003_Nhân_vật_-_Sự_kiện.txt
+2025-05-25 11:36:20,006 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0024_Cựu_sinh_viên.txt
+2025-05-25 11:36:20,006 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0021_SINH_VIÊN.txt
+2025-05-25 11:36:20,006 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_sinh_vien_0023_Nhà_ở_sinh_viên.txt
+2025-05-25 11:36:20,007 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0018_Sản_phẩm_khoa_học_trong_nước_v.txt
+2025-05-25 11:36:20,008 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_tuyen_sinh_0025_Tuyển_dụng.txt
+2025-05-25 11:36:20,008 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0017_Giải_thưởng_khoa_học.txt
+2025-05-25 11:36:20,008 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0016_Tin_tức_khoa_học.txt
+2025-05-25 11:36:20,008 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0015_NGHIÊN_CỨU.txt
+2025-05-25 11:36:20,009 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0019_Các_nhóm_nghiên_cứu_mạnh.txt
+2025-05-25 11:36:20,009 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_khoa_hoc_0020_Lý_lịch_khoa_học.txt
+2025-05-25 11:36:20,009 - WARNING - Không có đủ nội dung hợp lệ trong file ussh_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:36:20,010 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0006_TRANG_CHỦ.txt
+2025-05-25 11:36:20,012 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0008_CÁN_BỘ.txt
+2025-05-25 11:36:20,013 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0007_HỢP_TÁC___PHÁT_TRIỂN.txt
+2025-05-25 11:36:20,014 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_uncategorized_0005_CƠ_SỞ_HÒA_LẠC.txt
+2025-05-25 11:36:20,016 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_sinh_vien_0003_SINH_VIÊN.txt
+2025-05-25 11:36:20,014 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_dao_tao_0001_ĐÀO_TẠO.txt
+2025-05-25 11:36:20,019 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_tuyen_sinh_0004_TUYỂN_DỤNG.txt
+2025-05-25 11:36:20,021 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_gioi_thieu_0000_GIỚI_THIỆU.txt
+2025-05-25 11:36:20,019 - WARNING - Không có đủ nội dung hợp lệ trong file vnu_khoa_hoc_0002_KHOA_HỌC_CÔNG_NGHỆ.txt
+2025-05-25 11:36:20,025 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0022_Chiến_lược_phát_triển.txt
+2025-05-25 11:36:20,026 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0023_Cơ_cấu_tổ_chức.txt
+2025-05-25 11:36:20,026 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0029_Chế_độ_chính_sách.txt
+2025-05-25 11:36:20,027 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0042_Viện_Trí_tuệ_nhân_tạo.txt
+2025-05-25 11:36:20,027 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0037_Sản_phẩm_chuyển_giao.txt
+2025-05-25 11:36:20,027 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0038_Sở_hữu_trí_tuệ.txt
+2025-05-25 11:36:20,028 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0027_Bài_hát_truyền_thống.txt
+2025-05-25 11:36:20,028 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0036_Sản_phẩm_KHCN.txt
+2025-05-25 11:36:20,029 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0021_Lịch_sử_phát_triển.txt
+2025-05-25 11:36:20,030 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0019_Khoa___Viện.txt
+2025-05-25 11:36:20,030 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0033_Bản_tin_KHCN___HTPT.txt
+2025-05-25 11:36:20,030 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0034_Đề_tài__nhiệm_vụ_KHCN.txt
+2025-05-25 11:36:20,031 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0030_Thủ_tục_hành_chính.txt
+2025-05-25 11:36:20,031 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0035_Hợp_tác_phát_triển.txt
+2025-05-25 11:36:20,032 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0031_Quy_chế__qui_định.txt
+2025-05-25 11:36:20,033 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0041_Sau_Đại_học.txt
+2025-05-25 11:36:20,033 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0024_Nhà_giáo_Nhân_dân__Nhà_giáo_Ưu.txt
+2025-05-25 11:36:20,033 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0043_Olympic_THPT_VNU_2024-2025.txt
+2025-05-25 11:36:20,035 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0032_Thống_kê__khảo_sát_việc_làm.txt
+2025-05-25 11:36:20,035 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0040_Các_quy_định.txt
+2025-05-25 11:36:20,035 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0039_Danh_mục_các_phòng_thí_nghiệm.txt
+2025-05-25 11:36:20,036 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0025_Đội_ngũ_cán_bộ.txt
+2025-05-25 11:36:20,035 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0020_Olympic.txt
+2025-05-25 11:36:20,037 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0005_Đào_tạo_đại_học.txt
+2025-05-25 11:36:20,036 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0004_Đào_tạo.txt
+2025-05-25 11:36:20,037 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0006_Đào_tạo_sau_đại_học.txt
+2025-05-25 11:36:20,038 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tin_tuc_0017_Thông_báo.txt
+2025-05-25 11:36:20,038 - WARNING - Không có đủ nội dung hợp lệ trong file uet_uncategorized_0028_Học_phí__học_bổng.txt
+2025-05-25 11:36:20,038 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0010_Cựu_sinh_viên.txt
+2025-05-25 11:36:20,039 - WARNING - Không có đủ nội dung hợp lệ trong file uet_dao_tao_0007_Đào_tạo_ngắn_hạn.txt
+2025-05-25 11:36:20,039 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0009_Gương_mặt_sinh_viên.txt
+2025-05-25 11:36:20,040 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0011_Giao_lưu__trao_đổi_sinh_viên.txt
+2025-05-25 11:36:20,040 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0008_Sinh_viên.txt
+2025-05-25 11:36:20,040 - WARNING - Không có đủ nội dung hợp lệ trong file uet_sinh_vien_0012_Sinh_viên_NCKH.txt
+2025-05-25 11:36:20,041 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0013_Tuyển_sinh.txt
+2025-05-25 11:36:20,042 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0014_Tuyển_dụng.txt
+2025-05-25 11:36:20,042 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0002_Công_bố_khoa_học.txt
+2025-05-25 11:36:20,043 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0001_Khoa_học___Công_nghệ.txt
+2025-05-25 11:36:20,043 - WARNING - Không có đủ nội dung hợp lệ trong file uet_khoa_hoc_0000_Ứng_dụng_Công_nghệ_thông_tin.txt
+2025-05-25 11:36:20,043 - WARNING - Không có đủ nội dung hợp lệ trong file uet_tuyen_sinh_0015_Công_khai_các_điều_kiện_tuyển_.txt
+2025-05-25 11:36:20,044 - WARNING - Không có đủ nội dung hợp lệ trong file uet_lien_he_0016_Địa_chỉ.txt
+2025-05-25 11:36:20,045 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0003_Giới_thiệu.txt
+2025-05-25 11:36:20,045 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_0026_Ấn_phẩm.txt
+2025-05-25 11:36:20,061 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:36:20,061 - INFO - Tổng số file: 104
+2025-05-25 11:36:20,061 - INFO - Số file đã xử lý: 1
+2025-05-25 11:36:20,061 - INFO - - File tiếng Anh: 0
+2025-05-25 11:36:20,061 - INFO - - File tiếng Việt: 1
+2025-05-25 11:36:20,062 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:36:20,062 - INFO - Tổng số ký tự ban đầu: 3665
+2025-05-25 11:36:20,062 - INFO - Tổng số ký tự sau xử lý: 3652
+2025-05-25 11:36:20,062 - INFO - Tỷ lệ giảm: 0.35%
+2025-05-25 11:36:20,062 - INFO - Tổng số từ ban đầu: 790
+2025-05-25 11:36:20,062 - INFO - Tổng số từ sau xử lý: 789
+2025-05-25 11:36:20,062 - INFO - Tổng số câu: 25
+2025-05-25 11:36:20,063 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/
+2025-05-25 11:44:13,668 - INFO - Đã phát hiện thư viện pyvi. Sẽ sử dụng cho xử lý tiếng Việt.
+2025-05-25 11:44:13,669 - INFO - Tìm thấy 104 file txt trong thư mục /workspaces/End-to-End-NLP-System/data/raw/
+2025-05-25 11:44:13,669 - INFO - Bắt đầu xử lý song song
+2025-05-25 11:44:13,935 - WARNING - Không có đủ nội dung hợp lệ trong file uet_gioi_thieu_wiki.txt
+2025-05-25 11:44:13,962 - INFO - 
+--- Thống kê tổng hợp ---
+2025-05-25 11:44:13,962 - INFO - Tổng số file: 104
+2025-05-25 11:44:13,963 - INFO - Số file đã xử lý: 103
+2025-05-25 11:44:13,963 - INFO - - File tiếng Anh: 0
+2025-05-25 11:44:13,963 - INFO - - File tiếng Việt: 103
+2025-05-25 11:44:13,963 - INFO - - File ngôn ngữ khác: 0
+2025-05-25 11:44:13,963 - INFO - Tổng số ký tự ban đầu: 475416
+2025-05-25 11:44:13,963 - INFO - Tổng số ký tự sau xử lý: 461454
+2025-05-25 11:44:13,963 - INFO - Tỷ lệ giảm: 2.94%
+2025-05-25 11:44:13,963 - INFO - Tổng số từ ban đầu: 93601
+2025-05-25 11:44:13,963 - INFO - Tổng số từ sau xử lý: 112644
+2025-05-25 11:44:13,963 - INFO - Tổng số câu: 2044
+2025-05-25 11:44:13,964 - INFO - Đã hoàn thành tiền xử lý và lưu kết quả vào /workspaces/End-to-End-NLP-System/data/clean/

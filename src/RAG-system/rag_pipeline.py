@@ -120,18 +120,17 @@ class RAGPipeline:
             return "Failed to generate answer."
     
     def process_query(self, query: str) -> Dict[str, Any]:
+
         """Process a single query through the complete RAG pipeline"""
         start_time = time.time()
-        
         try:
             logger.info(f"Processing query: {query[:100]}...")
-            
             # Step 1: Retrieve documents
             if self.config.use_multi_query:
+
                 documents = self.multi_query_retrieval(query)
             else:
                 documents = self.retrieve_documents(query)
-            
             if not documents:
                 return {
                     "query": query,
@@ -139,18 +138,17 @@ class RAGPipeline:
                     "num_documents": 0,
                     "processing_time": time.time() - start_time
                 }
-            
+            # Limit the number of documents before reranking
+            num_docs_to_rerank = self.config.retriever.search_k
+            documents_to_rerank = documents[:num_docs_to_rerank]
+            logger.info(f"Reranking top {len(documents_to_rerank)} retrieved documents")
             # Step 2: Rerank documents
-            top_documents = self.rerank_documents(query, documents)
-            
+            top_documents = self.rerank_documents(query, documents_to_rerank)
             # Step 3: Combine documents into context
             context = self.prompt_manager.combine_documents(top_documents)
-            
             # Step 4: Generate answer
             answer = self.generate_answer(query, context)
-            
             processing_time = time.time() - start_time
-            
             result = {
                 "query": query,
                 "answer": answer,
@@ -158,10 +156,8 @@ class RAGPipeline:
                 "num_top_documents": len(top_documents),
                 "processing_time": processing_time
             }
-            
             logger.info(f"Query processed successfully in {processing_time:.2f}s")
             return result
-            
         except Exception as e:
             logger.error(f"Query processing failed: {e}")
             return {

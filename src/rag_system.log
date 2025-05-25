@@ -1,0 +1,1088 @@
+2025-05-25 16:39:38,748 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 16:39:38,752 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 16:39:53,756 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 16:39:54,717 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 16:39:55,340 - embedding_manager - INFO - Initialized vector database at: /workspaces/End-to-End-NLP-System/src/RAG-system/vdb
+2025-05-25 16:39:55,896 - embedding_manager - INFO - Created retriever with k=25, filters=None
+2025-05-25 16:39:55,896 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 16:39:55,898 - rag_pipeline - INFO - Processing 50 queries from /workspaces/End-to-End-NLP-System/data/QnA/test/test_questions.txt
+2025-05-25 16:39:55,898 - rag_pipeline - ERROR - Batch processing failed: [Errno 2] No such file or directory: '/workspaces/End-to-End-NLP-System/system_output/result-single-query.txt'
+2025-05-25 16:42:04,974 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 16:42:04,976 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 16:42:19,166 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 16:42:20,025 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 16:42:20,609 - embedding_manager - INFO - Initialized vector database at: /workspaces/End-to-End-NLP-System/src/RAG-system/vdb
+2025-05-25 16:42:21,000 - embedding_manager - INFO - Created retriever with k=25, filters=None
+2025-05-25 16:42:21,005 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 16:42:21,011 - rag_pipeline - INFO - Processing 50 queries from /workspaces/End-to-End-NLP-System/data/QnA/test/test_questions.txt
+2025-05-25 16:42:21,030 - rag_pipeline - INFO - Processing query 1/50
+2025-05-25 16:42:21,030 - rag_pipeline - INFO - Processing query: UET được thành lập vào năm nào?...
+2025-05-25 16:42:21,983 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:42:26,051 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:26,404 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:26,715 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:27,023 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:27,028 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 51 unique documents
+2025-05-25 16:42:27,029 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:42:27,634 - rag_pipeline - INFO - Query processed successfully in 6.60s
+2025-05-25 16:42:32,634 - rag_pipeline - INFO - Processing query 2/50
+2025-05-25 16:42:32,635 - rag_pipeline - INFO - Processing query: Hiệu trưởng hiện tại của UET là ai?...
+2025-05-25 16:42:33,433 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:42:33,798 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:34,166 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:34,514 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:34,820 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:34,829 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 34 unique documents
+2025-05-25 16:42:34,829 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:42:35,445 - rag_pipeline - INFO - Query processed successfully in 2.81s
+2025-05-25 16:42:40,446 - rag_pipeline - INFO - Processing query 3/50
+2025-05-25 16:42:40,446 - rag_pipeline - INFO - Processing query: Trường Đại học Công nghệ trực thuộc đơn vị nào?...
+2025-05-25 16:42:41,212 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:42:41,546 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:41,898 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:42,213 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:42,533 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:42,536 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 33 unique documents
+2025-05-25 16:42:42,537 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:42:43,092 - rag_pipeline - INFO - Query processed successfully in 2.65s
+2025-05-25 16:42:48,092 - rag_pipeline - INFO - Processing query 4/50
+2025-05-25 16:42:48,093 - rag_pipeline - INFO - Processing query: Số lượng ngành đào tạo trình độ đại học của UET là bao nhiêu?...
+2025-05-25 16:42:48,885 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:42:49,338 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:49,693 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:50,063 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:50,415 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:50,419 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 46 unique documents
+2025-05-25 16:42:50,419 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:42:51,035 - rag_pipeline - INFO - Query processed successfully in 2.94s
+2025-05-25 16:42:56,035 - rag_pipeline - INFO - Processing query 5/50
+2025-05-25 16:42:56,036 - rag_pipeline - INFO - Processing query: UET có chương trình đào tạo nào bằng tiếng Anh không?...
+2025-05-25 16:42:57,023 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:42:57,398 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:57,807 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:58,157 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:58,494 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:42:58,497 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 36 unique documents
+2025-05-25 16:42:58,497 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:42:59,099 - rag_pipeline - INFO - Query processed successfully in 3.06s
+2025-05-25 16:43:04,100 - rag_pipeline - INFO - Processing query 6/50
+2025-05-25 16:43:04,100 - rag_pipeline - INFO - Processing query: Điểm chuẩn ngành Công nghệ thông tin năm 2023 của UET là bao nhiêu?...
+2025-05-25 16:43:05,175 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:43:05,649 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:06,022 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:06,475 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:06,810 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:06,817 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 38 unique documents
+2025-05-25 16:43:06,817 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:43:07,403 - rag_pipeline - INFO - Query processed successfully in 3.30s
+2025-05-25 16:43:12,403 - rag_pipeline - INFO - Processing query 7/50
+2025-05-25 16:43:12,403 - rag_pipeline - INFO - Processing query: Ngành Trí tuệ nhân tạo tại UET thuộc khoa nào?...
+2025-05-25 16:43:13,223 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:43:13,557 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:13,911 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:14,251 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:14,563 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:14,566 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 32 unique documents
+2025-05-25 16:43:14,566 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:43:15,203 - rag_pipeline - INFO - Query processed successfully in 2.80s
+2025-05-25 16:43:20,204 - rag_pipeline - INFO - Processing query 8/50
+2025-05-25 16:43:20,204 - rag_pipeline - INFO - Processing query: UET có bao nhiêu khoa chuyên môn?...
+2025-05-25 16:43:21,043 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:43:21,414 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:21,796 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:22,173 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:22,478 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:22,484 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 54 unique documents
+2025-05-25 16:43:22,484 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:43:22,983 - rag_pipeline - INFO - Query processed successfully in 2.78s
+2025-05-25 16:43:27,983 - rag_pipeline - INFO - Processing query 9/50
+2025-05-25 16:43:27,983 - rag_pipeline - INFO - Processing query: Tên tiếng Anh chính thức của UET là gì?...
+2025-05-25 16:43:28,732 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:43:29,070 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:29,467 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:29,766 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:30,081 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:30,085 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 16:43:30,086 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:43:30,675 - rag_pipeline - INFO - Query processed successfully in 2.69s
+2025-05-25 16:43:35,675 - rag_pipeline - INFO - Processing query 10/50
+2025-05-25 16:43:35,675 - rag_pipeline - INFO - Processing query: Địa chỉ trụ sở chính của UET là ở đâu?...
+2025-05-25 16:43:36,434 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:43:36,791 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:37,102 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:37,513 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:37,865 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:37,868 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 36 unique documents
+2025-05-25 16:43:37,869 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:43:38,467 - rag_pipeline - INFO - Query processed successfully in 2.79s
+2025-05-25 16:43:43,467 - rag_pipeline - INFO - Processing query 11/50
+2025-05-25 16:43:43,467 - rag_pipeline - INFO - Processing query: UET thuộc Đại học Quốc gia Hà Nội từ năm nào?...
+2025-05-25 16:43:44,522 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:43:44,934 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:45,373 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:45,847 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:46,183 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:46,186 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 36 unique documents
+2025-05-25 16:43:46,186 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:43:46,852 - rag_pipeline - INFO - Query processed successfully in 3.38s
+2025-05-25 16:43:51,852 - rag_pipeline - INFO - Processing query 12/50
+2025-05-25 16:43:51,852 - rag_pipeline - INFO - Processing query: Logo chính thức của UET có màu sắc nào?...
+2025-05-25 16:43:52,678 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:43:53,038 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:53,336 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:53,689 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:54,015 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:43:54,020 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 38 unique documents
+2025-05-25 16:43:54,020 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:43:54,664 - rag_pipeline - INFO - Query processed successfully in 2.81s
+2025-05-25 16:43:59,665 - rag_pipeline - INFO - Processing query 13/50
+2025-05-25 16:43:59,665 - rag_pipeline - INFO - Processing query: Trang web chính thức của UET là gì?...
+2025-05-25 16:44:00,495 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:44:00,876 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:01,244 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:01,560 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:01,857 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:01,860 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 39 unique documents
+2025-05-25 16:44:01,860 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:44:02,469 - rag_pipeline - INFO - Query processed successfully in 2.80s
+2025-05-25 16:44:07,469 - rag_pipeline - INFO - Processing query 14/50
+2025-05-25 16:44:07,469 - rag_pipeline - INFO - Processing query: UET có bao nhiêu chương trình đào tạo thạc sĩ?...
+2025-05-25 16:44:08,304 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:44:08,703 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:09,044 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:09,402 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:09,718 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:09,722 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 39 unique documents
+2025-05-25 16:44:09,722 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:44:10,340 - rag_pipeline - INFO - Query processed successfully in 2.87s
+2025-05-25 16:44:15,340 - rag_pipeline - INFO - Processing query 15/50
+2025-05-25 16:44:15,340 - rag_pipeline - INFO - Processing query: Thời gian đào tạo đại học chính quy tại UET là bao lâu?...
+2025-05-25 16:44:16,230 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:44:16,629 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:17,013 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:17,436 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:17,785 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:17,789 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 47 unique documents
+2025-05-25 16:44:17,789 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:44:18,400 - rag_pipeline - INFO - Query processed successfully in 3.06s
+2025-05-25 16:44:23,401 - rag_pipeline - INFO - Processing query 16/50
+2025-05-25 16:44:23,401 - rag_pipeline - INFO - Processing query: Trường nào thuộc khối Khoa học Tự nhiên của VNU?...
+2025-05-25 16:44:24,280 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:44:24,653 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:25,025 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:25,385 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:25,687 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:25,693 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 53 unique documents
+2025-05-25 16:44:25,693 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:44:26,290 - rag_pipeline - INFO - Query processed successfully in 2.89s
+2025-05-25 16:44:31,290 - rag_pipeline - INFO - Processing query 17/50
+2025-05-25 16:44:31,291 - rag_pipeline - INFO - Processing query: USSH chuyên đào tạo các ngành thuộc lĩnh vực nào?...
+2025-05-25 16:44:31,997 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:44:32,346 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:32,707 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:33,038 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:33,350 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:33,353 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 40 unique documents
+2025-05-25 16:44:33,354 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:44:33,960 - rag_pipeline - INFO - Query processed successfully in 2.67s
+2025-05-25 16:44:38,960 - rag_pipeline - INFO - Processing query 18/50
+2025-05-25 16:44:38,960 - rag_pipeline - INFO - Processing query: ULIS có chương trình liên kết đào tạo với nước nào?...
+2025-05-25 16:44:39,754 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:44:40,108 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:40,412 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:40,829 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:41,161 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:41,165 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 35 unique documents
+2025-05-25 16:44:41,165 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:44:41,959 - rag_pipeline - INFO - Query processed successfully in 3.00s
+2025-05-25 16:44:46,959 - rag_pipeline - INFO - Processing query 19/50
+2025-05-25 16:44:46,960 - rag_pipeline - INFO - Processing query: Trường Đại học Ngoại ngữ thuộc ĐHQGHN là viết tắt của trường nào?...
+2025-05-25 16:44:47,876 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:44:48,252 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:48,646 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:49,049 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:49,420 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:49,424 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 38 unique documents
+2025-05-25 16:44:49,424 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:44:50,053 - rag_pipeline - INFO - Query processed successfully in 3.09s
+2025-05-25 16:44:55,054 - rag_pipeline - INFO - Processing query 20/50
+2025-05-25 16:44:55,054 - rag_pipeline - INFO - Processing query: Đại học Quốc gia Hà Nội được thành lập năm nào?...
+2025-05-25 16:44:55,785 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:44:56,100 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:56,393 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:56,701 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:56,998 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:44:57,000 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 27 unique documents
+2025-05-25 16:44:57,001 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:44:57,621 - rag_pipeline - INFO - Query processed successfully in 2.57s
+2025-05-25 16:45:02,621 - rag_pipeline - INFO - Processing query 21/50
+2025-05-25 16:45:02,622 - rag_pipeline - INFO - Processing query: Sứ mệnh của VNU là gì?...
+2025-05-25 16:45:03,374 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:45:03,708 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:04,081 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:04,404 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:04,700 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:04,706 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 57 unique documents
+2025-05-25 16:45:04,706 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:45:05,583 - rag_pipeline - INFO - Query processed successfully in 2.96s
+2025-05-25 16:45:10,584 - rag_pipeline - INFO - Processing query 22/50
+2025-05-25 16:45:10,584 - rag_pipeline - INFO - Processing query: VNU có bao nhiêu đơn vị thành viên?...
+2025-05-25 16:45:11,302 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:45:11,616 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:11,959 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:12,289 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:12,587 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:12,590 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 16:45:12,591 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:45:13,197 - rag_pipeline - INFO - Query processed successfully in 2.61s
+2025-05-25 16:45:18,197 - rag_pipeline - INFO - Processing query 23/50
+2025-05-25 16:45:18,197 - rag_pipeline - INFO - Processing query: Cơ cấu tổ chức của ĐHQGHN gồm những gì?...
+2025-05-25 16:45:18,967 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:45:19,294 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:19,699 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:20,026 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:20,368 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:20,373 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 56 unique documents
+2025-05-25 16:45:20,373 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:45:21,569 - rag_pipeline - INFO - Query processed successfully in 3.37s
+2025-05-25 16:45:26,569 - rag_pipeline - INFO - Processing query 24/50
+2025-05-25 16:45:26,570 - rag_pipeline - INFO - Processing query: Chương trình đào tạo tài năng tại UET kéo dài bao lâu?...
+2025-05-25 16:45:27,399 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:45:27,766 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:28,085 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:28,476 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:28,817 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:28,821 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 16:45:28,821 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:45:29,341 - rag_pipeline - INFO - Query processed successfully in 2.77s
+2025-05-25 16:45:34,342 - rag_pipeline - INFO - Processing query 25/50
+2025-05-25 16:45:34,342 - rag_pipeline - INFO - Processing query: Trường ĐH KHXH&NV được thành lập năm nào?...
+2025-05-25 16:45:35,193 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:45:35,546 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:35,867 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:36,183 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:36,488 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:36,497 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 16:45:36,497 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:45:37,227 - rag_pipeline - INFO - Query processed successfully in 2.89s
+2025-05-25 16:45:42,227 - rag_pipeline - INFO - Processing query 26/50
+2025-05-25 16:45:42,228 - rag_pipeline - INFO - Processing query: USSH có bao nhiêu khoa trực thuộc?...
+2025-05-25 16:45:43,107 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:45:43,428 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:43,770 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:44,132 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:44,417 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:44,420 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 16:45:44,421 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:45:45,082 - rag_pipeline - INFO - Query processed successfully in 2.85s
+2025-05-25 16:45:50,083 - rag_pipeline - INFO - Processing query 27/50
+2025-05-25 16:45:50,083 - rag_pipeline - INFO - Processing query: Trường KHXH&NV có chương trình đào tạo Tiến sĩ không?...
+2025-05-25 16:45:50,959 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:45:51,324 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:51,666 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:52,037 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:52,367 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:52,372 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 48 unique documents
+2025-05-25 16:45:52,373 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:45:52,951 - rag_pipeline - INFO - Query processed successfully in 2.87s
+2025-05-25 16:45:57,951 - rag_pipeline - INFO - Processing query 28/50
+2025-05-25 16:45:57,951 - rag_pipeline - INFO - Processing query: USSH đào tạo ngành Văn học ở những cấp bậc nào?...
+2025-05-25 16:45:58,758 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:45:59,119 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:59,483 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:45:59,808 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:00,123 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:00,127 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 40 unique documents
+2025-05-25 16:46:00,127 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:46:00,637 - gemini_client - ERROR - Gemini API error (attempt 1): ("Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 3. The candidate's safety_ratings are: [category: HARM_CATEGORY_HATE_SPEECH\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_DANGEROUS_CONTENT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HARASSMENT\nprobability: MEDIUM\nblocked: true\n, category: HARM_CATEGORY_SEXUALLY_EXPLICIT\nprobability: NEGLIGIBLE\n].", [category: HARM_CATEGORY_HATE_SPEECH
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_DANGEROUS_CONTENT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HARASSMENT
+probability: MEDIUM
+blocked: true
+, category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+probability: NEGLIGIBLE
+])
+2025-05-25 16:46:02,200 - rag_pipeline - INFO - Query processed successfully in 4.25s
+2025-05-25 16:46:07,200 - rag_pipeline - INFO - Processing query 29/50
+2025-05-25 16:46:07,201 - rag_pipeline - INFO - Processing query: Điều kiện tốt nghiệp tại USSH là gì?...
+2025-05-25 16:46:08,053 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:46:08,395 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:08,711 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:09,061 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:09,360 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:09,364 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 44 unique documents
+2025-05-25 16:46:09,364 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:46:10,001 - rag_pipeline - INFO - Query processed successfully in 2.80s
+2025-05-25 16:46:15,002 - rag_pipeline - INFO - Processing query 30/50
+2025-05-25 16:46:15,002 - rag_pipeline - INFO - Processing query: Sinh viên USSH cần bao nhiêu tín chỉ để tốt nghiệp?...
+2025-05-25 16:46:15,904 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:46:16,240 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:16,585 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:16,938 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:17,251 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:17,254 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 34 unique documents
+2025-05-25 16:46:17,254 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:46:17,950 - rag_pipeline - INFO - Query processed successfully in 2.95s
+2025-05-25 16:46:22,951 - rag_pipeline - INFO - Processing query 31/50
+2025-05-25 16:46:22,951 - rag_pipeline - INFO - Processing query: Thời gian học ngành Tâm lý học tại USSH là bao lâu?...
+2025-05-25 16:46:23,696 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:46:24,016 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:24,373 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:24,688 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:25,001 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:25,005 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 35 unique documents
+2025-05-25 16:46:25,005 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:46:25,566 - rag_pipeline - INFO - Query processed successfully in 2.61s
+2025-05-25 16:46:30,566 - rag_pipeline - INFO - Processing query 32/50
+2025-05-25 16:46:30,566 - rag_pipeline - INFO - Processing query: Điểm chuẩn ngành Báo chí năm 2023 tại USSH là bao nhiêu?...
+2025-05-25 16:46:31,888 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:46:32,317 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:32,867 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:33,194 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:33,511 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:33,515 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 16:46:33,515 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:46:34,146 - rag_pipeline - INFO - Query processed successfully in 3.58s
+2025-05-25 16:46:39,146 - rag_pipeline - INFO - Processing query 33/50
+2025-05-25 16:46:39,146 - rag_pipeline - INFO - Processing query: Trường Đại học KHXH&NV trực thuộc tổ chức nào?...
+2025-05-25 16:46:40,003 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:46:40,345 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:40,718 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:41,073 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:41,388 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:41,394 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 54 unique documents
+2025-05-25 16:46:41,395 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:46:42,002 - rag_pipeline - INFO - Query processed successfully in 2.86s
+2025-05-25 16:46:47,002 - rag_pipeline - INFO - Processing query 34/50
+2025-05-25 16:46:47,002 - rag_pipeline - INFO - Processing query: USSH có bao nhiêu ngành bậc đại học?...
+2025-05-25 16:46:47,765 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:46:48,142 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:48,492 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:48,802 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:49,107 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:49,111 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 16:46:49,111 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:46:49,774 - rag_pipeline - INFO - Query processed successfully in 2.77s
+2025-05-25 16:46:54,774 - rag_pipeline - INFO - Processing query 35/50
+2025-05-25 16:46:54,774 - rag_pipeline - INFO - Processing query: ULIS có tổ chức kỳ thi năng lực tiếng Anh không?...
+2025-05-25 16:46:55,632 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:46:55,978 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:56,323 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:56,683 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:56,997 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:46:57,000 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 16:46:57,000 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:46:57,659 - rag_pipeline - INFO - Query processed successfully in 2.88s
+2025-05-25 16:47:02,659 - rag_pipeline - INFO - Processing query 36/50
+2025-05-25 16:47:02,659 - rag_pipeline - INFO - Processing query: Cơ sở vật chất của ULIS nằm ở đâu?...
+2025-05-25 16:47:03,474 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:47:03,792 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:04,130 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:04,521 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:04,844 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:04,847 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 35 unique documents
+2025-05-25 16:47:04,847 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:47:05,563 - rag_pipeline - INFO - Query processed successfully in 2.90s
+2025-05-25 16:47:10,564 - rag_pipeline - INFO - Processing query 37/50
+2025-05-25 16:47:10,564 - rag_pipeline - INFO - Processing query: Trung tâm CNTT của ULIS cung cấp những dịch vụ gì?...
+2025-05-25 16:47:11,526 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:47:11,899 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:12,296 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:12,672 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:12,997 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:13,000 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 16:47:13,001 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:47:13,734 - rag_pipeline - INFO - Query processed successfully in 3.17s
+2025-05-25 16:47:18,735 - rag_pipeline - INFO - Processing query 38/50
+2025-05-25 16:47:18,735 - rag_pipeline - INFO - Processing query: Đại học Quốc gia Hà Nội được thành lập từ cơ sở nào trước đó?...
+2025-05-25 16:47:19,542 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:47:19,904 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:20,273 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:20,638 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:20,957 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:20,960 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 38 unique documents
+2025-05-25 16:47:20,960 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:47:21,785 - rag_pipeline - INFO - Query processed successfully in 3.05s
+2025-05-25 16:47:26,786 - rag_pipeline - INFO - Processing query 39/50
+2025-05-25 16:47:26,786 - rag_pipeline - INFO - Processing query: VNU hiện có bao nhiêu đơn vị thành viên?...
+2025-05-25 16:47:27,602 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:47:27,950 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:28,280 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:28,618 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:28,928 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:28,935 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 62 unique documents
+2025-05-25 16:47:28,935 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:47:29,565 - rag_pipeline - INFO - Query processed successfully in 2.78s
+2025-05-25 16:47:34,565 - rag_pipeline - INFO - Processing query 40/50
+2025-05-25 16:47:34,566 - rag_pipeline - INFO - Processing query: Trụ sở chính của VNU đặt ở đâu?...
+2025-05-25 16:47:35,305 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:47:35,605 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:35,924 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:36,271 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:36,612 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:36,617 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 45 unique documents
+2025-05-25 16:47:36,617 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:47:37,286 - rag_pipeline - INFO - Query processed successfully in 2.72s
+2025-05-25 16:47:42,287 - rag_pipeline - INFO - Processing query 41/50
+2025-05-25 16:47:42,287 - rag_pipeline - INFO - Processing query: VNU có những ngành đào tạo nào bằng tiếng Anh?...
+2025-05-25 16:47:43,051 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:47:43,370 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:43,716 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:44,179 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:44,469 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:44,472 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 36 unique documents
+2025-05-25 16:47:44,473 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:47:45,097 - rag_pipeline - INFO - Query processed successfully in 2.81s
+2025-05-25 16:47:50,098 - rag_pipeline - INFO - Processing query 42/50
+2025-05-25 16:47:50,098 - rag_pipeline - INFO - Processing query: Trang Wikipedia của UET có nói gì về lịch sử trường?...
+2025-05-25 16:47:51,030 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:47:51,432 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:51,802 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:52,168 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:52,489 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:47:52,494 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 43 unique documents
+2025-05-25 16:47:52,494 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:47:53,479 - rag_pipeline - INFO - Query processed successfully in 3.38s
+2025-05-25 16:47:58,480 - rag_pipeline - INFO - Processing query 43/50
+2025-05-25 16:47:58,480 - rag_pipeline - INFO - Processing query: UET có chương trình trao đổi sinh viên quốc tế không?...
+2025-05-25 16:47:59,304 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:47:59,651 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:00,011 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:00,358 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:00,670 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:00,673 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 27 unique documents
+2025-05-25 16:48:00,673 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:48:01,337 - rag_pipeline - INFO - Query processed successfully in 2.86s
+2025-05-25 16:48:06,338 - rag_pipeline - INFO - Processing query 44/50
+2025-05-25 16:48:06,338 - rag_pipeline - INFO - Processing query: Sinh viên năm cuối UET phải làm gì để tốt nghiệp?...
+2025-05-25 16:48:07,296 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:48:07,700 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:08,101 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:08,426 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:08,755 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:08,760 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 49 unique documents
+2025-05-25 16:48:08,760 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:48:09,374 - rag_pipeline - INFO - Query processed successfully in 3.04s
+2025-05-25 16:48:14,375 - rag_pipeline - INFO - Processing query 45/50
+2025-05-25 16:48:14,375 - rag_pipeline - INFO - Processing query: ULIS có chương trình thực tập ở nước ngoài không?...
+2025-05-25 16:48:15,142 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:48:15,481 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:15,824 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:16,142 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:16,439 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:16,443 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 35 unique documents
+2025-05-25 16:48:16,443 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:48:17,158 - rag_pipeline - INFO - Query processed successfully in 2.78s
+2025-05-25 16:48:22,158 - rag_pipeline - INFO - Processing query 46/50
+2025-05-25 16:48:22,159 - rag_pipeline - INFO - Processing query: Các ngành đào tạo thế mạnh tại ULIS là gì?...
+2025-05-25 16:48:22,850 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:48:23,166 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:23,466 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:23,801 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:24,106 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:24,110 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 39 unique documents
+2025-05-25 16:48:24,110 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:48:24,689 - rag_pipeline - INFO - Query processed successfully in 2.53s
+2025-05-25 16:48:29,690 - rag_pipeline - INFO - Processing query 47/50
+2025-05-25 16:48:29,690 - rag_pipeline - INFO - Processing query: Điều kiện để tham gia học lớp tài năng tại UET là gì?...
+2025-05-25 16:48:30,533 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:48:30,874 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:31,245 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:31,613 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:31,968 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:31,972 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 34 unique documents
+2025-05-25 16:48:31,972 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:48:32,590 - rag_pipeline - INFO - Query processed successfully in 2.90s
+2025-05-25 16:48:37,590 - rag_pipeline - INFO - Processing query 48/50
+2025-05-25 16:48:37,591 - rag_pipeline - INFO - Processing query: Hệ thống đăng ký học trực tuyến tại UET có tên là gì?...
+2025-05-25 16:48:38,374 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:48:38,696 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:39,028 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:39,387 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:39,740 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:39,743 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 32 unique documents
+2025-05-25 16:48:39,743 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:48:40,390 - rag_pipeline - INFO - Query processed successfully in 2.80s
+2025-05-25 16:48:45,390 - rag_pipeline - INFO - Processing query 49/50
+2025-05-25 16:48:45,390 - rag_pipeline - INFO - Processing query: Điều kiện miễn học một số học phần tại UET là gì?...
+2025-05-25 16:48:46,258 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:48:46,608 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:46,982 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:47,339 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:47,679 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:47,683 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 16:48:47,683 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:48:48,268 - rag_pipeline - INFO - Query processed successfully in 2.88s
+2025-05-25 16:48:53,268 - rag_pipeline - INFO - Processing query 50/50
+2025-05-25 16:48:53,269 - rag_pipeline - INFO - Processing query: Sinh viên UET có được chọn giảng viên hướng dẫn không?...
+2025-05-25 16:48:54,157 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 16:48:54,576 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:54,943 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:55,365 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:55,689 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 16:48:55,696 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 36 unique documents
+2025-05-25 16:48:55,697 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 16:48:56,389 - rag_pipeline - INFO - Query processed successfully in 3.12s
+2025-05-25 16:48:56,389 - rag_pipeline - INFO - Completed processing 50 queries. Results saved to /workspaces/End-to-End-NLP-System/system_outputs/result-single-query.txt
+2025-05-25 17:02:04,613 - gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash
+2025-05-25 17:02:04,615 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-05-25 17:02:20,688 - embedding_manager - INFO - Initialized embedding model: BAAI/bge-m3 on cpu
+2025-05-25 17:02:21,206 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-25 17:02:21,810 - embedding_manager - INFO - Initialized vector database at: /workspaces/End-to-End-NLP-System/src/RAG-system/vdb
+2025-05-25 17:02:24,674 - reranker - INFO - Initialized reranker: BAAI/bge-reranker-v2-m3
+2025-05-25 17:02:25,046 - embedding_manager - INFO - Created retriever with k=25, filters=None
+2025-05-25 17:02:25,047 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-05-25 17:02:25,048 - rag_pipeline - INFO - Processing 50 queries from /workspaces/End-to-End-NLP-System/data/QnA/test/test_questions.txt
+2025-05-25 17:02:25,055 - rag_pipeline - INFO - Processing query 1/50
+2025-05-25 17:02:25,055 - rag_pipeline - INFO - Processing query: UET được thành lập vào năm nào?...
+2025-05-25 17:02:26,091 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:02:30,096 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:02:30,517 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:02:30,928 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:02:31,246 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:02:31,250 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 42 unique documents
+2025-05-25 17:02:31,250 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:04:27,055 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:04:27,734 - rag_pipeline - INFO - Query processed successfully in 122.68s
+2025-05-25 17:04:32,735 - rag_pipeline - INFO - Processing query 2/50
+2025-05-25 17:04:32,736 - rag_pipeline - INFO - Processing query: Hiệu trưởng hiện tại của UET là ai?...
+2025-05-25 17:04:33,603 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:04:39,806 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:04:40,198 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:04:40,610 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:04:40,981 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:04:40,986 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 34 unique documents
+2025-05-25 17:04:40,989 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:06:32,327 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:06:33,172 - rag_pipeline - INFO - Query processed successfully in 120.44s
+2025-05-25 17:06:38,176 - rag_pipeline - INFO - Processing query 3/50
+2025-05-25 17:06:38,176 - rag_pipeline - INFO - Processing query: Trường Đại học Công nghệ trực thuộc đơn vị nào?...
+2025-05-25 17:06:38,981 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:06:45,421 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:06:45,792 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:06:46,119 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:06:46,588 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:06:46,591 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 32 unique documents
+2025-05-25 17:06:46,591 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:08:39,694 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:08:40,430 - rag_pipeline - INFO - Query processed successfully in 122.25s
+2025-05-25 17:08:45,436 - rag_pipeline - INFO - Processing query 4/50
+2025-05-25 17:08:45,436 - rag_pipeline - INFO - Processing query: Số lượng ngành đào tạo trình độ đại học của UET là bao nhiêu?...
+2025-05-25 17:08:46,219 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:08:52,414 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:08:53,118 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:08:53,507 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:08:53,840 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:08:53,843 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 17:08:53,843 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:10:46,000 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:10:46,605 - rag_pipeline - INFO - Query processed successfully in 121.17s
+2025-05-25 17:10:51,608 - rag_pipeline - INFO - Processing query 5/50
+2025-05-25 17:10:51,608 - rag_pipeline - INFO - Processing query: UET có chương trình đào tạo nào bằng tiếng Anh không?...
+2025-05-25 17:10:53,514 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:10:59,904 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:11:00,248 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:11:00,622 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:11:01,082 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:11:01,089 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 39 unique documents
+2025-05-25 17:11:01,089 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:12:55,145 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:12:55,868 - rag_pipeline - INFO - Query processed successfully in 124.26s
+2025-05-25 17:13:00,871 - rag_pipeline - INFO - Processing query 6/50
+2025-05-25 17:13:00,871 - rag_pipeline - INFO - Processing query: Điểm chuẩn ngành Công nghệ thông tin năm 2023 của UET là bao nhiêu?...
+2025-05-25 17:13:01,834 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:13:07,863 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:13:08,508 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:13:08,934 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:13:09,292 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:13:09,295 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 30 unique documents
+2025-05-25 17:13:09,295 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:15:02,083 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:15:02,941 - rag_pipeline - INFO - Query processed successfully in 122.07s
+2025-05-25 17:15:07,943 - rag_pipeline - INFO - Processing query 7/50
+2025-05-25 17:15:07,943 - rag_pipeline - INFO - Processing query: Ngành Trí tuệ nhân tạo tại UET thuộc khoa nào?...
+2025-05-25 17:15:08,795 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:15:14,974 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:15:15,564 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:15:15,913 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:15:16,244 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:15:16,247 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 32 unique documents
+2025-05-25 17:15:16,247 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:17:09,068 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:17:09,784 - rag_pipeline - INFO - Query processed successfully in 121.84s
+2025-05-25 17:17:14,786 - rag_pipeline - INFO - Processing query 8/50
+2025-05-25 17:17:14,786 - rag_pipeline - INFO - Processing query: UET có bao nhiêu khoa chuyên môn?...
+2025-05-25 17:17:15,604 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:17:22,275 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:17:22,892 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:17:23,268 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:17:23,577 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:17:23,582 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 17:17:23,582 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:19:17,624 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:19:18,310 - rag_pipeline - INFO - Query processed successfully in 123.52s
+2025-05-25 17:19:23,330 - rag_pipeline - INFO - Processing query 9/50
+2025-05-25 17:19:23,330 - rag_pipeline - INFO - Processing query: Tên tiếng Anh chính thức của UET là gì?...
+2025-05-25 17:19:24,043 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:19:30,307 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:19:30,653 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:19:30,990 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:19:31,326 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:19:31,330 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 43 unique documents
+2025-05-25 17:19:31,330 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:21:24,158 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:21:24,827 - rag_pipeline - INFO - Query processed successfully in 121.50s
+2025-05-25 17:21:29,829 - rag_pipeline - INFO - Processing query 10/50
+2025-05-25 17:21:29,829 - rag_pipeline - INFO - Processing query: Địa chỉ trụ sở chính của UET là ở đâu?...
+2025-05-25 17:21:30,663 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:21:37,015 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:21:37,436 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:21:37,931 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:21:38,265 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:21:38,272 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 44 unique documents
+2025-05-25 17:21:38,272 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:23:31,881 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:23:32,648 - rag_pipeline - INFO - Query processed successfully in 122.82s
+2025-05-25 17:23:37,650 - rag_pipeline - INFO - Processing query 11/50
+2025-05-25 17:23:37,650 - rag_pipeline - INFO - Processing query: UET thuộc Đại học Quốc gia Hà Nội từ năm nào?...
+2025-05-25 17:23:38,611 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:23:45,365 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:23:45,841 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:23:46,380 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:23:46,751 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:23:46,759 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 40 unique documents
+2025-05-25 17:23:46,759 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:25:42,445 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:25:43,139 - rag_pipeline - INFO - Query processed successfully in 125.49s
+2025-05-25 17:25:48,157 - rag_pipeline - INFO - Processing query 12/50
+2025-05-25 17:25:48,157 - rag_pipeline - INFO - Processing query: Logo chính thức của UET có màu sắc nào?...
+2025-05-25 17:25:48,962 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:25:55,999 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:25:56,384 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:25:56,756 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:25:57,120 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:25:57,126 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 38 unique documents
+2025-05-25 17:25:57,126 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:27:48,168 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:27:48,884 - rag_pipeline - INFO - Query processed successfully in 120.73s
+2025-05-25 17:27:53,887 - rag_pipeline - INFO - Processing query 13/50
+2025-05-25 17:27:53,887 - rag_pipeline - INFO - Processing query: Trang web chính thức của UET là gì?...
+2025-05-25 17:27:54,718 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:28:01,557 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:28:02,017 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:28:02,345 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:28:02,651 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:28:02,655 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 38 unique documents
+2025-05-25 17:28:02,655 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:29:54,587 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:29:55,290 - rag_pipeline - INFO - Query processed successfully in 121.40s
+2025-05-25 17:30:00,291 - rag_pipeline - INFO - Processing query 14/50
+2025-05-25 17:30:00,291 - rag_pipeline - INFO - Processing query: UET có bao nhiêu chương trình đào tạo thạc sĩ?...
+2025-05-25 17:30:01,119 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:30:08,066 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:30:08,531 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:30:08,850 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:30:09,157 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:30:09,160 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 36 unique documents
+2025-05-25 17:30:09,161 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:32:05,147 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:32:06,819 - rag_pipeline - INFO - Query processed successfully in 126.53s
+2025-05-25 17:32:11,821 - rag_pipeline - INFO - Processing query 15/50
+2025-05-25 17:32:11,821 - rag_pipeline - INFO - Processing query: Thời gian đào tạo đại học chính quy tại UET là bao lâu?...
+2025-05-25 17:32:12,659 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:32:19,729 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:32:20,191 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:32:20,611 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:32:21,006 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:32:21,010 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 17:32:21,010 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:34:13,701 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:34:14,364 - rag_pipeline - INFO - Query processed successfully in 122.54s
+2025-05-25 17:34:19,369 - rag_pipeline - INFO - Processing query 16/50
+2025-05-25 17:34:19,369 - rag_pipeline - INFO - Processing query: Trường nào thuộc khối Khoa học Tự nhiên của VNU?...
+2025-05-25 17:34:20,291 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:34:27,660 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:34:28,102 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:34:28,455 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:34:28,763 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:34:28,768 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 45 unique documents
+2025-05-25 17:34:28,768 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:36:21,143 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:36:21,882 - rag_pipeline - INFO - Query processed successfully in 122.51s
+2025-05-25 17:36:26,883 - rag_pipeline - INFO - Processing query 17/50
+2025-05-25 17:36:26,883 - rag_pipeline - INFO - Processing query: USSH chuyên đào tạo các ngành thuộc lĩnh vực nào?...
+2025-05-25 17:36:27,671 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:36:34,465 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:36:34,855 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:36:35,210 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:36:35,530 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:36:35,538 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 30 unique documents
+2025-05-25 17:36:35,542 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:38:31,285 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:38:31,986 - rag_pipeline - INFO - Query processed successfully in 125.10s
+2025-05-25 17:38:36,986 - rag_pipeline - INFO - Processing query 18/50
+2025-05-25 17:38:36,987 - rag_pipeline - INFO - Processing query: ULIS có chương trình liên kết đào tạo với nước nào?...
+2025-05-25 17:38:37,844 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:38:44,660 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:38:45,160 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:38:45,504 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:38:45,819 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:38:45,823 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 17:38:45,824 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:40:40,113 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:40:40,883 - rag_pipeline - INFO - Query processed successfully in 123.90s
+2025-05-25 17:40:45,884 - rag_pipeline - INFO - Processing query 19/50
+2025-05-25 17:40:45,886 - rag_pipeline - INFO - Processing query: Trường Đại học Ngoại ngữ thuộc ĐHQGHN là viết tắt của trường nào?...
+2025-05-25 17:40:46,824 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:40:54,276 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:40:54,744 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:40:55,119 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:40:55,476 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:40:55,480 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 33 unique documents
+2025-05-25 17:40:55,480 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:42:50,643 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:42:51,348 - rag_pipeline - INFO - Query processed successfully in 125.46s
+2025-05-25 17:42:56,351 - rag_pipeline - INFO - Processing query 20/50
+2025-05-25 17:42:56,351 - rag_pipeline - INFO - Processing query: Đại học Quốc gia Hà Nội được thành lập năm nào?...
+2025-05-25 17:42:57,078 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:43:03,429 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:43:03,826 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:43:04,135 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:43:04,434 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:43:04,437 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 27 unique documents
+2025-05-25 17:43:04,437 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:44:57,604 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:44:58,288 - rag_pipeline - INFO - Query processed successfully in 121.94s
+2025-05-25 17:45:03,290 - rag_pipeline - INFO - Processing query 21/50
+2025-05-25 17:45:03,291 - rag_pipeline - INFO - Processing query: Sứ mệnh của VNU là gì?...
+2025-05-25 17:45:04,092 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:45:11,470 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:45:11,866 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:45:12,184 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:45:12,480 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:45:12,488 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 49 unique documents
+2025-05-25 17:45:12,488 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:47:07,203 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:47:07,875 - rag_pipeline - INFO - Query processed successfully in 124.58s
+2025-05-25 17:47:12,878 - rag_pipeline - INFO - Processing query 22/50
+2025-05-25 17:47:12,878 - rag_pipeline - INFO - Processing query: VNU có bao nhiêu đơn vị thành viên?...
+2025-05-25 17:47:13,615 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:47:20,795 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:47:21,144 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:47:21,480 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:47:21,786 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:47:21,800 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 54 unique documents
+2025-05-25 17:47:21,801 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:49:14,183 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:49:14,911 - rag_pipeline - INFO - Query processed successfully in 122.03s
+2025-05-25 17:49:19,914 - rag_pipeline - INFO - Processing query 23/50
+2025-05-25 17:49:19,914 - rag_pipeline - INFO - Processing query: Cơ cấu tổ chức của ĐHQGHN gồm những gì?...
+2025-05-25 17:49:20,733 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:49:27,400 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:49:27,907 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:49:28,229 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:49:28,546 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:49:28,552 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 68 unique documents
+2025-05-25 17:49:28,552 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:51:20,935 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:51:22,145 - rag_pipeline - INFO - Query processed successfully in 122.23s
+2025-05-25 17:51:27,151 - rag_pipeline - INFO - Processing query 24/50
+2025-05-25 17:51:27,151 - rag_pipeline - INFO - Processing query: Chương trình đào tạo tài năng tại UET kéo dài bao lâu?...
+2025-05-25 17:51:28,231 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:51:35,630 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:51:36,051 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:51:36,455 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:51:36,792 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:51:36,798 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 32 unique documents
+2025-05-25 17:51:36,799 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:53:31,033 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:53:31,691 - rag_pipeline - INFO - Query processed successfully in 124.54s
+2025-05-25 17:53:36,694 - rag_pipeline - INFO - Processing query 25/50
+2025-05-25 17:53:36,694 - rag_pipeline - INFO - Processing query: Trường ĐH KHXH&NV được thành lập năm nào?...
+2025-05-25 17:53:37,551 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:53:43,432 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:53:43,796 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:53:44,115 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:53:44,463 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:53:44,471 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 17:53:44,473 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:55:36,982 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:55:37,652 - rag_pipeline - INFO - Query processed successfully in 120.96s
+2025-05-25 17:55:42,671 - rag_pipeline - INFO - Processing query 26/50
+2025-05-25 17:55:42,671 - rag_pipeline - INFO - Processing query: USSH có bao nhiêu khoa trực thuộc?...
+2025-05-25 17:55:43,598 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:55:51,162 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:55:51,649 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:55:51,966 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:55:52,282 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:55:52,286 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 39 unique documents
+2025-05-25 17:55:52,286 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:57:45,394 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:57:47,150 - rag_pipeline - INFO - Query processed successfully in 124.48s
+2025-05-25 17:57:52,154 - rag_pipeline - INFO - Processing query 27/50
+2025-05-25 17:57:52,154 - rag_pipeline - INFO - Processing query: Trường KHXH&NV có chương trình đào tạo Tiến sĩ không?...
+2025-05-25 17:57:53,047 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 17:57:58,214 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:57:58,703 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:57:59,072 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:57:59,389 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 17:57:59,394 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 45 unique documents
+2025-05-25 17:57:59,394 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 17:59:52,181 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 17:59:52,752 - rag_pipeline - INFO - Query processed successfully in 120.60s
+2025-05-25 17:59:57,772 - rag_pipeline - INFO - Processing query 28/50
+2025-05-25 17:59:57,772 - rag_pipeline - INFO - Processing query: USSH đào tạo ngành Văn học ở những cấp bậc nào?...
+2025-05-25 17:59:58,559 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:00:05,365 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:00:05,913 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:00:06,265 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:00:06,588 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:00:06,592 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 40 unique documents
+2025-05-25 18:00:06,592 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:02:00,525 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:02:01,201 - rag_pipeline - INFO - Query processed successfully in 123.43s
+2025-05-25 18:02:06,223 - rag_pipeline - INFO - Processing query 29/50
+2025-05-25 18:02:06,224 - rag_pipeline - INFO - Processing query: Điều kiện tốt nghiệp tại USSH là gì?...
+2025-05-25 18:02:07,027 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:02:13,560 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:02:14,039 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:02:14,427 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:02:14,765 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:02:14,769 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 44 unique documents
+2025-05-25 18:02:14,769 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:04:07,699 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:04:08,487 - rag_pipeline - INFO - Query processed successfully in 122.26s
+2025-05-25 18:04:13,490 - rag_pipeline - INFO - Processing query 30/50
+2025-05-25 18:04:13,490 - rag_pipeline - INFO - Processing query: Sinh viên USSH cần bao nhiêu tín chỉ để tốt nghiệp?...
+2025-05-25 18:04:14,325 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:04:19,947 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:04:20,400 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:04:20,886 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:04:21,254 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:04:21,257 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 33 unique documents
+2025-05-25 18:04:21,258 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:06:15,868 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:06:16,626 - rag_pipeline - INFO - Query processed successfully in 123.14s
+2025-05-25 18:06:21,629 - rag_pipeline - INFO - Processing query 31/50
+2025-05-25 18:06:21,630 - rag_pipeline - INFO - Processing query: Thời gian học ngành Tâm lý học tại USSH là bao lâu?...
+2025-05-25 18:06:22,460 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:06:29,051 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:06:29,495 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:06:29,889 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:06:30,223 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:06:30,226 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 35 unique documents
+2025-05-25 18:06:30,226 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:08:26,138 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:08:26,814 - rag_pipeline - INFO - Query processed successfully in 125.18s
+2025-05-25 18:08:31,835 - rag_pipeline - INFO - Processing query 32/50
+2025-05-25 18:08:31,835 - rag_pipeline - INFO - Processing query: Điểm chuẩn ngành Báo chí năm 2023 tại USSH là bao nhiêu?...
+2025-05-25 18:08:32,907 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:08:40,061 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:08:40,489 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:08:40,914 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:08:41,256 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:08:41,260 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 48 unique documents
+2025-05-25 18:08:41,261 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:10:35,533 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:10:36,327 - rag_pipeline - INFO - Query processed successfully in 124.49s
+2025-05-25 18:10:41,345 - rag_pipeline - INFO - Processing query 33/50
+2025-05-25 18:10:41,345 - rag_pipeline - INFO - Processing query: Trường Đại học KHXH&NV trực thuộc tổ chức nào?...
+2025-05-25 18:10:42,218 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:10:47,760 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:10:48,186 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:10:48,590 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:10:48,924 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:10:48,931 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 54 unique documents
+2025-05-25 18:10:48,931 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:12:41,723 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:12:42,467 - rag_pipeline - INFO - Query processed successfully in 121.12s
+2025-05-25 18:12:47,473 - rag_pipeline - INFO - Processing query 34/50
+2025-05-25 18:12:47,473 - rag_pipeline - INFO - Processing query: USSH có bao nhiêu ngành bậc đại học?...
+2025-05-25 18:12:48,241 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:12:54,812 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:12:55,179 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:12:55,521 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:12:55,826 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:12:55,832 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 34 unique documents
+2025-05-25 18:12:55,832 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:14:50,855 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:14:51,536 - rag_pipeline - INFO - Query processed successfully in 124.06s
+2025-05-25 18:14:56,539 - rag_pipeline - INFO - Processing query 35/50
+2025-05-25 18:14:56,539 - rag_pipeline - INFO - Processing query: ULIS có tổ chức kỳ thi năng lực tiếng Anh không?...
+2025-05-25 18:14:57,371 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:15:04,347 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:15:04,716 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:15:05,103 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:15:05,415 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:15:05,418 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 18:15:05,418 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:17:00,027 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:17:00,779 - rag_pipeline - INFO - Query processed successfully in 124.24s
+2025-05-25 18:17:05,782 - rag_pipeline - INFO - Processing query 36/50
+2025-05-25 18:17:05,783 - rag_pipeline - INFO - Processing query: Cơ sở vật chất của ULIS nằm ở đâu?...
+2025-05-25 18:17:06,624 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:17:13,863 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:17:15,442 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:17:15,883 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:17:16,209 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:17:16,213 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 18:17:16,213 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:19:10,024 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:19:10,846 - rag_pipeline - INFO - Query processed successfully in 125.06s
+2025-05-25 18:19:15,865 - rag_pipeline - INFO - Processing query 37/50
+2025-05-25 18:19:15,866 - rag_pipeline - INFO - Processing query: Trung tâm CNTT của ULIS cung cấp những dịch vụ gì?...
+2025-05-25 18:19:16,799 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:19:22,725 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:19:23,142 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:19:23,568 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:19:23,898 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:19:23,902 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 39 unique documents
+2025-05-25 18:19:23,902 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:21:17,594 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:21:18,340 - rag_pipeline - INFO - Query processed successfully in 122.47s
+2025-05-25 18:21:23,343 - rag_pipeline - INFO - Processing query 38/50
+2025-05-25 18:21:23,343 - rag_pipeline - INFO - Processing query: Đại học Quốc gia Hà Nội được thành lập từ cơ sở nào trước đó?...
+2025-05-25 18:21:24,173 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:21:30,523 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:21:31,385 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:21:31,831 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:21:32,240 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:21:32,248 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 18:21:32,248 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:23:26,095 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:23:26,928 - rag_pipeline - INFO - Query processed successfully in 123.58s
+2025-05-25 18:23:31,931 - rag_pipeline - INFO - Processing query 39/50
+2025-05-25 18:23:31,931 - rag_pipeline - INFO - Processing query: VNU hiện có bao nhiêu đơn vị thành viên?...
+2025-05-25 18:23:32,691 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:23:39,611 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:23:40,122 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:23:40,469 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:23:40,794 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:23:40,800 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 65 unique documents
+2025-05-25 18:23:40,800 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:25:34,059 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:25:34,802 - rag_pipeline - INFO - Query processed successfully in 122.87s
+2025-05-25 18:25:39,823 - rag_pipeline - INFO - Processing query 40/50
+2025-05-25 18:25:39,823 - rag_pipeline - INFO - Processing query: Trụ sở chính của VNU đặt ở đâu?...
+2025-05-25 18:25:40,593 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:25:46,613 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:25:47,013 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:25:47,419 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:25:47,725 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:25:47,730 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 45 unique documents
+2025-05-25 18:25:47,730 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:27:39,664 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:27:40,357 - rag_pipeline - INFO - Query processed successfully in 120.53s
+2025-05-25 18:27:45,360 - rag_pipeline - INFO - Processing query 41/50
+2025-05-25 18:27:45,360 - rag_pipeline - INFO - Processing query: VNU có những ngành đào tạo nào bằng tiếng Anh?...
+2025-05-25 18:27:46,257 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:27:53,305 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:27:53,709 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:27:54,125 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:27:54,451 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:27:54,462 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 18:27:54,464 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:29:49,684 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:29:50,407 - rag_pipeline - INFO - Query processed successfully in 125.05s
+2025-05-25 18:29:55,413 - rag_pipeline - INFO - Processing query 42/50
+2025-05-25 18:29:55,413 - rag_pipeline - INFO - Processing query: Trang Wikipedia của UET có nói gì về lịch sử trường?...
+2025-05-25 18:29:56,266 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:30:03,413 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:30:04,089 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:30:04,452 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:30:04,879 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:30:04,883 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 18:30:04,883 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:32:02,736 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:32:03,355 - rag_pipeline - INFO - Query processed successfully in 127.94s
+2025-05-25 18:32:08,357 - rag_pipeline - INFO - Processing query 43/50
+2025-05-25 18:32:08,358 - rag_pipeline - INFO - Processing query: UET có chương trình trao đổi sinh viên quốc tế không?...
+2025-05-25 18:32:09,292 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:32:15,912 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:32:16,354 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:32:16,718 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:32:17,152 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:32:17,154 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 27 unique documents
+2025-05-25 18:32:17,154 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:34:18,482 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:34:19,284 - rag_pipeline - INFO - Query processed successfully in 130.93s
+2025-05-25 18:34:24,287 - rag_pipeline - INFO - Processing query 44/50
+2025-05-25 18:34:24,287 - rag_pipeline - INFO - Processing query: Sinh viên năm cuối UET phải làm gì để tốt nghiệp?...
+2025-05-25 18:34:25,226 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:34:32,039 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:34:32,528 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:34:32,895 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:34:33,259 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:34:33,265 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 48 unique documents
+2025-05-25 18:34:33,266 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:36:28,133 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:36:28,851 - rag_pipeline - INFO - Query processed successfully in 124.56s
+2025-05-25 18:36:33,854 - rag_pipeline - INFO - Processing query 45/50
+2025-05-25 18:36:33,854 - rag_pipeline - INFO - Processing query: ULIS có chương trình thực tập ở nước ngoài không?...
+2025-05-25 18:36:34,693 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:36:41,557 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:36:42,019 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:36:42,379 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:36:42,669 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:36:42,673 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 37 unique documents
+2025-05-25 18:36:42,673 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:38:37,445 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:38:38,218 - rag_pipeline - INFO - Query processed successfully in 124.36s
+2025-05-25 18:38:43,223 - rag_pipeline - INFO - Processing query 46/50
+2025-05-25 18:38:43,224 - rag_pipeline - INFO - Processing query: Các ngành đào tạo thế mạnh tại ULIS là gì?...
+2025-05-25 18:38:43,945 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:38:50,455 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:38:50,860 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:38:51,185 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:38:51,495 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:38:51,499 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 36 unique documents
+2025-05-25 18:38:51,499 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:40:46,420 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:40:47,155 - rag_pipeline - INFO - Query processed successfully in 123.93s
+2025-05-25 18:40:52,158 - rag_pipeline - INFO - Processing query 47/50
+2025-05-25 18:40:52,158 - rag_pipeline - INFO - Processing query: Điều kiện để tham gia học lớp tài năng tại UET là gì?...
+2025-05-25 18:40:53,031 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:40:59,510 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:40:59,879 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:41:00,581 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:41:00,929 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:41:00,933 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 40 unique documents
+2025-05-25 18:41:00,933 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:42:54,742 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:42:55,477 - rag_pipeline - INFO - Query processed successfully in 123.32s
+2025-05-25 18:43:00,480 - rag_pipeline - INFO - Processing query 48/50
+2025-05-25 18:43:00,481 - rag_pipeline - INFO - Processing query: Hệ thống đăng ký học trực tuyến tại UET có tên là gì?...
+2025-05-25 18:43:01,241 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:43:07,978 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:43:08,346 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:43:08,719 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:43:09,078 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:43:09,081 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 32 unique documents
+2025-05-25 18:43:09,081 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:45:04,934 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:45:05,651 - rag_pipeline - INFO - Query processed successfully in 125.17s
+2025-05-25 18:45:10,653 - rag_pipeline - INFO - Processing query 49/50
+2025-05-25 18:45:10,654 - rag_pipeline - INFO - Processing query: Điều kiện miễn học một số học phần tại UET là gì?...
+2025-05-25 18:45:11,536 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:45:18,518 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:45:18,946 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:45:19,354 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:45:19,681 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:45:19,690 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 40 unique documents
+2025-05-25 18:45:19,691 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:47:13,128 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:47:13,910 - rag_pipeline - INFO - Query processed successfully in 123.26s
+2025-05-25 18:47:18,914 - rag_pipeline - INFO - Processing query 50/50
+2025-05-25 18:47:18,914 - rag_pipeline - INFO - Processing query: Sinh viên UET có được chọn giảng viên hướng dẫn không?...
+2025-05-25 18:47:19,809 - rag_pipeline - INFO - Generated 3 paraphrased queries
+2025-05-25 18:47:26,056 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:47:26,488 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:47:26,852 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:47:27,201 - rag_pipeline - INFO - Retrieved 25 documents for query
+2025-05-25 18:47:27,205 - rag_pipeline - INFO - Multi-query retrieval: 100 total, 41 unique documents
+2025-05-25 18:47:27,205 - rag_pipeline - INFO - Reranking top 25 retrieved documents
+2025-05-25 18:49:22,368 - reranker - INFO - Reranked 25 documents, returning top 3
+2025-05-25 18:49:23,082 - rag_pipeline - INFO - Query processed successfully in 124.17s
+2025-05-25 18:49:23,084 - rag_pipeline - INFO - Completed processing 50 queries. Results saved to /workspaces/End-to-End-NLP-System/system_outputs/result-final.txt

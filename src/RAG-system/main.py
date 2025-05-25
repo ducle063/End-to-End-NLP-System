@@ -11,11 +11,11 @@ from utils import setup_logging
 
 def create_config(
     gemini_api_key: str = None,
-    use_reranking: bool = True,
+    use_reranking: bool = False,
     use_multi_query: bool = True,
     use_few_shot: bool = False,
     search_k: int = 100,
-    top_k: int = 10
+    top_k: int = 3
 ) -> RAGConfig:
     """Create RAG configuration"""
     
@@ -150,9 +150,9 @@ def main():
                        help="Disable multi-query retrieval")
     parser.add_argument("--few-shot", action="store_true", 
                        help="Enable few-shot prompting")
-    parser.add_argument("--search-k", type=int, default=100, 
+    parser.add_argument("--search-k", type=int, default=25, 
                        help="Number of documents to retrieve")
-    parser.add_argument("--top-k", type=int, default=10, 
+    parser.add_argument("--top-k", type=int, default=3, 
                        help="Number of top documents after reranking")
     
     args = parser.parse_args()
@@ -193,7 +193,6 @@ def main():
         )
         
         pipeline = RAGPipeline(config)
-        pipeline.request_delay = config.request_delay  # Set rate limiting
         run_batch_processing(pipeline, args.input, output_file)
     
     elif args.mode == "compare":

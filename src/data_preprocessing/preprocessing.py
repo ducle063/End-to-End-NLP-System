@@ -109,7 +109,7 @@ def basic_sent_tokenize(text):
 
 # Lớp TextPreprocessor chính
 class TextPreprocessor:
-    def __init__(self, input_dir, output_dir, min_words=5, max_files=None):
+    def __init__(self, input_dir, output_dir, min_words=None, max_files=None):
         """
         Khởi tạo bộ tiền xử lý văn bản
         
@@ -134,23 +134,14 @@ class TextPreprocessor:
         # Tạo thư mục đầu ra nếu chưa tồn tại
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
-            
-        # Thư mục cho các file đã xử lý theo ngôn ngữ
-        self.en_dir = os.path.join(output_dir, "english")
-        self.vi_dir = os.path.join(output_dir, "vietnamese")
-        self.other_dir = os.path.join(output_dir, "other")
         
-        for dir_path in [self.en_dir, self.vi_dir, self.other_dir]:
-            if not os.path.exists(dir_path):
-                os.makedirs(dir_path)
     
     def clean_text(self, text, is_vietnamese=False):
         """
         Làm sạch văn bản: loại bỏ HTML, chuẩn hóa khoảng trắng,
         loại bỏ ký tự đặc biệt, v.v.
         """
-        # Loại bỏ URL
-        text = re.sub(r'https?://\S+|www\.\S+', '', text)
+        
         
         # Loại bỏ HTML tags
         text = re.sub(r'<.*?>', '', text)
@@ -197,41 +188,36 @@ class TextPreprocessor:
     
     def segment_sentences(self, text, language="english"):
         """
-        Tách văn bản thành các câu
+        Tách văn bản thành các câu dựa trên ngôn ngữ.
         """
         # Sửa lỗi phổ biến trước khi tách câu
         text = re.sub(r'\.\.+', '.', text)  # Loại bỏ dấu chấm liên tiếp
         text = re.sub(r'(\w)\.(\w)', r'\1. \2', text)  # Sửa lỗi thiếu khoảng trắng sau dấu chấm
-        
-        # Tách câu dựa vào ngôn ngữ
+
         if language == "vietnamese":
             if PYVI_AVAILABLE:
                 try:
-                    # Trong pyvi, phải dùng phương pháp khác vì không có hàm sent_tokenize trực tiếp
                     # Sử dụng regex cơ bản kết hợp với những đặc điểm của tiếng Việt
-                    # Trước hết, chuẩn hóa văn bản với các dấu câu
                     text = re.sub(r'([.!?])\s*', r'\1\n', text)
-                    # Tách bằng ký tự xuống dòng
                     sentences = [s.strip() for s in text.split('\n') if s.strip()]
                 except Exception as e:
                     logger.warning(f"Lỗi khi sử dụng phương pháp tách câu với pyvi: {e}")
                     sentences = basic_sent_tokenize(text)
             else:
                 sentences = basic_sent_tokenize(text)
-        else:
-            # Phương pháp tách câu cơ bản cho tiếng Anh
+        else:  # language == "english" hoặc các trường hợp khác
             sentences = basic_sent_tokenize(text)
-        
+
         # Lọc các câu quá ngắn
         filtered_sentences = []
         for sentence in sentences:
             # Làm sạch câu
             clean_sentence = sentence.strip()
-            
+
             # Kiểm tra số từ trong câu
             if len(clean_sentence.split()) >= self.min_words:
                 filtered_sentences.append(clean_sentence)
-        
+
         return filtered_sentences
     
     def tokenize(self, text, language="english"):
@@ -285,7 +271,7 @@ class TextPreprocessor:
                 content = f.read()
             
             # Tách phần header (URL, title) và nội dung chính
-            content_parts = content.split('\n\n', 1)
+            content_parts = content.split('-'*80 + "\n", 1)
             header = content_parts[0]
             
             if len(content_parts) > 1:
@@ -293,19 +279,14 @@ class TextPreprocessor:
             else:
                 main_content = ""
             
-            # Phát hiện ngôn ngữ
+            ## Phát hiện ngôn ngữ
             language = detect_language(main_content)
-            logger.debug(f"Phát hiện ngôn ngữ của file {os.path.basename(file_path)}: {language}")
-            
-            # Làm sạch nội dung văn bản
             is_vietnamese = (language == "vietnamese")
             cleaned_content = self.clean_text(main_content, is_vietnamese)
-            
-            if is_vietnamese:
-                cleaned_content = self.normalize_vietnamese(cleaned_content)
+
             
             # Tách câu
-            sentences = self.segment_sentences(cleaned_content, language)
+            sentences = self.segment_sentences(cleaned_content, language = language)
             
             # Nếu không có câu nào sau khi lọc, trả về None
             if not sentences:
@@ -332,18 +313,16 @@ class TextPreprocessor:
             logger.error(f"Lỗi khi xử lý file {file_path}: {e}")
             return None, None
     
-    def get_file_output_path(self, original_path, language):
+    def get_file_output_path(self, original_path, output_base_dir):
         """
-        Xác định đường dẫn file đầu ra dựa trên ngôn ngữ
+        Xác định đường dẫn file đầu ra, lưu vào folder tương ứng với folder đầu vào.
         """
+        relative_path = os.path.relpath(os.path.dirname(original_path), self.input_dir)
+        output_sub_dir = os.path.join(self.output_dir, relative_path)
+        os.makedirs(output_sub_dir, exist_ok=True)
         base_name = os.path.basename(original_path)
-        
-        if language == "english":
-            return os.path.join(self.en_dir, base_name)
-        elif language == "vietnamese":
-            return os.path.join(self.vi_dir, base_name)
-        else:
-            return os.path.join(self.other_dir, base_name)
+        return os.path.join(output_sub_dir, base_name)
+
     
     def run(self, parallel=True):
         """
@@ -451,11 +430,11 @@ class TextPreprocessor:
 def main():
     # Parse arguments
     parser = argparse.ArgumentParser(description='Tiền xử lý dữ liệu văn bản từ các file txt')
-    parser.add_argument('--input', '-i', type=str, default='scraped_data', 
+    parser.add_argument('--input', '-i', type=str, default='/workspaces/End-to-End-NLP-System/data/extra-info/', 
                         help='Thư mục chứa dữ liệu đầu vào')
-    parser.add_argument('--output', '-o', type=str, default='processed_data', 
+    parser.add_argument('--output', '-o', type=str, default='/workspaces/End-to-End-NLP-System/data/clean/extra-info/', 
                         help='Thư mục lưu kết quả')
-    parser.add_argument('--min-words', type=int, default=5, 
+    parser.add_argument('--min-words', type=int, default=3, 
                         help='Số từ tối thiểu trong một câu để giữ lại')
     parser.add_argument('--max-files', type=int, default=None, 
                         help='Số lượng file tối đa cần xử lý')

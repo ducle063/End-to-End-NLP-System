@@ -15,13 +15,14 @@ class PromptManager:
     def get_basic_prompt(self) -> str:
         """Basic RAG prompt template in Vietnamese"""
         return """
-Bạn là một trợ lý cho các tác vụ hỏi đáp và các câu hỏi liên quan đến Đại học Công Nghệ. Sử dụng các đoạn ngữ cảnh được truy xuất sau đây để trả lời câu hỏi. Không vượt quá một câu trả lời. Trả lời trực tiếp ngay cả khi câu trả lời không mạch lạc.
+Bạn là một trợ lý cho các tác vụ hỏi đáp và các câu hỏi liên quan đến Trường đại học Quốc Gia Hà Nội và các trường thành viên. Sử dụng các đoạn ngữ cảnh được truy xuất sau đây để trả lời câu hỏi. Không vượt quá một câu trả lời. Trả lời trực tiếp ngay cả khi câu trả lời không mạch lạc.
 """
 
     def get_few_shot_prompt(self) -> str:
         """Few-shot prompt template with examples about UET in Vietnamese"""
         return """
-Bạn là một trợ lý cho các tác vụ hỏi đáp liên quan đến Trường Đại học Công nghệ (UET), Đại học Quốc gia Hà Nội. Sử dụng các đoạn ngữ cảnh được truy xuất để trả lời câu hỏi. Trả lời ngắn gọn và trực tiếp.
+Bạn là một trợ lý cho các tác vụ hỏi đáp liên quan đến Trường Đại học Công nghệ (UET), Đại học Quốc gia Hà Nội. Sử dụng các đoạn ngữ cảnh được truy xuất để trả lời câu hỏi. Trả lời ngắn gọn và trực tiếp nhất đáp án, không cần chủ ngữ, vị ngữ.
+Nếu có câu hỏi về số lượng, năm, tên, địa chỉ, chức vụ, ngành học, điểm chuẩn, khoa, chương trình đào tạo, chỉ cần trả lời chính xác con số, địa chỉ, tên ngành-khoa theo thông tin đã cho. Nếu không có thông tin trong ngữ cảnh, hãy trả lời "Không có thông tin".
 
 Dưới đây là một vài ví dụ về câu hỏi và câu trả lời liên quan đến UET:
 
@@ -29,7 +30,7 @@ Câu hỏi: UET được thành lập vào năm nào?
 Trả lời: 2004
 
 Câu hỏi: Hiệu trưởng hiện tại của UET là ai?
-Trả lời: Nguyễn Việt Hà
+Trả lời: GS. TS Chử Đức Trình
 
 Câu hỏi: Trường Đại học Công nghệ trực thuộc đơn vị nào?
 Trả lời: Đại học Quốc gia Hà Nội
@@ -59,9 +60,9 @@ Trả lời: 144 Xuân Thủy, Cầu Giấy, Hà Nội
     def get_paraphrase_prompt(self, question: str) -> str:
         """Prompt for generating paraphrased questions in Vietnamese"""
         return f"""
-[NHIỆM VỤ]: Viết lại câu hỏi sau theo ba cách diễn đạt khác nhau.
-[CÂU HỎI GỐC]: {question}
-"""
+                [NHIỆM VỤ]: Viết lại câu hỏi sau theo ba cách diễn đạt khác nhau.
+                [CÂU HỎI GỐC]: {question}
+                """
 
     def combine_documents(self, docs: List[Document], document_separator: str = "\n\n") -> str:
         """Combine documents into a single context string"""

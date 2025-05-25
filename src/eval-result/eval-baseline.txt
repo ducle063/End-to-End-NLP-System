@@ -1,0 +1,61 @@
+============================================================
+RAG SYSTEM EVALUATION REPORT
+============================================================
+Total Examples: 50
+Exact Match:     0.0400 (4.00%)
+F1 Score:        0.2008 (20.08%)
+Answer Recall:   0.4293 (42.93%)
+============================================================
+
+DETAILED RESULTS (First 10 examples):
+------------------------------------------------------------
+Example 1:
+  Prediction: UET được thành lập năm 2004.
+  Ground Truth: ['2004']
+  EM: 0.000,   F1: 0.286,   Recall: 1.000
+
+Example 2:
+  Prediction: Thông tin về hiệu trưởng hiện tại của UET không có trong ngữ cảnh đã cho.
+  Ground Truth: ['Chử Đức Trình']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000
+
+Example 3:
+  Prediction: Trường Đại học Công nghệ trực thuộc Đại học Quốc gia Hà Nội.
+  Ground Truth: ['Đại học Quốc gia Hà Nội; VNU']
+  EM: 0.000,   F1: 0.600,   Recall: 0.857
+
+Example 4:
+  Prediction: 18
+  Ground Truth: ['12']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000
+
+Example 5:
+  Prediction: Có, UET có tối thiểu 40 môn học chuyên ngành được giảng dạy bằng tiếng Anh.
+  Ground Truth: ['Có']
+  EM: 0.000,   F1: 0.118,   Recall: 1.000
+
+Example 6:
+  Prediction: Tôi không tìm thấy thông tin về điểm chuẩn ngành Công nghệ thông tin năm 2023 của UET trong ngữ cảnh được cung cấp.
+  Ground Truth: ['28.25; 28,25']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000
+
+Example 7:
+  Prediction: Ngành Trí tuệ nhân tạo tại UET thuộc Viện Trí tuệ nhân tạo.
+  Ground Truth: ['Viện trí tuệ nhân tạo']
+  EM: 0.000,   F1: 0.556,   Recall: 1.000
+
+Example 8:
+  Prediction: Số khoa chuyên môn của UET không được đề cập trong ngữ cảnh.
+  Ground Truth: ['7']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000
+
+Example 9:
+  Prediction: VNU-UET
+  Ground Truth: ['UET-VNU']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000
+
+Example 10:
+  Prediction: Tôi không tìm thấy địa chỉ trụ sở chính của UET trong văn bản được cung cấp.
+  Ground Truth: ['144 Xuân Thủy, Cầu Giấy, Hà Nội']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000
+

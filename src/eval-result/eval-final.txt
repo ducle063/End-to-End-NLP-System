@@ -1,0 +1,262 @@
+============================================================
+RAG SYSTEM EVALUATION REPORT
+============================================================
+Total Examples: 50
+Exact Match:      0.1800 (18.00%)
+F1 Score:         0.3368 (33.68%)
+Answer Recall:    0.5586 (55.86%)
+Semantic Similarity: 0.5745 (57.45%)
+============================================================
+
+DETAILED RESULTS (First 50 examples):
+------------------------------------------------------------
+Example 1:
+  Prediction: UET được thành lập vào năm 2004.
+  Ground Truth: ['UET được thành lập vào năm 2004']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 0.983
+
+Example 2:
+  Prediction: GS. Chử Đức Trình
+  Ground Truth: ['GS. TS. Chử Đức Trình']
+  EM: 0.000,   F1: 0.889,   Recall: 0.800,   Semantic Sim: 0.978
+
+Example 3:
+  Prediction: Trường Đại học Công nghệ trực thuộc Đại học Quốc gia Hà Nội.
+  Ground Truth: ['Đại học Quốc gia Hà Nội; VNU']
+  EM: 0.000,   F1: 0.600,   Recall: 0.857,   Semantic Sim: 0.843
+
+Example 4:
+  Prediction: 18
+  Ground Truth: ['18']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 1.000
+
+Example 5:
+  Prediction: Có, ít nhất 40 môn học chuyên ngành tại UET được giảng dạy bằng tiếng Anh.
+  Ground Truth: ['Có']
+  EM: 0.000,   F1: 0.118,   Recall: 1.000,   Semantic Sim: 0.241
+
+Example 6:
+  Prediction: Thông tin điểm chuẩn ngành Công nghệ thông tin năm 2023 của UET không có trong ngữ cảnh.
+  Ground Truth: ['28.25; 28,25']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.060
+
+Example 7:
+  Prediction: Ngành Trí tuệ nhân tạo tại UET thuộc Viện Trí tuệ nhân tạo.
+  Ground Truth: ['Viện trí tuệ nhân tạo']
+  EM: 0.000,   F1: 0.556,   Recall: 1.000,   Semantic Sim: 0.852
+
+Example 8:
+  Prediction: UET có 6 khoa.
+  Ground Truth: ['6']
+  EM: 0.000,   F1: 0.400,   Recall: 1.000,   Semantic Sim: 0.359
+
+Example 9:
+  Prediction: VNU University of Engineering and Technology (VNU-UET)
+  Ground Truth: ['VNU University of Engineering and Technology']
+  EM: 0.000,   F1: 0.923,   Recall: 1.000,   Semantic Sim: 0.917
+
+Example 10:
+  Prediction: 144 Xuân Thủy, quận Cầu Giấy, Hà Nội.
+  Ground Truth: ['144 Xuân Thủy, quận Cầu Giấy, Hà Nội']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 0.994
+
+Example 11:
+  Prediction: Năm 2004.
+  Ground Truth: ['2004']
+  EM: 0.000,   F1: 0.667,   Recall: 1.000,   Semantic Sim: 0.676
+
+Example 12:
+  Prediction: Tôi không tìm thấy thông tin về màu sắc của logo UET trong ngữ cảnh đã cho.
+  Ground Truth: ['Xanh dương; Trắng']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.326
+
+Example 13:
+  Prediction: Tôi không tìm thấy địa chỉ trang web chính thức của UET trong ngữ cảnh đã cho.
+  Ground Truth: ['https://uet.vnu.edu.vn']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.268
+
+Example 14:
+  Prediction: UET có 11 chương trình đào tạo thạc sĩ.
+  Ground Truth: ['11']
+  EM: 0.000,   F1: 0.200,   Recall: 1.000,   Semantic Sim: 0.304
+
+Example 15:
+  Prediction: 4 năm.
+  Ground Truth: ['4 năm']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 0.979
+
+Example 16:
+  Prediction: Trường Đại học Khoa học Tự nhiên.
+  Ground Truth: ['Trường Đại học Khoa học Tự nhiên']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 0.983
+
+Example 17:
+  Prediction: USSH đào tạo các ngành thuộc lĩnh vực khoa học xã hội và nhân văn.
+  Ground Truth: ['Khoa học xã hội và nhân văn']
+  EM: 0.000,   F1: 0.636,   Recall: 1.000,   Semantic Sim: 0.784
+
+Example 18:
+  Prediction: Đoạn văn không cung cấp thông tin về các chương trình liên kết đào tạo cụ thể của ULIS.
+  Ground Truth: ['Nhật Bản; Hàn Quốc; Trung Quốc']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.427
+
+Example 19:
+  Prediction: Không có thông tin về trường Đại học Ngoại ngữ thuộc ĐHQGHN trong ngữ cảnh đã cho.
+  Ground Truth: ['University of Languages and International Studies']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.253
+
+Example 20:
+  Prediction: 10/12/1993
+  Ground Truth: ['10/12/1993']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 1.000
+
+Example 21:
+  Prediction: Tôi không tìm thấy sứ mệnh của VNU trong ngữ cảnh đã cho.
+  Ground Truth: ['Đào tạo nguồn nhân lực chất lượng cao; nghiên cứu khoa học và chuyển giao công nghệ']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.741
+
+Example 22:
+  Prediction: Không có thông tin về số lượng đơn vị thành viên của VNU trong ngữ cảnh đã cho.
+  Ground Truth: ['7']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.112
+
+Example 23:
+  Prediction: Đảng ủy, Hội đồng Trường, Ban Giám hiệu, Hội đồng Khoa học-Đào tạo, các đơn vị đào tạo, các phòng chức năng, các đơn vị nghiên cứu, các đơn vị dịch vụ, Tạp chí KHXHNV, Bảo tàng Nhân học, Trường THPT Chuyên, Công đoàn, Đoàn Thanh niên, Hội Sinh viên, Hội Cựu chiến binh, Hội Cựu giáo chức.
+  Ground Truth: ['Các trường đại học thành viên, viện nghiên cứu, trung tâm']
+  EM: 0.000,   F1: 0.174,   Recall: 0.545,   Semantic Sim: 0.708
+
+Example 24:
+  Prediction: 4 năm.
+  Ground Truth: ['4 năm']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 0.979
+
+Example 25:
+  Prediction: Trường ĐH KHXH&NV được thành lập năm 1995.
+  Ground Truth: ['1995']
+  EM: 0.000,   F1: 0.222,   Recall: 1.000,   Semantic Sim: 0.446
+
+Example 26:
+  Prediction: Trường Đại học Khoa học Xã hội và Nhân văn (USSH) có 15 khoa.
+  Ground Truth: ['15']
+  EM: 0.000,   F1: 0.133,   Recall: 1.000,   Semantic Sim: 0.275
+
+Example 27:
+  Prediction: Có.
+  Ground Truth: ['Có']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 0.934
+
+Example 28:
+  Prediction: USSH đào tạo ngành Văn học ở trình độ đại học.
+  Ground Truth: ['Cử nhân;Thạc sĩ;Tiến sĩ']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.486
+
+Example 29:
+  Prediction: Tôi không tìm thấy thông tin về điều kiện tốt nghiệp tại USSH trong ngữ cảnh đã cho.
+  Ground Truth: ['Hoàn thành đủ số tín chỉ;Đạt điểm trung bình tích lũy tối thiểu;Hoàn thành khóa luận hoặc thi tốt nghiệp;Đáp ứng yêu cầu ngoại ngữ và kỹ năng mềm']
+  EM: 0.000,   F1: 0.085,   Recall: 0.069,   Semantic Sim: 0.775
+
+Example 30:
+  Prediction: Tôi không tìm thấy thông tin về số tín chỉ cần thiết để tốt nghiệp tại USSH trong ngữ cảnh đã cho.
+  Ground Truth: ['120–130 tín chỉ']
+  EM: 0.000,   F1: 0.160,   Recall: 0.667,   Semantic Sim: 0.408
+
+Example 31:
+  Prediction: Thời gian học ngành Tâm lý học tại USSH không được cung cấp trong ngữ cảnh.
+  Ground Truth: ['4 năm']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.347
+
+Example 32:
+  Prediction: Tôi không tìm thấy thông tin điểm chuẩn ngành Báo chí năm 2023 tại USSH trong ngữ cảnh đã cho.
+  Ground Truth: ['25 đến 28 điểm']
+  EM: 0.000,   F1: 0.083,   Recall: 0.250,   Semantic Sim: 0.473
+
+Example 33:
+  Prediction: Trường Đại học Khoa học Xã hội và Nhân văn trực thuộc Đại học Quốc gia Hà Nội.
+  Ground Truth: ['Đại học Quốc gia Hà Nội']
+  EM: 0.000,   F1: 0.500,   Recall: 1.000,   Semantic Sim: 0.774
+
+Example 34:
+  Prediction: USSH có 26 ngành đào tạo bậc cử nhân.
+  Ground Truth: ['28']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.234
+
+Example 35:
+  Prediction: Không có thông tin về kỳ thi năng lực tiếng Anh của ULIS trong ngữ cảnh đã cho.
+  Ground Truth: ['Có']
+  EM: 0.000,   F1: 0.105,   Recall: 1.000,   Semantic Sim: 0.118
+
+Example 36:
+  Prediction: Cơ sở vật chất của ULIS nằm trong phạm vi bán kính 500m quanh tòa nhà E3.
+  Ground Truth: ['Số 2 Phạm Văn Đồng, Cầu Giấy, Hà Nội; Tòa nhà E3']
+  EM: 0.000,   F1: 0.276,   Recall: 0.333,   Semantic Sim: 0.618
+
+Example 37:
+  Prediction: Tôi không tìm thấy thông tin về dịch vụ của Trung tâm CNTT ULIS trong ngữ cảnh đã cho.
+  Ground Truth: ['Hỗ trợ kỹ thuật;Quản lý hệ thống học tập trực tuyến;Phát triển phần mềm']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.643
+
+Example 38:
+  Prediction: Trường Đại học Tổng hợp Hà Nội, Trường Đại học Sư phạm Hà Nội 1, và Trường Đại học Sư phạm Ngoại ngữ Hà Nội.
+  Ground Truth: ['Trường Đại học Tổng hợp Hà Nội, Trường Đại học Sư phạm Hà Nội 1, và Trường Đại học Sư phạm Ngoại ngữ Hà Nội.']
+  EM: 1.000,   F1: 1.000,   Recall: 1.000,   Semantic Sim: 1.000
+
+Example 39:
+  Prediction: Dựa trên ngữ cảnh, VNU có ít nhất 6 khoa và 3 viện.
+  Ground Truth: ['12 đơn vị thành viên']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.569
+
+Example 40:
+  Prediction: Không có thông tin về trụ sở chính của VNU trong ngữ cảnh đã cho.
+  Ground Truth: ['144 Xuân Thủy, Cầu Giấy, Hà Nội']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.432
+
+Example 41:
+  Prediction: Không có thông tin cụ thể về các ngành đào tạo bằng tiếng Anh của VNU trong ngữ cảnh được cung cấp.
+  Ground Truth: ['Công nghệ thông tin; Kinh tế quốc tế; Quản trị kinh doanh']
+  EM: 0.000,   F1: 0.118,   Recall: 0.167,   Semantic Sim: 0.624
+
+Example 42:
+  Prediction: Trang Wikipedia của UET có mục "Lịch sử truyền thống".
+  Ground Truth: ['UET được thành lập năm 2004 dưới tên Trường Công nghệ']
+  EM: 0.000,   F1: 0.095,   Recall: 0.091,   Semantic Sim: 0.359
+
+Example 43:
+  Prediction: Có, văn bản đề cập đến nhiều chương trình trao đổi sinh viên quốc tế, bao gồm cả chương trình tại Đại học Strasbourg.
+  Ground Truth: ['Có']
+  EM: 0.000,   F1: 0.080,   Recall: 1.000,   Semantic Sim: 0.328
+
+Example 44:
+  Prediction: Sinh viên năm cuối UET phải hoàn thành khóa luận tốt nghiệp hoặc đồ án tốt nghiệp theo đúng quy định và mẫu biểu của trường.
+  Ground Truth: ['Hoàn thành đồ án tốt nghiệp; hoàn thành tín chỉ']
+  EM: 0.000,   F1: 0.333,   Recall: 0.800,   Semantic Sim: 0.702
+
+Example 45:
+  Prediction: Căn cứ vào ngữ cảnh, không có thông tin về chương trình thực tập ở nước ngoài của ULIS.
+  Ground Truth: ['Có']
+  EM: 0.000,   F1: 0.100,   Recall: 1.000,   Semantic Sim: 0.138
+
+Example 46:
+  Prediction: Không có thông tin về các ngành đào tạo thế mạnh của ULIS trong ngữ cảnh đã cho.
+  Ground Truth: ['Tiếng Anh;Tiếng Trung;Tiếng Nhật;Tiếng Hàn;Tiếng Pháp;Sư phạm ngoại ngữ']
+  EM: 0.000,   F1: 0.074,   Recall: 0.111,   Semantic Sim: 0.564
+
+Example 47:
+  Prediction: Tôi không tìm thấy thông tin về điều kiện tham gia học lớp tài năng tại UET trong ngữ cảnh đã cho.
+  Ground Truth: ['Điểm đầu vào cao;Thành tích học tập xuất sắc;Vượt qua kiểm tra đầu vào']
+  EM: 0.000,   F1: 0.056,   Recall: 0.071,   Semantic Sim: 0.632
+
+Example 48:
+  Prediction: Không có thông tin về hệ thống đăng ký học trực tuyến của UET trong ngữ cảnh đã cho.
+  Ground Truth: ['SIS (Student Information System)']
+  EM: 0.000,   F1: 0.000,   Recall: 0.000,   Semantic Sim: 0.144
+
+Example 49:
+  Prediction: Thông tin về điều kiện miễn học phần tại UET không có trong ngữ cảnh đã cho.
+  Ground Truth: ['Hoàn thành học phần tương đương;Được hội đồng chuyên môn xét duyệt']
+  EM: 0.000,   F1: 0.138,   Recall: 0.167,   Semantic Sim: 0.718
+
+Example 50:
+  Prediction: Không có thông tin trong văn bản cung cấp câu trả lời cho câu hỏi này.
+  Ground Truth: ['Có']
+  EM: 0.000,   F1: 0.118,   Recall: 1.000,   Semantic Sim: 0.216
+
