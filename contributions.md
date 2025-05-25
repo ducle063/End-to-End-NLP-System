@@ -6,7 +6,7 @@
 
 ---
 
-| Hạng mục                                 | Nguyễn Văn A   | Trần Thị B          |
+| Hạng mục                                 | Lê Văn Đức   | Trần Hùng Đức         |
 | ---------------------------------------- | -------------- | ------------------- |
 | Thu thập dữ liệu (crawl HTML/PDF)        | ✅              | ✅                   |
 | Làm sạch dữ liệu & chuẩn hóa `.txt`      | ✅              | ✅                   |
@@ -33,5 +33,5 @@
 
 ## ✅ Đóng góp tỷ lệ (ước lượng)
 
-- **Lê Văn Đức:** ~55%
-- **Trần Hùng Đức:** ~45%
+- **Lê Văn Đức:** ~60%
+- **Trần Hùng Đức:** ~40%
