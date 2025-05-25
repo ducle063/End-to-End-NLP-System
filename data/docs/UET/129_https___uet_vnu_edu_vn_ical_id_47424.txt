@@ -1,3 +1,0 @@
-Title: No Title
-
-0 PRODID: – Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology CALSCALE: GREGORIAN METHOD: PUBLISH X-WR-CALNAME: Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology X-ORIGINAL-URL: X-WR-CALDESC: QPVN Rubik Cuộc sống: Hướng đi để sinh viên ra trường có việc làm trong tương lai BEGIN: VEVENT DTSTART: DTEND: SUMMARY: QPVN Rubik Cuộc sống: Hướng đi để sinh viên ra trường có việc làm trong tương lai DESCRIPTION: LOCATION: END: VEVENT END: VCALENDAR

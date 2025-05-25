@@ -1,3 +1,0 @@
-Title: No Title
-
-0 PRODID: – Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology CALSCALE: GREGORIAN METHOD: PUBLISH X-WR-CALNAME: Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology X-ORIGINAL-URL: X-WR-CALDESC: Thủ khoa Đinh Trọng Thăng: Từ bỏ học bổng sau đại học tại Hàn Quốc, Đài Loan để tiếp tục học tập tại Trường ĐH Công nghệ BEGIN: VEVENT DTSTART: DTEND: SUMMARY: Thủ khoa Đinh Trọng Thăng: Từ bỏ học bổng sau đại học tại Hàn Quốc, Đài Loan để tiếp tục học tập tại Trường ĐH Công nghệ DESCRIPTION: LOCATION: END: VEVENT END: VCALENDAR

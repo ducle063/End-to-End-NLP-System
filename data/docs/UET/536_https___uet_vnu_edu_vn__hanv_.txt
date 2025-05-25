@@ -1,9 +1,0 @@
-Title: viet ha homepage
-
-viet ha homepage English Thông tin cá nhân Nguyễn Việt Hà Bộ môn Công nghệ phần mềm, Khoa Công nghệ thông tin, Trường Đại học Công nghệ Tel: (04) 3754 6575 Giảng dạy, Hướng dẫn Kỹ nghệ phần mềm, Kiến trúc phần mềm Lập trình hướng đối tượng.
-( Gợi ý cách trình bày khóa luận, luận văn ) Công trình khoa học Các hướng nghiên cứu đang quan tâm Kỹ nghệ phần mềm: kiểm chứng kiểm thử phần mềm; kiến trúc phần mềm; mô hình ước lượng dự toán phần mềm.
-Trí tuệ nhân tạo: biểu diễn tri thức, suy luận, nhận dạng mẫu.
-E-learning: mô hình phân lớp LMS LCMS, adaptive learning.
-Links How to be a good graduate student?
-edu Advice on Research and Writting from cs.
-edu Kiểm lỗi chính tả tiếng Việt AI Topic: giới thiệu về AI của hiệp hội AAAI Emacs: giới thiệu về hệ soạn thảo Emacs TeX LaTeX: trang web của nhóm người dùng TeX LaTeX Scientific Software

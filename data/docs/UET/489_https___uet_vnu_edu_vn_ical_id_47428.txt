@@ -1,3 +1,0 @@
-Title: No Title
-
-0 PRODID: – Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology CALSCALE: GREGORIAN METHOD: PUBLISH X-WR-CALNAME: Trường Đại học Công nghệ, ĐHQGHN-Univeristy of Engineering and Technology X-ORIGINAL-URL: X-WR-CALDESC: HTV Sinh viên năm hai chia sẻ lý do lựa chọn ngành Công nghệ Hàng không Vũ trụ của UET BEGIN: VEVENT DTSTART: DTEND: SUMMARY: HTV Sinh viên năm hai chia sẻ lý do lựa chọn ngành Công nghệ Hàng không Vũ trụ của UET DESCRIPTION: LOCATION: END: VEVENT END: VCALENDAR
